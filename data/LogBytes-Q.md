@@ -173,3 +173,33 @@ the `amountOutMin` must be specified by the user and result must be compared to 
     );
   }
 ```
+
+
+# User claim methods should not have whenNotPaused modifier
+
+Although the contract is out of scope, we would like to mention it.
+
+Using the `whenNotPaused` modifier on methods where users can claim tokens/rewards/yields shouldn’t have the `whenNotPaused` modifier. It opens up an attack vector where protocol owner can decides if users are able to claim funds from the contract.  There is also the possibility that an admin pauses the contracts and renounces ownership, which will leave the funds stuck in the contract forever.
+
+## Link to code
+https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/Airdrop/Airdrop.sol#L67-L74
+
+## Recommendation mitigation steps
+
+Since the function allows users to claim their airdrop rewards, funds must be claimable anytime.
+
+Users should be able to withdraw their tokens or claim their airdrop tokens even though the contract is in a paused state by not using the `whenNotPaused` modifier on the claim function. 
+
+[X post mentioning vulnerability](https://x.com/chrisdior777/status/1817287618645659971?t=R2akF6RXfZE2PWBjV26OYg&s=19)
+
+```diff
+- function claim() external whenNotPaused nonReentrant {
++ function claim() external nonReentrant {
+    require(started, 'Not started');
+    require(userInfo[msg.sender] > 0, 'Not eligible');
+
+    uint256 amount = (totalTokenAmount * userInfo[msg.sender]) / totalValue;
+    traitToken.transfer(msg.sender, amount);
+    userInfo[msg.sender] = 0;
+  }
+```
