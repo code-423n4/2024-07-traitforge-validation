@@ -121,3 +121,55 @@ POC:
   1 passing (335ms)
 
 ```
+
+
+# Swap function not correctly implemented in DaoFund.sol
+
+Although the contract is out of scope. we would like to mention it.
+
+The `swapExactETHForTokens` in the receive function in the `DaoFund.sol` contract is not correctly implemented and is missing slippage control or deadline. This makes the function vulnerable to sandwich attacks and MEV exploits leading to loss of tokens when swapping.
+
+## Proof of Concept
+
+The [Uniswap V2 documentation](https://docs.uniswap.org/contracts/v2/reference/smart-contracts/router-02#swapexactethfortokens) explains that `amountOutMin` is the minimum amount of output tokens that must be received for the transaction not to revert. If this is set to 0 as in the DaoFund.sol contract it becomes vulnerable to [sandwich attacks](https://medium.com/coinmonks/defi-sandwich-attack-explain-776f6f43b2fd) leading to loss of tokens when swapping.
+
+```
+uniswapV2Router.swapExactETHForTokens{ value: msg.value }(
+   0,// should be never 0
+   path,
+   address(this),
+   block.timestamp // should be + time
+);
+```
+
+## **Recommended mitigation steps**
+
+the `amountOutMin` must be specified by the user and result must be compared to the tokens received in the contract.
+
+```diff
+-receive() external payable {
++receive(uint256 _minAmountOut) external payable {
+    require(msg.value > 0, 'No ETH sent');
++   require(_minAmountOut > 0, '_minAmountOut must be > 0');
+
+    address[] memory path = new address[](2);
+    path[0] = uniswapV2Router.WETH();
+    path[1] = address(token);
+
+ uniswapV2Router.swapExactETHForTokens{ value: msg.value }(
+-      0,
++     _minAmountOut,
+      path,
+      address(this),
+-      block.timestamp
++.    block.timestamp + 1 hours
+    );
+    
++   require(token.balanceOf(address(this)) >= _minAmountOut, 'No slippage');
+
+    require(
+      token.burn(token.balanceOf(address(this))) == true,
+      'Token burn failed'
+    );
+  }
+```
