@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "LogBytes",
+  "risk": "2",
+  "title": "Forging an NFT doesn’t sent back left over ETH, which would be stuck in the contract EntityForging.sol ",
+  "issueId": 3,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/3"
+}
