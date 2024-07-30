@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Fitro",
+  "risk": "2",
+  "title": "DevFund.sol :: receive() always results in a remaining amount of zero due to an incorrect calculation making it impossible for the owner to receive any ether.",
+  "issueId": 37,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/37"
+}
