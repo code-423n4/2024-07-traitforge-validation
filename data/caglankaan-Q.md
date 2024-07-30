@@ -1,3 +1,45 @@
+
+
+### Transferred `ERC721` can be stuck permanently
+If the recipient is not a EOA, safeTransferFrom ensures that the contract is able to safely receive the token. In the worst-case scenario, it may result in tokens frozen permanently, as the following code uses `transferFrom`, which [doesn't check](https://github.com/ethereum/EIPs/blob/78e2c297611f5e92b6a5112819ab71f74041ff25/EIPS/eip-721.md?plain=1#L103-L113) if the recipient can handle the NFT.
+
+```solidity
+Path: ./contracts/EntityTrading/EntityTrading.sol
+
+53:    nftContract.transferFrom(msg.sender, address(this), tokenId); // trasnfer NFT to contract	// @audit-issue
+
+81:    nftContract.transferFrom(address(this), msg.sender, tokenId); // transfer NFT to the buyer	// @audit-issue
+
+104:    nftContract.transferFrom(address(this), msg.sender, tokenId); // transfer the nft back to seller	// @audit-issue
+```
+[53](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/./contracts/EntityTrading/EntityTrading.sol#L53-L53), [81](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/./contracts/EntityTrading/EntityTrading.sol#L81-L81), [104](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/./contracts/EntityTrading/EntityTrading.sol#L104-L104), 
+
+
+#### Recommendation
+
+To prevent `ERC721` tokens from being permanently stuck when transferring to non-EOA addresses, consider using the `safeTransferFrom` function instead of `transferFrom`. The `safeTransferFrom` function includes additional checks to ensure that the recipient can handle the NFT, reducing the risk of tokens getting stuck in contracts that cannot manage them. This extra precaution helps maintain the usability and functionality of your `ERC721` token transfers.
+
+### `block.number` means different things on different L2s
+On Optimism, `block.number` is the L2 block number, but on Arbitrum, it's the L1 block number, and `ArbSys(address(100)).arbBlockNumber()` must be used. Furthermore, L2 block numbers often occur much more frequently than L1 block numbers (any may even occur on a per-transaction basis), so using block numbers for timing results in inconsistencies, especially when voting is involved across multiple chains. As of version 4.9, OpenZeppelin has [modified](https://blog.openzeppelin.com/introducing-openzeppelin-contracts-v4.9#governor) their governor code to use a clock rather than block numbers, to avoid these sorts of issues, but this still requires that the project [implement](https://docs.openzeppelin.com/contracts/4.x/governance#token_2) a [clock](https://eips.ethereum.org/EIPS/eip-6372) for each L2.
+
+```solidity
+Path: ./contracts/EntropyGenerator/EntropyGenerator.sol
+
+54:          keccak256(abi.encodePacked(block.number, i))	// @audit-issue
+
+74:          keccak256(abi.encodePacked(block.number, i))	// @audit-issue
+
+92:          keccak256(abi.encodePacked(block.number, i))	// @audit-issue
+
+208:      keccak256(abi.encodePacked(blockhash(block.number - 1), block.timestamp))	// @audit-issue
+```
+[54](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/./contracts/EntropyGenerator/EntropyGenerator.sol#L54-L54), [74](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/./contracts/EntropyGenerator/EntropyGenerator.sol#L74-L74), [92](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/./contracts/EntropyGenerator/EntropyGenerator.sol#L92-L92), [208](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/./contracts/EntropyGenerator/EntropyGenerator.sol#L208-L208), 
+
+
+#### Recommendation
+
+Adopt a consistent timekeeping mechanism across L1 and L2 solutions when using `block.number` or similar timing mechanisms in your Solidity contracts. Consider using a standard clock or timestamp-based system, especially for functionalities like governance that require consistent timing across chains. For contracts on specific L2 solutions, ensure you're using the correct method to obtain block numbers consistent with the intended behavior. Keep abreast of standards and best practices, such as those suggested by OpenZeppelin, and implement appropriate solutions like EIP-6372 to provide a consistent and reliable timing mechanism across different blockchain environments.
+
 ### Consider implementing two-step procedure for updating protocol addresses
 Implementing a two-step procedure for updating protocol addresses adds an extra layer of security. In such a system, the first step initiates the change, and the second step, after a predefined delay, confirms and finalizes it. This delay allows stakeholders or monitoring tools to observe and react to unintended or malicious changes. If an unauthorized change is detected, corrective actions can be taken before the change is finalized. To achieve this, introduce a "proposed address" state variable and a "delay period". Upon an update request, set the "proposed address". After the delay, if not contested, the main protocol address can be updated.
 
