@@ -25,3 +25,12 @@ And since it is clear that each index only increments by 1, then it will always 
 
 Recommendation: change both checks in [L105](https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntropyGenerator/EntropyGenerator.sol#L105) and [L107](https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntropyGenerator/EntropyGenerator.sol#L107) from `>=` to `==` .
 
+# 3. Use 1-to-N instead of 0-to-(N-1) for indexes.
+
+Source: https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntropyGenerator/EntropyGenerator.sol#L105-L114
+
+The `currentNumberIndex` and `currentSlotIndex` are modulo counters whose values go from 0-to-N. These values are also storage variable. This means that there will be SSTOREs where we write zero to nonzero value often, which causes large amount of gas compared to nonzero-to-nonzero value change. 
+
+Recommendation: 
+- Change `currentNumberIndex` value to go from 1 to 12 instead
+- Change `currentSlotIndex` value to go from 1 to 770 instead
