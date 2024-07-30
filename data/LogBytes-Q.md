@@ -203,3 +203,100 @@ Users should be able to withdraw their tokens or claim their airdrop tokens even
     userInfo[msg.sender] = 0;
   }
 ```
+
+# [G-01] When minting NFTs with a budget, for every mint there is ETH sent to the NukeFund contract
+
+Whenever a user mints an NFT with a budget, for every iteration the ETH is sent to the NukeFund contract consuming gas. This can be optimized by sending the total mint price in full to the NukeFund contract
+
+## Proof of Concept
+
+We’ve modified the functions to showcase the difference in gas consumed when the code is more gas optimized. 
+
+In the optimized method the totalPrice of each mint is calculated and instead on every iteration it is transferred to the NukeFund contract in total and only once. 
+
+| TraitForgeNFT | Gas |
+| --- | --- |
+| mintWithBudget | 22,460,482 |
+| mintWithBudgetOptimized | 15,451,596 |
+
+```solidity
+function mintWithBudgetOptimized(
+    bytes32[] calldata proof
+  )
+    public
+    payable
+    whenNotPaused
+    nonReentrant
+    onlyWhitelisted(proof, keccak256(abi.encodePacked(msg.sender)))
+  {
+    uint256 mintPrice = calculateMintPrice();
+    uint256 amountMinted = 0;
+    uint256 budgetLeft = msg.value;
+    uint256 totalPrice = 0;
+
+    while (budgetLeft >= mintPrice && _tokenIds < maxTokensPerGen) {
+      _mintInternalOptimized(msg.sender, mintPrice);
+      amountMinted++;
+      budgetLeft -= mintPrice;
+      totalPrice += mintPrice;
+      mintPrice = calculateMintPrice();
+    }
+
+    // transfer ETH to NukeFund
+    _distributeFunds(totalPrice);
+    uint256 left = msg.value - totalPrice;
+    if (left > 0) {
+      (bool refundSuccess, ) = msg.sender.call{ value: left }('');
+      require(refundSuccess, 'Refund failed.');
+    }
+  }
+  
+  // _distributeFunds is removed from this method.
+  function _mintInternalOptimized(address to, uint256 mintPrice) internal {
+    if (generationMintCounts[currentGeneration] >= maxTokensPerGen) {
+      _incrementGeneration();
+    }
+
+    _tokenIds++;
+    uint256 newItemId = _tokenIds;
+    _mint(to, newItemId);
+    uint256 entropyValue = entropyGenerator.getNextEntropy();
+
+    tokenCreationTimestamps[newItemId] = block.timestamp;
+    tokenEntropy[newItemId] = entropyValue;
+    tokenGenerations[newItemId] = currentGeneration;
+    generationMintCounts[currentGeneration]++;
+    initialOwners[newItemId] = to;
+
+    if (!airdropContract.airdropStarted()) {
+      airdropContract.addUserAmount(to, entropyValue);
+    }
+
+    emit Minted(
+      msg.sender,
+      newItemId,
+      currentGeneration,
+      entropyValue,
+      mintPrice
+    );
+  }
+```
+
+```
+describe('Test Gas Function', () => {
+    it('should use more gas', async () => {
+      await nft.connect(user1).mintWithBudget(merkleInfo.whitelist[1].proof, {
+        value: ethers.parseEther('0.8'),
+      });
+      
+      expect(await nft.balanceOf(user1.address)).to.be.gt(1);
+    });
+    it('should consume less gas', async () => {
+      await nft.connect(user1).mintWithBudgetOptimized(merkleInfo.whitelist[1].proof, {
+        value: ethers.parseEther('0.8'),
+      });
+
+      expect(await nft.balanceOf(user1.address)).to.be.gt(1);
+    });
+  });
+```
