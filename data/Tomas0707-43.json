@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Tomas0707",
+  "risk": "2",
+  "title": "Missing Validation Check for nukeFundAddress in setNukeFundContract",
+  "issueId": 43,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/43"
+}
