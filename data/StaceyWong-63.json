@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "StaceyWong",
+  "risk": "2",
+  "title": "sellerProceeds could be sent to invalid old address as a result of selling NFT.",
+  "issueId": 63,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/63"
+}
