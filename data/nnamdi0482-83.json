@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "nnamdi0482",
+  "risk": "2",
+  "title": "The return value of an external transfer/transferFrom call is not checked",
+  "issueId": 83,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/83"
+}
