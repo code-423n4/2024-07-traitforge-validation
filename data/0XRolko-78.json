@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0XRolko",
+  "risk": "3",
+  "title": "Miscalculation of the `nukeFundContribution` when buying a nft in the `EntityTrading::buyNft` function, resulting in a poor distribution of funds between the different parties.",
+  "issueId": 78,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/78"
+}
