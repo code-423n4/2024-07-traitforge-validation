@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Akay",
+  "risk": "2",
+  "title": "Precision loss in reward calculation leading to incorrect distribution and leakage of funds",
+  "issueId": 72,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/72"
+}
