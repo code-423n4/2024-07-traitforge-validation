@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Abdessamed",
+  "risk": "2",
+  "title": "Minting tokens will be impossible when `generationMintCounts` cap is reached for the first generation",
+  "issueId": 81,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/81"
+}
