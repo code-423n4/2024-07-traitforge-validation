@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "zhaojohnson",
+  "risk": "2",
+  "title": "Possible dos when `totalDevWeight` is 0",
+  "issueId": 61,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/61"
+}
