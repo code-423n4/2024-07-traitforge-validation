@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Abdessamed",
+  "risk": "3",
+  "title": "Missing `pause/unpause` functionalities in contracts inheriting pausable",
+  "issueId": 85,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/85"
+}
