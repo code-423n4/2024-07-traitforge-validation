@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "StaceyWong",
+  "risk": "3",
+  "title": "Improper Forging Limitation Check Allows Dead Listings in listForForging Function",
+  "issueId": 56,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/56"
+}
