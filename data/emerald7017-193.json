@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "emerald7017",
+  "risk": "2",
+  "title": "Improper generation increment allows minting more than intended",
+  "issueId": 193,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/193"
+}
