@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0x3b",
+  "risk": "2",
+  "title": "Forger can front-run the merger and increase it's forging fee",
+  "issueId": 175,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/175"
+}
