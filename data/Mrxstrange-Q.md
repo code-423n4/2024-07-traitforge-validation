@@ -37,3 +37,24 @@ receive() external payable {
  ...     
 }
 ```
+
+
+# 3. Arithmetic revert 
+
+totalDevWeight = totalDevWeight - info.weight + weight;
+
+* While the logic might still produce unexpected results if `totalDevWeight` is very small or if `info.weight` is greater than `totalDevWeight`.
+For example, if `totalDevWeight < info.weight`, this would cause an revert.
+
+https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/DevFund/DevFund.sol#L44
+
+```
+
+ function updateDev(address user, uint256 weight) external onlyOwner {
+    ...
+    totalDevWeight = totalDevWeight - info.weight + weight; <-
+    ...
+    emit UpdateDev(user, weight);
+  }
+
+```
