@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dontonka",
+  "risk": "3",
+  "title": "`mintToken` and `mintWithBudget` allow to mint above `maxGeneration` which make it insolvent",
+  "issueId": 114,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/114"
+}
