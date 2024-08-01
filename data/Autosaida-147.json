@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Autosaida",
+  "risk": "2",
+  "title": "Access Control Conflict: EntropyGenerator Contract's `onlyOwner` Modifier Conflicts with TraitForgeNft Contract Integration",
+  "issueId": 147,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/147"
+}
