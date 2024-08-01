@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Tigerfrake",
+  "risk": "2",
+  "title": "`Pausability` is not implemented for all Critical Functions.",
+  "issueId": 172,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/172"
+}
