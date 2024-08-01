@@ -1,0 +1,2 @@
+### DevFund::updateDev()
+`updateDev()` function is not available via `IDevFund` interface. If the system uses `IDevFund` interface, it will not have access to `updateDev()`.  But, it can be accessed via `DevFund` contract instance.
