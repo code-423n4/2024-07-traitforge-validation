@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dontonka",
+  "risk": "2",
+  "title": "`mintToken` and `mintWithBudget` miscalculate the `mint price` for the first NFT of gen2+ generations",
+  "issueId": 113,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/113"
+}
