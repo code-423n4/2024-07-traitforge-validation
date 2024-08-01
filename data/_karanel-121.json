@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "_karanel",
+  "risk": "3",
+  "title": "[H-1] Incorrect check in `EntityForging::listForForging` function allows forgers with a `forgePotential` of `x` times to forge `x+1` times within a year",
+  "issueId": 121,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/121"
+}
