@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "robertodf99",
+  "risk": "2",
+  "title": "Incorrect validation check allows Golden God entropy to be minted multiple times",
+  "issueId": 142,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/142"
+}
