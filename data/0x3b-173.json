@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0x3b",
+  "risk": "2",
+  "title": "`msg.value` is can become stuck inside EntityForging",
+  "issueId": 173,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/173"
+}
