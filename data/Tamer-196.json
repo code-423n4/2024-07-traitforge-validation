@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Tamer",
+  "risk": "2",
+  "title": "Possible DoS in EntityForging::ForgeWithListed. User can list and then nuke or burn his token.",
+  "issueId": 196,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/196"
+}
