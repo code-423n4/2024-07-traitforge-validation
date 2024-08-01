@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "anonimoux2k",
+  "risk": "2",
+  "title": "Overpayment of ETH is not refunded for mergers when they call forgeWithListed()",
+  "issueId": 138,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/138"
+}
