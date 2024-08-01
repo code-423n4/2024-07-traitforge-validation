@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Decap",
+  "risk": "2",
+  "title": "EntropyGenerator::entropySlots are not always 78-digit numbers, causing wrong NFT stats distribution",
+  "issueId": 163,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/163"
+}
