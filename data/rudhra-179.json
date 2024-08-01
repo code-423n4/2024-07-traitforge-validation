@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "rudhra",
+  "risk": "2",
+  "title": "owner can set any value as taxcut in EntityTrading contract, eventually can sends  most part of the paid eth to NukeFund contract  when a TraitForge NFT is buyed",
+  "issueId": 179,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/179"
+}
