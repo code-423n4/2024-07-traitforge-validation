@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Heaven",
+  "risk": "3",
+  "title": "The receive() function in the NukeFund contract is vulnerable to a Denial of Service (DoS) attack",
+  "issueId": 178,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/178"
+}
