@@ -1,0 +1,2 @@
+## In `TraitForgeNft` contract; variables whose values do not change must be declared as `constant`, and their names written in upper-case letters : 
+https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/TraitForgeNft/TraitForgeNft.sol#L22
