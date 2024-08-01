@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "nnamdi0482",
+  "risk": "3",
+  "title": "UniswapV2 integration vulnerabilities must not be present in the codebase",
+  "issueId": 143,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/143"
+}
