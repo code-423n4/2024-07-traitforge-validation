@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "rndquu",
+  "risk": "2",
+  "title": "Wrong `onlyOwner` modifier on `EntropyGenerator.initializeAlphaIndices()` method",
+  "issueId": 250,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/250"
+}
