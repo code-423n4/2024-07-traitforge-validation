@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "_karanel",
+  "risk": "2",
+  "title": "[M-2] `TraitForgeNft::mintToken` and `TraitForgeNft::mintWithBudget` can be front-run allowing a few malicious actors to get all the favourable NFTs with good traits",
+  "issueId": 219,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/219"
+}
