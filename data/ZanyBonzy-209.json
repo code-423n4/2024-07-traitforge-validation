@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "ZanyBonzy",
+  "risk": "2",
+  "title": "Contracts are meant to be pausable but cannot be paused/unpaused",
+  "issueId": 209,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/209"
+}
