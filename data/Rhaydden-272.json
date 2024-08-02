@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Rhaydden",
+  "risk": "2",
+  "title": "Incorrect reset of forging count allows unlimited forging potential contradicting the intended design where each token has a specific `forgePotential` based on its entropy",
+  "issueId": 272,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/272"
+}
