@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "almurhasan",
+  "risk": "2",
+  "title": " function mintWithBudget will revert after the 1st generation.",
+  "issueId": 271,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/271"
+}
