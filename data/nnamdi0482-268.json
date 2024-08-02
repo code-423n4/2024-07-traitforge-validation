@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "nnamdi0482",
+  "risk": "2",
+  "title": "reentrancy-send-eth",
+  "issueId": 268,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/268"
+}
