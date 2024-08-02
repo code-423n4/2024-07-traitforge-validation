@@ -21,3 +21,21 @@ function getListedTokenIds(
     return listedTokenIds[tokenId_];
   }
 ```
+
+### NukeFund::setTaxCut() should not allow 0 to be set for `taxCut`
+While this is owner controller,the risk is very low, it is recommended to validate the taxCut to greater than 0 to prevent DOS when funds are transferred directly to the contract.
+
+```
+   function setTaxCut(uint256 _taxCut) external onlyOwner {
+    taxCut = _taxCut;
+  }
+```
+
+The receive function will revert due to the below logic.
+
+```
+   receive() external payable {
+    uint256 devShare = msg.value / taxCut; //@audit, taxCut should not be 0
+    ...
+   }
+```
