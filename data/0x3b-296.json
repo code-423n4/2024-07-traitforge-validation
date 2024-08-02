@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0x3b",
+  "risk": "2",
+  "title": "Changing contract inside TraitForgeNft will mess up the whole system",
+  "issueId": 296,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/296"
+}
