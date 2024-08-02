@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dontonka",
+  "risk": "2",
+  "title": "`getListedTokenIds` is inaccurate as `listedTokenIds` is not cleaned up when unlisting",
+  "issueId": 281,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/281"
+}
