@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "almurhasan",
+  "risk": "3",
+  "title": "_isApprovedOrOwner(spender, tokenId) function is not implemented in the TraitForgeNft contract.",
+  "issueId": 269,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/269"
+}
