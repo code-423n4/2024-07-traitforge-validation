@@ -58,3 +58,52 @@ https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/DevFund/Dev
   }
 
 ```
+
+
+# 4. Dependence on Contract's ETH Balance
+
+* The `safeRewardTransfer` function depends on the contract's balance to determine the reward transfer. If the contract’s balance is insufficient, the function will only transfer what is available. This could be problematic if the contract is expected to always have enough funds to pay out rewards.
+
+* Consider adding a mechanism to handle cases where the contract runs out of ETH, such as replenishing the balance or preventing new claims until funds are available.
+
+
+```
+  function safeRewardTransfer(
+    address to,
+    uint256 amount
+  ) internal returns (uint256) {
+    uint256 _rewardBalance = payable(address(this)).balance; 
+    if (amount > _rewardBalance) amount = _rewardBalance;
+    (bool success, ) = payable(to).call{ value: amount }(''); v
+   ...
+  }
+```
+
+
+
+# 5. Unclear Array Initialization Logic
+
+
+* If `listingCount` is 0, the function still initializes an array of size 1, which doesn't make sense. It would be better to handle this case separately or ensure that the function returns an empty array when there are no listings.
+
+The logic of starting the loop from 1 and adding +1 to the array size can be confusing and may lead to bugs or misunderstandings. Standardizing the array handling to start from 0 would be more conventional and safer.
+
+https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntityForging/EntityForging.sol#L49
+
+```
+	function fetchListings() external view returns (Listing[] memory _listings) {
+    _listings = new Listing[](listingCount + 1);   //@audit-issue
+    for (uint256 i = 1; i <= listingCount; ++i) {
+      _listings[i] = listings[i];
+    }
+  }
+```
+
+Recommendations:
+
+function fetchListings() external view returns (Listing[] memory _listings) {
+    _listings = new Listing[](listingCount);
+    for (uint256 i = 0; i < listingCount; ++i) {
+        _listings[i] = listings[i + 1]; // Assuming listings[0] is unused and listings start from index 1
+    }
+}
