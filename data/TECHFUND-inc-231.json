@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "TECHFUND-inc",
+  "risk": "3",
+  "title": "User pending rewards are calculated incorrectly using old weight, could lead no funds to claim",
+  "issueId": 231,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/231"
+}
