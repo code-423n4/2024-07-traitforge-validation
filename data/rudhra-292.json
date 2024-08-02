@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "rudhra",
+  "risk": "2",
+  "title": "Gas griefing  is possible on unsafe external call",
+  "issueId": 292,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/292"
+}
