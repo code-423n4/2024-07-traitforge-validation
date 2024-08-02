@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "samuraii77",
+  "risk": "2",
+  "title": "The allowed caller in `EntropyGenerator` can not be updated",
+  "issueId": 243,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/243"
+}
