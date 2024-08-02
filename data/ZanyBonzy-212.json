@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "ZanyBonzy",
+  "risk": "2",
+  "title": "`initializeAlphaIndices` uses the wrong modifier and correction for this risks certain protocol functionalities being unavailable.",
+  "issueId": 212,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/212"
+}
