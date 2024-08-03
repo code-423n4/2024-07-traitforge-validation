@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Shubham",
+  "risk": "3",
+  "title": "Incorrect number of nfts are minted when a generation is incremented allowing the protocol to accumulate extra funds",
+  "issueId": 357,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/357"
+}
