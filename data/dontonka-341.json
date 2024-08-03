@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dontonka",
+  "risk": "2",
+  "title": "TraitForgeNft could `burn mint fee` when nuke fund contract is not set",
+  "issueId": 341,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/341"
+}
