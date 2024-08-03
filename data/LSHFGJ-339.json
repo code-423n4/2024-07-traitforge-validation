@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "LSHFGJ",
+  "risk": "2",
+  "title": "Improper entropy calculation generates unrandom parameters",
+  "issueId": 339,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/339"
+}
