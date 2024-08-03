@@ -13,3 +13,12 @@ function forgeWithListed() {
 +   require(msg.value == forgingFee, 'Invalid fee for forging');
 }
 ```
+
+# `taxCut` should be limited to a maximum amount
+
+Define a constant `MAX_TAX_CUT` and enforce that the new taxCut isn't greater than it:
+
+function setTaxCut(uint256 _taxCut) external onlyOwner {
+    require(_taxCut <= MAX_TAX_CUT, "Invalid taxCut");
+    taxCut = _taxCut;
+  }
