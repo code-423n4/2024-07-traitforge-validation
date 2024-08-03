@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "MinhTriet",
+  "risk": "2",
+  "title": "DoS vulnerability in EntityTrading::buyNFT and EntityForging::forgeWithListed due to potential ETH transfer failures to a contract that listed nft for sale or for forging",
+  "issueId": 366,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/366"
+}
