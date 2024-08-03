@@ -1,6 +1,7 @@
 
+# [G-01] Using custom errors instead of revert error strings
 
-**Description**: 
+## Description: 
 Using custom errors instead of revert error strings to reduce deployment and runtime cost , Custom errors are available from solidity version 0.8.4. The instances below match or exceed that version
 
 There are 71 instances of this issue:
@@ -270,5 +271,87 @@ File: 2024-07-traitforge/contracts/TraitForgeNft/TraitForgeNft.sol
 362:     require(success, 'ETH send failed');
 
 394:     require(!paused(), 'ERC721Pausable: token transfer while paused');
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# [G-01]**Use `x != 0` instead of `x > 0` for uint types**
+
+## Description: 
+The `!=` operator costs less gas than `>` and for uint types you can use it to check for non-zero values to save gas
+
+```
+File: 2024-07-traitforge/contracts/DevFund/DevFund.sol
+
+15:    if (totalDevWeight > 0)
+
+19:    if (remaining > 0) 
+
+42:     require(weight > 0, 'Invalid weight');
+
+43:     require(info.weight > 0, 'Not dev address');
+
+
+53:     require(info.weight > 0, 'Not dev address');
+
+
+68:     if (pending > 0) {
+
+
+```
+
+```
+File: 2024-07-traitforge/contracts/EntityForging/EntityForging.sol
+
+87:     require(
+         forgePotential > 0 && forgingCounts[tokenId] <= forgePotential,
+         'Entity has reached its forging limit'
+90:     );
+
+
+140:     require(
+          mergerForgePotential > 0 &&
+        forgingCounts[mergerTokenId] <= mergerForgePotential,
+          'forgePotential insufficient'
+144:    );
+```
+
+
+
+```
+File: 2024-07-traitforge/contracts/EntityTrading/EntityTrading.sol
+
+42:    require(price > 0, 'Price must be greater than zero');
+
+
+```
+
+
+```
+File: 2024-07-traitforge/contracts/TraitForgeNft/TraitForgeNft.sol
+
+196:    if (excessPayment > 0)
+
+221:    if (budgetLeft > 0) 
+
+381:    if (listedId > 0) 
 
 ```
