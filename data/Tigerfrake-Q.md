@@ -87,3 +87,41 @@ Instead of rewriting the implemetation to check if a user `isforger`, just invok
 -   bool isForger = (entropy % 3) == 0; // Determine if the token is a forger based on entropy
 +   bool isForger = nftContract.isForger(tokenId);
 ```
+
+### [L-5] Unlimited Permissions on Token Approval
+**Description**:
+Unlimited Approval is a feature that enables users to grant platforms and smart contracts the permission to spend tokens/ coins on your behalf without limit. Normally, when swapping on a specific AMM such as Uniswap, users need to approve the smart contract/ platform to transfer those tokens on their behalf.
+
+This is also done within this protocol in functions such as [`listNFTForSale()`](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntityTrading/EntityTrading.sol#L47-L51):
+```solidity
+    require(
+      nftContract.getApproved(tokenId) == address(this) ||
+>>      nftContract.isApprovedForAll(msg.sender, address(this)),
+      'Contract must be approved to transfer the NFT.'
+    );
+```
+When giving these platforms/ smart contracts unlimited approval, users will face 2 main risks: malicious projects and bug exploits. This risk gives hackers the right to use the approved tokens for many lucrative purposes.
+
+*References*:
+https://metamask.zendesk.com/hc/en-us/articles/6174898326683-What-is-a-token-approval-#h_01G6X0J818RMX8E35CCPE0KQEH
+
+**Recommendation**
+Be sure to revoke these approvals if the user calls [`cancelListing()](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntityTrading/EntityTrading.sol#L94-L109) to cancel their NFT from listing.
+
+
+### [L-6] `merkleProof` length not checked
+**Description**:
+`proof` length is not checked: https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/TraitForgeNft/TraitForgeNft.sol#L51-L59
+```solidity
+  modifier onlyWhitelisted(bytes32[] calldata proof, bytes32 leaf) {
+    if (block.timestamp <= whitelistEndTime) {
+      require(
+        MerkleProof.verify(proof, rootHash, leaf),
+        'Not whitelisted user'
+      );
+    }
+    _;
+  }
+```
+**Recommendation**
+I recommend adding a check that `proof.length > 0`.
