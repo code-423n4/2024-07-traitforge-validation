@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "brevis",
+  "risk": "3",
+  "title": "If the Number of Minted Tokens for a Given Generation has Reached the Maximum Limit (maxTokensPerGen), any Attempt to Mint a New Token will Lead to a Call Revert",
+  "issueId": 373,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/373"
+}
