@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "D_Auditor",
+  "risk": "2",
+  "title": "Incorrect check in `EntropyGenerator::writeEntropyBatch1()` and `EntropyGenerator::writeEntropyBatch2()` would result in the occurrence of more than one Golden God entity.",
+  "issueId": 380,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/380"
+}
