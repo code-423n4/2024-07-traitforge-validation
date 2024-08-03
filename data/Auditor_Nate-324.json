@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Auditor_Nate",
+  "risk": "3",
+  "title": "Incorrect Access Control in EntropyGenerator's initializeAlphaIndices Function",
+  "issueId": 324,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/324"
+}
