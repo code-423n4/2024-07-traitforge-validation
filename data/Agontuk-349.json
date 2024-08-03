@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Agontuk",
+  "risk": "2",
+  "title": "Inconsistent State in Listing Cancellation will Prevent Re-listing of Tokens (`EntityForging::_cancelListingForForging`)",
+  "issueId": 349,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/349"
+}
