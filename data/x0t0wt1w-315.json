@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "x0t0wt1w",
+  "risk": "3",
+  "title": "Incorrect Token Generation Count Reset Leads to Mismatched Token Tracking",
+  "issueId": 315,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/315"
+}
