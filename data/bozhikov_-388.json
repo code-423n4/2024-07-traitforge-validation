@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "bozhikov_",
+  "risk": "2",
+  "title": "Default value of `NukeFund::ageMultiplier` is 0",
+  "issueId": 388,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/388"
+}
