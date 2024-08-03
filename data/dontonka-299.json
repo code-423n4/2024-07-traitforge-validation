@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dontonka",
+  "risk": "2",
+  "title": "NukeFund could `burn dev share` when it receives ETH and `dev/dao contract is not set`",
+  "issueId": 299,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/299"
+}
