@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Agontuk",
+  "risk": "3",
+  "title": "Incorrect handling of batch transfers can lead to inconsistencies in token metadata and listings (`TraitForgeNft::_beforeTokenTransfer`)",
+  "issueId": 336,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/336"
+}
