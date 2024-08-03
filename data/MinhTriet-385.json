@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "MinhTriet",
+  "risk": "3",
+  "title": "Loss of user(merger) fund when overpaying EntityForging::forgeWithListed() function ",
+  "issueId": 385,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/385"
+}
