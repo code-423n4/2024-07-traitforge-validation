@@ -250,8 +250,6 @@ Recommend removing the `whenNotPaused` modifier.
 
 ### 7. Unused check for generation count in `_incrementGeneration` function.
 
-22. Redundant checks since functions taht call the function already performs the same check
-
 Links to affected code *
 
 https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/TraitForgeNft/TraitForgeNft.sol#L345-L349
