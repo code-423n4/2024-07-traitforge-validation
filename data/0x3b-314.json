@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0x3b",
+  "risk": "2",
+  "title": "If a full generation is minted, the prev gen NFT will not be forgable",
+  "issueId": 314,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/314"
+}
