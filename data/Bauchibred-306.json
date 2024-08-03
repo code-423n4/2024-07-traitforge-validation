@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "A chain re-org would make a forger forge the wrong NFT and could even lose funds due to this",
+  "issueId": 306,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/306"
+}
