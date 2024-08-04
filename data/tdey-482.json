@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "tdey",
+  "risk": "2",
+  "title": " Using `block.number` is bad source of randomness.",
+  "issueId": 482,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/482"
+}
