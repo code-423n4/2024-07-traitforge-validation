@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "boraichodrunkenmaster",
+  "risk": "2",
+  "title": "NukeFund Contract: nuke(uint256) is intended to be pausable but isn't",
+  "issueId": 503,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/503"
+}
