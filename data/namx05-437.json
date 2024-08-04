@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "namx05",
+  "risk": "2",
+  "title": "Dev Share Will Be Zero If `msg.value` is Less Than `taxCut` Wei",
+  "issueId": 437,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/437"
+}
