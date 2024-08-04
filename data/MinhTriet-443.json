@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "MinhTriet",
+  "risk": "2",
+  "title": "When mint with budget you can't do that when _tokenIds < maxTokensPerGen, but _tokenIds is an nft id and keeps increasing",
+  "issueId": 443,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/443"
+}
