@@ -268,3 +268,90 @@ https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332c
 #### Recommended Mitigation Steps
 
 Recommend removing the check from `_incrementGeneration` function.
+
+***
+
+### 8. Excess tokens not refunded when lisitng for forging
+
+Links to affected code *
+
+https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntityForging/EntityForging.sol#L125-L127
+
+#### Impact
+
+`forgeWithListed` accpts msg.value greater than or equal to the `forgingFee` but no attempt is made to refund excess to the caller, which can lead to loss of funds.
+ 
+```solidity
+  function forgeWithListed(
+    uint256 forgerTokenId,
+    uint256 mergerTokenId
+  ) external payable whenNotPaused nonReentrant returns (uint256) {
+//...
+    uint256 forgingFee = _forgerListingInfo.fee;
+    require(msg.value >= forgingFee, 'Insufficient fee for forging');
+//...
+    return newTokenId;
+  }
+```
+
+#### Recommended Mitigation Steps
+Recommend introducing a refund mechanism like the type in EntityTrading.sol
+
+***
+
+### 9. Functions querying `getEntropy` risk an array out of bound error.
+
+Links to affected code *
+
+https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L168
+
+https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L102
+
+#### Impact
+
+`getEntropy` is called in three places, [`getNextEntropy`](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L103), [`getPublicEntropy`](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L127), and [`deriveTokenParameters`](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L149). The function performs a check, ensuring that the `slotIndex` is <= `maxSlotIndex`. This check means it allows `slotIndex` from 0 to 770 rather than 769 as is to be expected when dealing with arrays.
+
+```solidity
+  function getEntropy(
+    uint256 slotIndex,
+    uint256 numberIndex
+  ) private view returns (uint256) {
+    require(slotIndex <= maxSlotIndex, 'Slot index out of bounds.');
+//...
+  }
+```
+This mostly affects `getPublicEntropy` and `deriveTokenParameters` which are view functions, and could have been a big deal in `getNextEntropy` if had it not been for this [check](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L114-L114).
+
+Since the [`entropySlots`](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L10) is expected to have just 770 elements, any user or external integration attempting to view the "last" entropy or token parameters risk encountering an out of bounds error.
+
+```solidity
+uint256[770] private entropySlots; 
+```
+#### Recommended Mitigation Steps
+
+Recommend switching the to the < operator instead. The same can be done in [`getNextEntropy`](https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L102) function too.
+
+***
+
+### 10. Typographical error in EntropyGenerator.sol's constructor. It's traitForge and not traitforget
+
+Links to affected code *
+
+https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L30-L33
+
+#### Impact
+
+In EntropyGenerator.sol, the allowed caller is spelt as `_traitForgetNft`
+```solidity
+  constructor(address _traitForgetNft) {
+    allowedCaller = _traitForgetNft;
+    initializeAlphaIndices();
+  }
+```
+
+#### Recommended Mitigation Steps
+
+It should be `_traitForgeNft`
+***
+
+
