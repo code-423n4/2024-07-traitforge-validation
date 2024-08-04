@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "MinhTriet",
+  "risk": "3",
+  "title": "generationMintCounts is reset to 0 after increment to the next generation which break the invariant that there's no more than 10000 each generation ",
+  "issueId": 447,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/447"
+}
