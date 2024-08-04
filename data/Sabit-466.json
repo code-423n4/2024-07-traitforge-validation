@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Sabit",
+  "risk": "3",
+  "title": "Immediate token nuking vulnerability due to uninitialized transfer timestamp",
+  "issueId": 466,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/466"
+}
