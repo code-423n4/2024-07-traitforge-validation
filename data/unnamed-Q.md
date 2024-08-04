@@ -173,3 +173,42 @@ The impact includes the potential for ETH transfers to fail if `devAddress` or `
 
  **Address Validation:** Add checks to ensure `devAddress` and `daoAddress` are set before attempting to transfer ETH. Consider adding a require statement to validate that these addresses are not the zero address.
 
+## L-06 Public Visibility  in writeEntropyBatch1/2/3 functions
+
+## Summary
+The writeEntropyBatch1 function is publicly accessible 
+
+## Vulnerability Details
+Function Affected: writeEntropyBatch1, writeEntropyBatch2, writeEntropyBatch3
+
+
+The function is declared as public, which allows any external user to call it. This unrestricted access can lead to call this function before deploying the other contracts .
+
+```solidity
+function writeEntropyBatch1() public {
+  // Function implementation
+}
+```
+Making this function public allows any user to trigger it, potentially leading to misuse or unintended consequences. This function should be restricted to only authorized entities to ensure proper management and execution.
+ 
+## Impact
+Allowing public access to this function could lead to unauthorized or unintended initializations, potentially disrupting the system.
+
+## Tools Used
+Manual code Review
+
+## Recommendations
+Change Visibility Modifier: Change the function visibility to internal or add access control modifiers to restrict who can call this function. 
+```solidity
+function writeEntropyBatch1() internal {
+  // Function implementation
+}
+```
+or use OpenZeppelin’s Ownable pattern:
+```solidity
+Copy code
+function writeEntropyBatch1() external onlyOwner {
+  // Function implementation
+}
+```
+
