@@ -143,3 +143,25 @@ Add to Blacklist function and modifier.
     }
 
 
+# 4: PROJECT UPGRADE AND STOP SCENARIO SHOULD BE
+
+Vulnerability details
+
+## Context:
+
+At the start of the project, the system may need to be stopped or upgraded, I suggest you have a script beforehand and add it to the documentation.
+This can also be called an ” EMERGENCY STOP (CIRCUIT BREAKER) PATTERN “.
+
+
+For reference, see 
+https://github.com/maxwoe/solidity_patterns/blob/master/security/EmergencyStop.sol
+
+## Tools Used
+
+Manual Analysis
+
+## Recommended Mitigation Steps
+
+Create upgrade and stop scenario
+
+
