@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "stanchev",
+  "risk": "3",
+  "title": "_incrementGeneration() resets generationMintcount to 0 even if the gen already has forged entities in it",
+  "issueId": 499,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/499"
+}
