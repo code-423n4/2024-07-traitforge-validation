@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Joshuajee",
+  "risk": "3",
+  "title": "Forger can list their Entity for Forging and prevent others from forging with it, by deliberately causing a revert of the transfer of the forger Fee.",
+  "issueId": 460,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/460"
+}
