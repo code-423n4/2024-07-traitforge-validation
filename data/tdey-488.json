@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "tdey",
+  "risk": "3",
+  "title": " `mergerEntropy` must be greater than 10 and exactly divisible by 10 otherwise, it can lead to precision loss and `forgeWithListed` function can give unexpected results.",
+  "issueId": 488,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/488"
+}
