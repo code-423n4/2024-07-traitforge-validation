@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xDarko",
+  "risk": "3",
+  "title": "Merger Will Lose Excess ETH Sent in `EntityForging::forgeWithListed` and ETH Stuck Forever in Contract",
+  "issueId": 538,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/538"
+}
