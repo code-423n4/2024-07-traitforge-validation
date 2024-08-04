@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Shubham",
+  "risk": "3",
+  "title": "Attacker can forge nfts using different accounts leading to huge loss to the protocol",
+  "issueId": 465,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/465"
+}
