@@ -165,3 +165,37 @@ Manual Analysis
 Create upgrade and stop scenario
 
 
+# 5: FLOATING PRAGMA SHOULD BE AVOIDED
+
+Vulnerability details
+
+## Context:
+
+FLOATING PRAGMA SHOULD BE AVOIDED
+
+## Proof of Concept
+
+
+### 1 Result - 6 Instances
+
+> ***File: All files in scope***
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/DevFund/DevFund.sol#L2
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntityForging/EntityForging.sol#L2
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntityTrading/EntityTrading.sol#L2
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L2
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/NukeFund/NukeFund.sol#L2
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/TraitForgeNft/TraitForgeNft.sol#L2
+
+## Tools Used
+
+Manual Analysis
+
+### Recommended Mitigation Steps
+
+Lock pragma versions
