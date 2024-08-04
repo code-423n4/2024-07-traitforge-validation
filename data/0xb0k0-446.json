@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xb0k0",
+  "risk": "2",
+  "title": "Missing ownership transfer in `EntropyGenerator.sol` and `Airdrop.sol` blocks minting in `TraitForgeNft.sol` ",
+  "issueId": 446,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/446"
+}
