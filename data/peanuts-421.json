@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "peanuts",
+  "risk": "3",
+  "title": "Money flow in receive() fallback function in DevFund is incorrect",
+  "issueId": 421,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/421"
+}
