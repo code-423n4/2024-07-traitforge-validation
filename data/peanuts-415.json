@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "peanuts",
+  "risk": "2",
+  "title": "nukeFactor is wrongly calculated in EntropyGenerator.deriveTokenParameters.",
+  "issueId": 415,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/415"
+}
