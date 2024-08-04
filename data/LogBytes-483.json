@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "LogBytes",
+  "risk": "2",
+  "title": "When minting NFTs with a budget a lot of gas is used transferring ETH, which results in minting less NFTs than when transfer is optimized",
+  "issueId": 483,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/483"
+}
