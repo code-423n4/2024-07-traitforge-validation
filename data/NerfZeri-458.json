@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "NerfZeri",
+  "risk": "3",
+  "title": "\"NukeFund:CalculateAge\" calculates age based on the 'performanceFactor` parameter which can equal 0, resulting in the token being unable to age.",
+  "issueId": 458,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/458"
+}
