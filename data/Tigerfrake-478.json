@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Tigerfrake",
+  "risk": "2",
+  "title": "Updating `minimumDaysHeld` negatively impacts users whose tokens are already eligible for nuking.",
+  "issueId": 478,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/478"
+}
