@@ -63,3 +63,49 @@ https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332c
 ### Tools Used
 
 Manual Analysis
+
+
+# 2: FOR MODERN AND MORE READABLE CODE; UPDATE IMPORT USAGE
+
+Vulnerability details
+
+## Context:
+
+Solidity code is also cleaner in another way that might not be noticeable: the struct Point. We were importing it previously with global import but not using it. The Point struct polluted the source code with an unnecessary object we were not using because we did not need it.
+This was breaking the rule of modularity and modular programming: only import what you need Specific imports with curly braces to allow us to apply this rule better.
+
+## Proof of Concept
+
+### Contracts
+
+> ***File: All files in scope***
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/DevFund/DevFund.sol#L4-L7
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntityForging/EntityForging.sol#L4-L8
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntityTrading/EntityTrading.sol#L4-L9
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L4-L6
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/NukeFund/NukeFund.sol#L4-L9
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/TraitForgeNft/TraitForgeNft.sol#L4-L12 
+
+## Tools Used
+
+Manual Analysis
+
+### Recommended Mitigation Steps
+
+import {contract1 , contract2} from "filename.sol";
+
+#### Example:
+
+import {Owned} from "solmate/auth/Owned.sol";
+import {ERC721} from "solmate/tokens/ERC721.sol";
+import {LibString} from "solmate/utils/LibString.sol";
+import {MerkleProofLib} from "solmate/utils/MerkleProofLib.sol";
+import {FixedPointMathLib} from "solmate/utils/FixedPointMathLib.sol";
+import {ERC1155, ERC1155TokenReceiver} from "solmate/tokens/ERC1155.sol";
+import {toWadUnsafe, toDaysWadUnsafe} from "solmate/utils/SignedWadMath.sol";
