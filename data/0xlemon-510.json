@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xlemon",
+  "risk": "2",
+  "title": "_incrementGeneration() doesn't check if the incremented generation is > maxmaxGeneration",
+  "issueId": 510,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/510"
+}
