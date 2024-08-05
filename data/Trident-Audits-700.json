@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Trident-Audits",
+  "risk": "2",
+  "title": "Different sets of parent tokens can evaluate to the same average entropy value which takes away the uniqueness of tokens.",
+  "issueId": 700,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/700"
+}
