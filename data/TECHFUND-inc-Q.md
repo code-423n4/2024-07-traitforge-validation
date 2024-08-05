@@ -53,3 +53,8 @@ While this is owner controller,the risk is very low, it is recommended to valida
     uint256 nukeFundContribution = msg.value / taxCut;
     ... 
 ```
+
+### EntityTrading::listNFTForSale() / EntityTrading::buyNFT()
+`EntityTrading` contract will not function properly for NFTs listed in the market by a smart contract that does not receive Ether. Ar the time of listing the NFT, there will be no problem. But, when the user attempts to buy the NFT, the `buyNFT()` function tries to send Ether to the seller contract. 
+
+If seller contract is a smart contract that does not accept ether, it will revert.
