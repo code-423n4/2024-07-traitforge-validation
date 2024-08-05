@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "boredpukar",
+  "risk": "3",
+  "title": "Lack of mechanism to ensure all batches are initialized before entropy is used",
+  "issueId": 679,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/679"
+}
