@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "FastChecker",
+  "risk": "3",
+  "title": "For all generations except Gen1, the first NFT price is not calculated as expected.",
+  "issueId": 568,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/568"
+}
