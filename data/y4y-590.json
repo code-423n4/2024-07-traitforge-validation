@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "y4y",
+  "risk": "3",
+  "title": "Excessive funds are not returned and lost in `EntityForging::forgeWithListed`",
+  "issueId": 590,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/590"
+}
