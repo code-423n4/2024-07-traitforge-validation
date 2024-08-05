@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "boredpukar",
+  "risk": "3",
+  "title": "Lack of Future End Time Check in setWhitelistEndTime",
+  "issueId": 727,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/727"
+}
