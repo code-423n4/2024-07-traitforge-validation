@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Autosaida",
+  "risk": "2",
+  "title": "Lack of Validation Allows Minting More NFT Beyond expected `maxGeneration`",
+  "issueId": 693,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/693"
+}
