@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "MrValioBg",
+  "risk": "3",
+  "title": "Incorrect calculation of the increasing factor for nukefactor leads to a yield loss.",
+  "issueId": 775,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/775"
+}
