@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "octeezy",
+  "risk": "2",
+  "title": "Adding an incorrect dev address leads to funds being stuck with no way to recover them",
+  "issueId": 768,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/768"
+}
