@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "EaglesSecurity",
+  "risk": "2",
+  "title": "maxTokenPerGeneration can be bypassed and more tokens than the required can be minted",
+  "issueId": 753,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/753"
+}
