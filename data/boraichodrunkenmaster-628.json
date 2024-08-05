@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "boraichodrunkenmaster",
+  "risk": "2",
+  "title": "Various functions cannot be paused as intended on some of the Trait Forge Contracts.",
+  "issueId": 628,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/628"
+}
