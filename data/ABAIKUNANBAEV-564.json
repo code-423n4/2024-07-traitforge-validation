@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "ABAIKUNANBAEV",
+  "risk": "2",
+  "title": "_incrementGeneration() does not check whether the maximum generation has been reached",
+  "issueId": 564,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/564"
+}
