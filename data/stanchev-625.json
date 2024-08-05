@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "stanchev",
+  "risk": "2",
+  "title": "mintNewEntity() could be DOS'ed for an unknown amount of time. ",
+  "issueId": 625,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/625"
+}
