@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "TECHFUND-inc",
+  "risk": "2",
+  "title": "Minting across two generations causes one NFT to be minted at start price",
+  "issueId": 619,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/619"
+}
