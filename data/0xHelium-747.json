@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xHelium",
+  "risk": "3",
+  "title": "Malicious user can carefully craft transavtion that will only mint the most valuable NFT (the one with entropy of 999999) within each generation effectively gaming the system",
+  "issueId": 747,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/747"
+}
