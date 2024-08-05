@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "ABAIKUNANBAEV",
+  "risk": "2",
+  "title": "_beforeTokenTransfer() hook deviates from ERC721 implementation",
+  "issueId": 723,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/723"
+}
