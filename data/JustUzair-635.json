@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "JustUzair",
+  "risk": "2",
+  "title": "NFTs can be minted beyond more than maximum generation due to missing validation in TraitForgeNft.sol::_mintInternal()",
+  "issueId": 635,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/635"
+}
