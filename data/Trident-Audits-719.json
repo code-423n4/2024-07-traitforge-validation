@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Trident-Audits",
+  "risk": "3",
+  "title": "Cannot move to the next generation and mint new Nfts due to access control issue in `EntropyGenerator::initializeAlphaIndices()`",
+  "issueId": 719,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/719"
+}
