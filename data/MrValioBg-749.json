@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "MrValioBg",
+  "risk": "2",
+  "title": "Prevention of early generation of the GoldenGod in EntropyGenerator.sol is not working.",
+  "issueId": 749,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/749"
+}
