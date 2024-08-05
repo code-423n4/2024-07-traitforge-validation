@@ -184,7 +184,7 @@ Logs:
 ```
 
 Visualized:
-![image](https://gist.github.com/user-attachments/assets/baeb8bae-09f7-42ac-95ac-526ee4abec57)
+[Link to image](https://gist.github.com/user-attachments/assets/baeb8bae-09f7-42ac-95ac-526ee4abec57)
 
 It's worth noting: the distribution of the first digit is particularly important for the contract logic because combining this issue with L-01 means that `forgePotential` will never be `0`, which is in direct conflict with [the documentation](https://docs.google.com/document/d/1pihtkKyyxobFWdaNU4YfAy56Q7WIMbFJjSHUAfRm6BA/edit) which does assume the existence of infertile (`forgePotential == 0`) entities.
 
