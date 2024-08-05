@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "rudhra",
+  "risk": "3",
+  "title": "taxcut in NukeFund contract can be set to 1 so that entire amount goes to developer instead of nuke (fund)",
+  "issueId": 717,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/717"
+}
