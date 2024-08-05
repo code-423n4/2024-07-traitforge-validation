@@ -354,4 +354,16 @@ In EntropyGenerator.sol, the allowed caller is spelt as `_traitForgetNft`
 It should be `_traitForgeNft`
 ***
 
+### 11. Lack of `getTokenAge` function unlike declaration in the documentation.
 
+Links to affected code *
+
+https://github.com/TraitForge/GitBook/blob/main/GamePlay/Aging.md#2-function-gettokenageuint256-tokenid
+
+#### Impact
+
+The documentation declares a `getTokenAge` function with which to calculate a token's age in seconds. This function is however missing in the protocol's implementation.
+
+#### Recommended Mitigation Steps
+Recommend introducing this function.
+***
