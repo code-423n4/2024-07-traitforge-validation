@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "pep7siup",
+  "risk": "2",
+  "title": "User's Excess ETH Not Refunded in `forgeWithListed` Function, Causing Fund Loss",
+  "issueId": 644,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/644"
+}
