@@ -81,7 +81,7 @@ function testPRNG() public {
 	uint256[10][6] memory distribution;
 
 	for (uint256 iters = 0; iters < 5; iters++) {
-		vm.roll(1);
+		vm.roll(iters+1);
 		vm.startPrank(vic);
 		EntropyGenerator e = new EntropyGenerator(vic);
 		e.writeEntropyBatch1();
@@ -115,72 +115,73 @@ function testPRNG() public {
 Running this results in:
 ```
 Logs:
+Logs:
   for digit  6
-  0 12425
-  1 4320
-  2 4025
-  3 4170
-  4 4060
-  5 4055
-  6 4470
-  7 4050
-  8 4290
-  9 4180
+  0 12572
+  1 4206
+  2 4081
+  3 4140
+  4 4172
+  5 4146
+  6 4281
+  7 4169
+  8 4048
+  9 4230
   for digit  5
-  0 5670
-  1 4975
-  2 5045
-  3 5095
-  4 4910
-  5 4915
-  6 4845
-  7 4915
-  8 4835
-  9 4840
+  0 5878
+  1 4881
+  2 4911
+  3 4976
+  4 4938
+  5 4949
+  6 4978
+  7 4837
+  8 4866
+  9 4831
   for digit  4
-  0 5090
-  1 5015
-  2 5130
-  3 4965
-  4 5165
-  5 5070
-  6 4775
-  7 5005
-  8 4820
-  9 5010
+  0 5155
+  1 5070
+  2 4867
+  3 4941
+  4 5086
+  5 4974
+  6 4982
+  7 4979
+  8 4906
+  9 5085
   for digit  3
-  0 4805
-  1 4995
-  2 4980
-  3 5075
-  4 5170
-  5 4780
-  6 5255
-  7 5110
-  8 5120
-  9 4755
+  0 4945
+  1 4979
+  2 5091
+  3 5059
+  4 5009
+  5 4949
+  6 5021
+  7 4988
+  8 5072
+  9 4932
   for digit  2
-  0 5050
-  1 4905
-  2 4935
-  3 5270
-  4 5215
-  5 5020
-  6 4650
-  7 5040
-  8 5190
-  9 4770
+  0 5001
+  1 5061
+  2 5030
+  3 5090
+  4 5133
+  5 4943
+  6 4950
+  7 4951
+  8 4995
+  9 4891
   for digit  1
   0 0
-  1 5710
-  2 5805
-  3 5955
-  4 5450
-  5 5610
-  6 5505
-  7 5340
-  8 5330
-  9 5340
+  1 5910
+  2 5940
+  3 5866
+  4 5606
+  5 5468
+  6 5523
+  7 5260
+  8 5209
+  9 5263
 ```
 
 Visualized:
@@ -191,16 +192,16 @@ It's worth noting: the distribution of the first digit is particularly important
 The missing `0` in the distribution for digit 1 can be fixed by not using the padded entropy all together. Replacing `paddedEntropy` with `entropy`, though, generates the following distribution for digit 1:
 ```
   for digit  1
-  0 8320
-  1 4575
-  2 5090
-  3 4660
-  4 4545
-  5 4450
-  6 4445
-  7 4530
-  8 4725
-  9 4705
+  0 8489
+  1 4671
+  2 4669
+  3 4607
+  4 4572
+  5 4531
+  6 4609
+  7 4571
+  8 4638
+  9 4688
 ```
 
 suggesting there might be some other flaw in the entropy generator.
