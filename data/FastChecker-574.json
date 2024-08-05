@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "FastChecker",
+  "risk": "2",
+  "title": "nadequate Validation of `maxGeneration` in the Function `_incrementGeneration` in `TraitForgeNft.sol`",
+  "issueId": 574,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/574"
+}
