@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "EaglesSecurity",
+  "risk": "2",
+  "title": "In TraitForgeNft.sol generation limit can be bypassed",
+  "issueId": 771,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/771"
+}
