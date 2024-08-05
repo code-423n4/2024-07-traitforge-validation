@@ -39,3 +39,17 @@ The receive function will revert due to the below logic.
     ...
    }
 ```
+
+### EntityTrading::setTaxCut() should not allow 0 to be set for `taxCut`
+While this is owner controller,the risk is very low, it is recommended to validate the taxCut to greater than 0 to prevent DOS when calling `buyNFT` function.
+
+```
+  function setTaxCut(uint256 _taxCut) external onlyOwner {
+    taxCut = _taxCut;
+  }
+
+  function buyNFT(uint256 tokenId) external payable whenNotPaused nonReentrant {
+    ....
+    uint256 nukeFundContribution = msg.value / taxCut;
+    ... 
+```
