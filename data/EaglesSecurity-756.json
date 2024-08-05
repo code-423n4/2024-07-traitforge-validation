@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "EaglesSecurity",
+  "risk": "2",
+  "title": "User will not be able to mint new entity when parents generation is old",
+  "issueId": 756,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/756"
+}
