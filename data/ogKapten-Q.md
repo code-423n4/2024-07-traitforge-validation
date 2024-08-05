@@ -1,0 +1,5 @@
+# [L-1] Potential Loss of `priceIncrementFunds` During Generation Transition in `mintToken`
+
+When minting tokens through the `mintToken` function in the `TraitForgeNft` contract, there's a potential loss of `0.000005 ether` (the value of `priceIncrementByGen`) during the transition to a new generation. This occurs because the token price is calculated before checking if the current generation has reached its maximum token limit. As a result, the first NFT minted in a new generation is priced at the previous generation's rate, leading to a small but consistent loss of funds for the contract with each generation increment.
+
+While the impact per occurrence is minimal (0.000005 ether), it could accumulate over multiple generation transitions, especially in a long-running or popular NFT project.
