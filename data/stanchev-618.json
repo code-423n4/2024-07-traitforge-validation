@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "stanchev",
+  "risk": "2",
+  "title": "forgeWithListed() is susceptible to frontrun if msg.value > forgingFee.",
+  "issueId": 618,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/618"
+}
