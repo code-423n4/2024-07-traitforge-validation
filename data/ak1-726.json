@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "ak1",
+  "risk": "2",
+  "title": "EntityTrading : `buyNFT` can be purosefully reverted by the seller when the demand for NFT is reached high.",
+  "issueId": 726,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/726"
+}
