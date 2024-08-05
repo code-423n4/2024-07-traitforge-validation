@@ -1,3 +1,4 @@
+# Issue 1
 ## Summary
 
 Several state variables are declared as `uint256` but will never utilize the full 2^256 range, leading to inefficient storage usage.
@@ -33,3 +34,19 @@ N/A
 ## Tools used
 
 Manual Auditing
+
+# Issue 2
+
+## Summary
+The entropy calculation in phase 3 is not checked for `999999` value.
+
+## Detailed description
+The entropy calculation in phase 3 function `writeEntropyBatch3` does not check whether the generated random entropy value is `999999` which denotes the entity with the highest power. This can lead to various entities having highest power, in addition to those indicated by `slotIndexSelectionPoint` and `numberIndexSelectionPoint`.
+
+There is a very little chance that this can happen and hence it is a low risk finding.
+
+## Tools used
+Manual Auditing
+
+## LOC
+https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntropyGenerator/EntropyGenerator.sol#L84
