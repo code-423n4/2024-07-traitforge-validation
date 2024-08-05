@@ -213,7 +213,8 @@ Return `entropy` instead of `paddedEntropy` and update `getFirstDigit()` to acco
 
 `pseudoRandomValue` inside the `writeEntropyBatch*()` functions stores all 13 entropies generated at once using the hash function. Checking the entire `uint256` slot against the God entity's entropy value is incorrect.
 
-Offending code:
+### Offending code:
 https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L46-L98
 
+### Suggested resolution
 Iterate over entropy numbers in a slot in an inner loop and check the requirement correctly one value at a time.
