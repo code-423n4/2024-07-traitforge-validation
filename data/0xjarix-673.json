@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xjarix",
+  "risk": "2",
+  "title": "`pause/unpause` functionalities not implemented in many pausable contracts",
+  "issueId": 673,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/673"
+}
