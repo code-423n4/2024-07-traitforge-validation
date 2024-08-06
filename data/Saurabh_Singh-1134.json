@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Saurabh_Singh",
+  "risk": "2",
+  "title": "The `EntropyGenerator.sol::getEntropy` function may return a zero entropy value if the `slotValue` contains an insufficient number of digits.",
+  "issueId": 1134,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1134"
+}
