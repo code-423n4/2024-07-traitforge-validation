@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Tonchi",
+  "risk": "2",
+  "title": "No way to return and withdraw excess amount in `EntityForging::forgeWithListed`, Locking of funds.",
+  "issueId": 973,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/973"
+}
