@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "apvlki",
+  "risk": "2",
+  "title": "Bad actors can take advantage of the predetermined generation of entropy",
+  "issueId": 1310,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1310"
+}
