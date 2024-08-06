@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "StaceyWong",
+  "risk": "2",
+  "title": "Incorrect Comparison of _tokenIds with maxTokensPerGen Causes Mismanagement of Generation Token Counts",
+  "issueId": 794,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/794"
+}
