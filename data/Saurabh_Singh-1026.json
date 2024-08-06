@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Saurabh_Singh",
+  "risk": "2",
+  "title": "If the last digit of the entropy is zero, the `NukeFund.sol::calculateAge` function will return an age of zero.",
+  "issueId": 1026,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1026"
+}
