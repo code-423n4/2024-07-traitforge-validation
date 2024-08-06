@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "rekxor",
+  "risk": "2",
+  "title": "OZ's pause() and unpause() internal function are not exposed via an external function implementation by any of the contracts",
+  "issueId": 1144,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1144"
+}
