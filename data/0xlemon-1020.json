@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xlemon",
+  "risk": "2",
+  "title": "A NFT can be nuked if held < 3 days which breaks a protocol invariant",
+  "issueId": 1020,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1020"
+}
