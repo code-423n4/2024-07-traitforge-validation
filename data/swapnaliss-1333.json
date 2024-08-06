@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "swapnaliss",
+  "risk": "2",
+  "title": "Bias in Random Number Generation Due to Modulo Operation",
+  "issueId": 1333,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1333"
+}
