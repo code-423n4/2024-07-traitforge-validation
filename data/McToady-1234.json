@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "McToady",
+  "risk": "2",
+  "title": "In `EntropyGenerator::getEntropy` there is a high chance of `entropy` being zero for an NFT due to precision loss, particularly if a tokens `numberIndex == 0` ",
+  "issueId": 1234,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1234"
+}
