@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xvd",
+  "risk": "2",
+  "title": "Unbounded Loop in fetchListings Function",
+  "issueId": 946,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/946"
+}
