@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "yixxas",
+  "risk": "3",
+  "title": "Wrong implementation prevents TraitForgeNft.sol from minting beyond the first generation",
+  "issueId": 989,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/989"
+}
