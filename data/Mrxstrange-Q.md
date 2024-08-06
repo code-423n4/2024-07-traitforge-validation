@@ -107,3 +107,21 @@ function fetchListings() external view returns (Listing[] memory _listings) {
         _listings[i] = listings[i + 1]; // Assuming listings[0] is unused and listings start from index 1
     }
 }
+
+
+# 6. Slicing the Entropy Value:
+
+```
+uint256 slotValue = entropySlots[slotIndex]; // slice the required part of the entropy value
+uint256 entropy = (slotValue / (10 ** (72 - position))) % 1000000; // adjust the entropy value based on the number of digits
+```
+
+* https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntropyGenerator/EntropyGenerator.sol#L180
+
+* The calculation `slotValue / (10 ** (72 - position))` could lead to an incorrect result if position is too large (e.g., when position is close to 72). The division might effectively shift out all meaningful digits, resulting in zero or an unexpected value.
+* This issue also depends on the value of slotValue and how it was constructed.
+
+
+# Fix:
+
+* Add checks to ensure that position is within a valid range and that slotValue has sufficient digits.
