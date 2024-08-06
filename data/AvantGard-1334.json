@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "AvantGard",
+  "risk": "2",
+  "title": "Contracts cannot handle ` taxCut ` of 0",
+  "issueId": 1334,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1334"
+}
