@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "kingnull",
+  "risk": "3",
+  "title": "TraitForgeNft::_mintNewEntity:: _incrementGeneration(); line  https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/TraitForgeNft/TraitForgeNft.sol#L334 will never run , while forging",
+  "issueId": 1035,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1035"
+}
