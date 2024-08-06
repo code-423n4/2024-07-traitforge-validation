@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Kunhah",
+  "risk": "3",
+  "title": "`_mintNewEntity()` always fails if the forgerToken is from before the previous generation",
+  "issueId": 1045,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1045"
+}
