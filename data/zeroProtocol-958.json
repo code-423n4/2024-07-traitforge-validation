@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "zeroProtocol",
+  "risk": "2",
+  "title": "EntityForging::fetchListings Block gas outrage leading to denial of service due to unbounded loop",
+  "issueId": 958,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/958"
+}
