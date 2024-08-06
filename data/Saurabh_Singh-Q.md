@@ -163,3 +163,52 @@ The user can manipulate the hash value and can get alpha index entropy.
 ## Recommanded Mitigation:-
 
 Integrating Chainlink's Verifiable Random Function (VRF) can provide a robust solution for generating truly random numbers, eliminating the possibility of manipulation and ensuring fairness in the alpha index assignment process.
+
+# L-04
+
+The `EntropyGenerator.sol::writeEntropyBatch3` function does not include a required check for the alpha index rentropy value of 999999.
+
+## Vulnerability Details:-
+the `EntropyGenerator.sol::writeEntropyBatch3` do not have a require check for 999999 value of alphaIndex.
+```
+function writeEntropyBatch3() public {
+        require(
+            lastInitializedIndex >= batchSize2 && lastInitializedIndex < maxSlotIndex,
+            "Batch 3 not ready or already completed."
+        );
+        unchecked {
+            for (uint256 i = lastInitializedIndex; i < maxSlotIndex; i++) {
+                uint256 pseudoRandomValue = uint256(keccak256(abi.encodePacked(block.number, i))) % uint256(10) ** 78;
+                
+                entropySlots[i] = pseudoRandomValue;
+            }
+        }
+        lastInitializedIndex = maxSlotIndex;
+    }
+```
+The above-given function should implement a require check to prevent the value 999999 from being populated in the `entropySlots` array.
+
+## Impact:-
+
+since the `entropySlots` array is populated by a random number generator function. the array can get the aplhaIndex value in it.
+
+## Tool used:-
+Manual Review
+
+## Recommanded Mitigation:-
+```
+function writeEntropyBatch3() public {
+        require(
+            lastInitializedIndex >= batchSize2 && lastInitializedIndex < maxSlotIndex,
+            "Batch 3 not ready or already completed."
+        );
+        unchecked {
+            for (uint256 i = lastInitializedIndex; i < maxSlotIndex; i++) {
+                uint256 pseudoRandomValue = uint256(keccak256(abi.encodePacked(block.number, i))) % uint256(10) ** 78;
++               require(pseudoRandomValue != 999999, "Invalid value, retry.");
+                entropySlots[i] = pseudoRandomValue;
+            }
+        }
+        lastInitializedIndex = maxSlotIndex;
+    }
+```
