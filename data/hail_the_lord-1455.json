@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "hail_the_lord",
+  "risk": "3",
+  "title": "Front-Running Vulnerability in Slot and Number Index Selection (Deterministic Selection + Revealed Return Value)",
+  "issueId": 1455,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1455"
+}
