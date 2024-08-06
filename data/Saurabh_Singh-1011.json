@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Saurabh_Singh",
+  "risk": "2",
+  "title": "The `TraitForgeNft.sol::_distributeFunds` function will send Ether to an arbitrary address if the `nukeFundAddress` is not set.",
+  "issueId": 1011,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1011"
+}
