@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "nervouspika",
+  "risk": "2",
+  "title": "Potential Overforging Due to Incorrect Boundary Check on `forgingCounts`",
+  "issueId": 1179,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1179"
+}
