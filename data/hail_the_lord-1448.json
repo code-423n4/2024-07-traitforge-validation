@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "hail_the_lord",
+  "risk": "3",
+  "title": "Insecure Private Entropy Slots (Lack of True Privacy for Critical Data)",
+  "issueId": 1448,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1448"
+}
