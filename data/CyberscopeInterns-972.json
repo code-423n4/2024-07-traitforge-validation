@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "CyberscopeInterns",
+  "risk": "3",
+  "title": "Forge of the same parentId NFTs results in multiple invocations of `nuke`  function and numerous repetitive withdrawals of funds from the `NukeFund.sol` contract.",
+  "issueId": 972,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/972"
+}
