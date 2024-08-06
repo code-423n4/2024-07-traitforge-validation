@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "theyardmic",
+  "risk": "3",
+  "title": "Token Theft Due to Arbitrary ERC20 Token Transfers Enabled by tx.origin",
+  "issueId": 1346,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1346"
+}
