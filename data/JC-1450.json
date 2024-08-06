@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "JC",
+  "risk": "3",
+  "title": "Reentrancy Attack Through Cross-Function Race Conditions in EntityTrading.sol",
+  "issueId": 1450,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1450"
+}
