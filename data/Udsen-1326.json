@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Udsen",
+  "risk": "2",
+  "title": "A `malicious forgerOwner contract` can revert the `forge` transaction inside the `receive` function implemented in the `forgerOwner` contract",
+  "issueId": 1326,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1326"
+}
