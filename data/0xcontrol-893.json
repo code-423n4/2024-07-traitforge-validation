@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xcontrol",
+  "risk": "3",
+  "title": "Users Unable to Mint NFTs Using TraitForgeNFT::mintWithBudget Function due to a logical error",
+  "issueId": 893,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/893"
+}
