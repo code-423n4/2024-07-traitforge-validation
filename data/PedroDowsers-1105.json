@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "PedroDowsers",
+  "risk": "2",
+  "title": "From EntropyGenerator contract, hashValue and pseudoRandomValue variables are pseudo-randomly generated, allowing for gameable NFT minting.",
+  "issueId": 1105,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1105"
+}
