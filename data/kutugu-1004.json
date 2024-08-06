@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "kutugu",
+  "risk": "2",
+  "title": "EntropyGenerator's initializeAlphaIndices uses wrong modifier",
+  "issueId": 1004,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1004"
+}
