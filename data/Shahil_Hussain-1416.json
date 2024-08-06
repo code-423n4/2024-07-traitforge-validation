@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Shahil_Hussain",
+  "risk": "3",
+  "title": "Users won't be able to mint NFTs using `TraitForgeNFT::mintWithBudget` function",
+  "issueId": 1416,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1416"
+}
