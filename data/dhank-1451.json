@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dhank",
+  "risk": "2",
+  "title": "A genration can have more than `maxTokensPerGen` tokens.",
+  "issueId": 1451,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1451"
+}
