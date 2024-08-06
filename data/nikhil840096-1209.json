@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "nikhil840096",
+  "risk": "3",
+  "title": "Attacker can front run and can claim  the `Golden God`.",
+  "issueId": 1209,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1209"
+}
