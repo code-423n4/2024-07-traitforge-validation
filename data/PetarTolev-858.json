@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "PetarTolev",
+  "risk": "2",
+  "title": "Due to the missing max budget limit, the `mintWithBudget` function will be unusable in some scenarios",
+  "issueId": 858,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/858"
+}
