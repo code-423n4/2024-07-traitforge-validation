@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "CyberscopeInterns",
+  "risk": "2",
+  "title": "Impossible execution of the `forgeWithListed` and `buyNFT` due to the `forgerOwner` or `listing.seller` advantage.",
+  "issueId": 968,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/968"
+}
