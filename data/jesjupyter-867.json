@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "jesjupyter",
+  "risk": "3",
+  "title": "`forgePotential` check is incorrect in `listForForging`",
+  "issueId": 867,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/867"
+}
