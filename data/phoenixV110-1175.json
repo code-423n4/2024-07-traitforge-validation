@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "phoenixV110",
+  "risk": "3",
+  "title": "Method ForgeWithListed in EntityForging doesn't refund excess Eth send to it as fee",
+  "issueId": 1175,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1175"
+}
