@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "ABAIKUNANBAEV",
+  "risk": "2",
+  "title": "Using blockhash and block.number is not optimal for randomness purposes",
+  "issueId": 809,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/809"
+}
