@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Pataroff",
+  "risk": "3",
+  "title": "Missing access modifier in `EntropyGenerator::initializeAlphaIndices`",
+  "issueId": 1277,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1277"
+}
