@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "ABAIKUNANBAEV",
+  "risk": "2",
+  "title": "initializeAlphaIndices() can be overridden by writeEntropyBatch3()",
+  "issueId": 830,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/830"
+}
