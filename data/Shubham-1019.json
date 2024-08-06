@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Shubham",
+  "risk": "2",
+  "title": "Users can claim airdrop even if they do not hold the nft they initially minted. Also the new owner can burn the token depriving the original owner of the airdrop. ",
+  "issueId": 1019,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1019"
+}
