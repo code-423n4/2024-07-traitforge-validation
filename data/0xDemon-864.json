@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xDemon",
+  "risk": "2",
+  "title": "`pause` / `unpause` functionality is not implemented in DevFund, EntityTrading, EntropyGenerator, NukeFund, EntityForging, and TraitForgeNft contracts",
+  "issueId": 864,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/864"
+}
