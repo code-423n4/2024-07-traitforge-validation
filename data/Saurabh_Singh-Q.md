@@ -28,7 +28,8 @@ The variable `initialNukeFactor` is calculated as
 
 @>      uint256 initialNukeFactor = entropy / 40; // calcualte initalNukeFactor based on entropy, 5 digits
 ```
-
+The above calculation can result a number with less than 5 digits.
+## Impact:-
 The comment specifies that initialNukeFactor should be a five-digit number. However, the entropy value fetched from TraitForgeNft.sol (calculated as a six-digit number in EntropyGenerator.sol) can result in a value less than five digits when divided by 40, leading to potential calculation errors within the contract.
 
 ## Proof Of Concept:-
@@ -38,6 +39,9 @@ if we divide 123456 by 40
 123456/40 will result a number with 4 digits 
 ```
 Numbers with less than 5 digits will trigger further calculation errors within the contract, preventing the project from functioning as intended.
+
+## Tool Used:-
+Manual review
 
 ## Recommanded Mitigation:-
 
@@ -86,6 +90,8 @@ The calculation within the `EntropyGenerator.sol::initializeAlphaIndices` functi
 uint256 slotIndexSelection = (hashValue % 258) + 512;
 ```
 The calculation limits `slotIndexSelection` assignments to indices 512 to 769, excluding lower indices.
+## Impact:-
+The lower indices in the array will never be assign as alpha index. 
 
 ## Proof of code :-
 The calculation given 
@@ -100,6 +106,8 @@ uint256 slotIndexSelection = (hashValue % 258) + 512;
 ```
 if the modulus part return 0 for any other number then
 0+512 =512  there is no chance for lower indices.
+## Tool used:-
+Manual Review
 
 ## Recommanded Mitigation:-
 Remove the old calculation and add the line as given below which return indices from 0 to 769.
@@ -149,6 +157,8 @@ uint256 hashValue =
 ```
 
 The randomness in the EntropyGenerator.sol::initializeAlphaIndices function can be exploited to generate a hash value that points to a specific user index. This allows users to manipulate the system to obtain alpha index values.
+## Impact:-
+The user can manipulate the hash value and can get alpha index entropy.
 
 ## Recommanded Mitigation:-
 
