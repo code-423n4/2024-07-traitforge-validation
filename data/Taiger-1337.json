@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Taiger",
+  "risk": "2",
+  "title": "The totalDevWeight value is too large or the msg.value value is too small, resulting in loss of precision",
+  "issueId": 1337,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1337"
+}
