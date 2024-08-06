@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "phoenixV110",
+  "risk": "2",
+  "title": "Function receive() in NukeFund doesn't check the address(0) before sending the Eth",
+  "issueId": 1140,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1140"
+}
