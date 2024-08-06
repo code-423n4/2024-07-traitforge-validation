@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "pep7siup",
+  "risk": "2",
+  "title": "State Modifying `getNextEntropy` Function Not Protected by `whenNotPaused`",
+  "issueId": 941,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/941"
+}
