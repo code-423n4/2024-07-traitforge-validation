@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "MrValioBg",
+  "risk": "2",
+  "title": "writeEntropy functions can be called by anyone, which according to the sponsor is wrong",
+  "issueId": 909,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/909"
+}
