@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "shikhar229169",
+  "risk": "2",
+  "title": "Incorrect timestamp assignment to `lastForgeResetTimestamp` in `EntityForging::_resetForgingCountIfNeeded` leads to disturbed accounting of forge potential",
+  "issueId": 1391,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1391"
+}
