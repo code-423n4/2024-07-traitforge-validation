@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "bareli",
+  "risk": "2",
+  "title": "can get \"fetchListings\" for zero listingCount.",
+  "issueId": 876,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/876"
+}
