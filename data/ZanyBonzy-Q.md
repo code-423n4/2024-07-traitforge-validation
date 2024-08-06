@@ -367,3 +367,112 @@ The documentation declares a `getTokenAge` function with which to calculate a to
 #### Recommended Mitigation Steps
 Recommend introducing this function.
 ***
+### 11. Weird operator approval logic in `nuke` function
+
+Links to affected code *
+
+https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/NukeFund/NukeFund.sol#L153-L162
+
+#### Impact
+
+In the `nuke` function, there are two approval checks. The first is standard, ensures that `msg.sender` is either the owner or is approved to spend the token. This means the token owner, token operator and any approved user can nuke the token. The next approval check then ensures that NukeFund.sol is approved to spend the token or is the operator of `msg.sender`. 
+This logic means that NukeFund.sol has to be made the operator of the caller, not the owner for nuking to be successful. If owner approves NukeFund.sol to be one of his operators through the `setApprovalForAll` function. This operator status is ignored when the owner's approved user or another operator attempts to nuke the token. It fails due to the check marked @note below.
+
+```solidity
+  function nuke(uint256 tokenId) public whenNotPaused nonReentrant {
+    require(
+      nftContract.isApprovedOrOwner(msg.sender, tokenId),
+      'ERC721: caller is not token owner or approved'
+    );
+    require(
+      nftContract.getApproved(tokenId) == address(this) ||
+        nftContract.isApprovedForAll(msg.sender, address(this)), //@note
+      'Contract must be approved to transfer the NFT.'
+    );
+```
+
+To prove this, the test case below can be copied and pasted into NukeFund.test.ts. 
+
+```ts
+  it('should nuke a token from operator', async function () {
+    const tokenId = 1;
+
+    // Mint a token
+    await nft.connect(owner).mintToken(merkleInfo.whitelist[0].proof, {
+      value: ethers.parseEther('1'),
+    });
+
+    // Send some funds to the contract
+    await user1.sendTransaction({
+      to: await nukeFund.getAddress(),
+      value: ethers.parseEther('1'),
+    });
+
+    const prevNukeFundBal = await nukeFund.getFundBalance();
+    // Ensure the token can be nuked
+    expect(await nukeFund.canTokenBeNuked(tokenId)).to.be.true;
+
+    const prevUserEthBalance = await ethers.provider.getBalance(
+      await owner.getAddress()
+    );
+    
+    // Approve user1
+    await nft.connect(owner).approve(user1, tokenId);
+
+    //user1 approves contract to be his own operator
+    await nft.connect(owner).setApprovalForAll(await nukeFund.getAddress(), true);
+
+    await nukeFund.connect(user1).nuke(tokenId);
+
+    const curUserEthBalance = await ethers.provider.getBalance(
+      await owner.getAddress()
+    );
+
+    const curNukeFundBal = await nukeFund.getFundBalance();
+    expect(curUserEthBalance).to.be.gt(prevUserEthBalance);
+    // Check if the token is burned
+    // expect(await nft.ownerOf(tokenId)).to.equal(ethers.ZeroAddress);
+    expect(await nft.balanceOf(owner)).to.eq(1);
+    expect(curNukeFundBal).to.be.lt(prevNukeFundBal);
+  });
+```
+
+The test reverts with a "Contract must be approved to transfer the NFT" error despite the fact that the owner already approved NukeFud.sol to be the operator.
+
+#### Recommended Mitigation Steps
+
+I believe this should check for owner's operator status instead.
+
+```solidity
+    require(
+      nftContract.getApproved(tokenId) == address(this) ||
+        nftContract.isApprovedForAll(owner(), address(this)), //@note
+      'Contract must be approved to transfer the NFT.'
+    );
+```
+***
+
+
+12.  `updateDev` can allow setting 0 weight to function as a `removeDev` function. It can help remove excess code
+
+Links to affected code *
+
+https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/DevFund/DevFund.sol#L40-L49
+
+#### Recommended Mitigation Steps
+```solidity
+  function updateDev(address user, uint256 weight) external onlyOwner {
+    DevInfo storage info = devInfo[user];
+   // require(weight > 0, 'Invalid weight');
+    require(info.weight > 0, 'Not dev address');
+    totalDevWeight = totalDevWeight - info.weight + weight;
+    info.pendingRewards += (totalRewardDebt - info.rewardDebt) * info.weight;
+    info.rewardDebt = totalRewardDebt;
+    info.weight = weight;
+    emit UpdateDev(user, weight);
+  }
+```
+
+***
+
+13.  Consider introducing a function to set the TraitForgeNFT's token/base uri
