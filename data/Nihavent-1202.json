@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Nihavent",
+  "risk": "2",
+  "title": "The `lastForgeResetTimestamp` mapping gets first set upon first listing or first forging, not token minting, this results in less forges than expected in first year after token minting",
+  "issueId": 1202,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1202"
+}
