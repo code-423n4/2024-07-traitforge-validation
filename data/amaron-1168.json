@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "amaron",
+  "risk": "2",
+  "title": "Incorrect `msg.value` Validation in `EntityForging::forgeWithListed` May Lock User Funds Permanently",
+  "issueId": 1168,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1168"
+}
