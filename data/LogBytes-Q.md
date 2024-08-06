@@ -1,4 +1,4 @@
-# Wrong total supply minted when deploying the contract
+# [L-01] Wrong total supply minted when deploying the contract
 
 Although the issue is out of scope, we would like to mention an issue with the deployment script setting the wrong token total supply. 
 
@@ -123,7 +123,7 @@ POC:
 ```
 
 
-# Swap function not correctly implemented in DaoFund.sol
+# [L-02] Swap function not correctly implemented in DaoFund.sol
 
 Although the contract is out of scope. we would like to mention it.
 
@@ -175,7 +175,7 @@ the `amountOutMin` must be specified by the user and result must be compared to 
 ```
 
 
-# User claim methods should not have whenNotPaused modifier
+# [L-03] User claim methods should not have whenNotPaused modifier
 
 Although the contract is out of scope, we would like to mention it.
 
@@ -203,6 +203,50 @@ Users should be able to withdraw their tokens or claim their airdrop tokens even
     userInfo[msg.sender] = 0;
   }
 ```
+
+# [L-04] Lack of initialization check in intializeAlphaIndeces
+**Description:**
+The `initializeAlphaIndices` function can be called multiple times without any check, which might reset important parameters.
+
+**Proof of Concept (PoC):**
+
+```solidity
+function initializeAlphaIndices() public whenNotPaused onlyOwner {
+    uint256 hashValue = uint256(
+        keccak256(abi.encodePacked(blockhash(block.number - 1), block.timestamp))
+    );
+
+    uint256 slotIndexSelection = (hashValue % 258) + 512;
+    uint256 numberIndexSelection = hashValue % 13;
+
+    slotIndexSelectionPoint = slotIndexSelection;
+    numberIndexSelectionPoint = numberIndexSelection;
+}
+
+```
+
+**Recommendation:**
+Add a flag to ensure `initializeAlphaIndices` can only be called once or under certain conditions.
+
+**Recommended Code:**
+
+```solidity
+function initializeAlphaIndices() public whenNotPaused onlyOwner {
+    require(!alphaIndicesInitialized, "Alpha indices already initialized.");
+    uint256 hashValue = uint256(
+        keccak256(abi.encodePacked(blockhash(block.number - 1), block.timestamp))
+    );
+
+    uint256 slotIndexSelection = (hashValue % 258) + 512;
+    uint256 numberIndexSelection = hashValue % 13;
+
+    slotIndexSelectionPoint = slotIndexSelection;
+    numberIndexSelectionPoint = numberIndexSelection;
+    alphaIndicesInitialized = true;
+}
+
+```
+
 
 # [G-01] When minting NFTs with a budget, for every mint there is ETH sent to the NukeFund contract
 
