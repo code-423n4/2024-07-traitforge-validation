@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "binary",
+  "risk": "3",
+  "title": " Critical Ownership Mismatch Prevents `TraitForgeNft` from Advancing Generations",
+  "issueId": 874,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/874"
+}
