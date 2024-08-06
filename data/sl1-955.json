@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "sl1",
+  "risk": "2",
+  "title": "When NFT is transferred, its allocation in the airdrop contract is not transferred with it.",
+  "issueId": 955,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/955"
+}
