@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "shui",
+  "risk": "3",
+  "title": "Incorrect comparison between forgingCount and forgePotential allows user to list one more time",
+  "issueId": 819,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/819"
+}
