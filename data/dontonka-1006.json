@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dontonka",
+  "risk": "2",
+  "title": "Owner is allowed to `set max nuke to any arbitrary` value above 50%",
+  "issueId": 1006,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1006"
+}
