@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0x0bserver",
+  "risk": "2",
+  "title": "Lack of Functionality to Pause Contracts Render `whenNotPaused` Modifier and `Pausable` Library Redundant",
+  "issueId": 1152,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1152"
+}
