@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Xcrypt",
+  "risk": "3",
+  "title": "Incorrect Ether transfer recipient in `nuke` function allows operator to receive claimed funds",
+  "issueId": 1097,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1097"
+}
