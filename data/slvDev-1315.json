@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "slvDev",
+  "risk": "3",
+  "title": "In edge cases `NukeFund::nuke(id)` won't send any ETH after burn",
+  "issueId": 1315,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1315"
+}
