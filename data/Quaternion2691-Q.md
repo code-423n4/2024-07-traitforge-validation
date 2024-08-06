@@ -38,3 +38,65 @@ contract EntityForging is IEntityForging, ReentrancyGuard, Ownable, Pausable {
 .
 }
 ``` 
+
+## [L-2] `EntropyGenerator::deriveTokenParameters` outputs wrong nukeFactor value
+
+**Lines of code**
+
+https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L152
+
+**Description**
+The `EntropyGenerator::deriveTokenParameters` wrongly informs the users of the nuking potential of Nfts by always giving nuking factor as 0. 
+
+**Impact**
+This would incorrectly inform the users of their initialNukeFactor, and eventually the potential amount of funds they can accrue in the nuking of NFT.
+
+**Proof of Concept**
+paste the following code in describe test of `EntropyGenerator.test.ts` 
+```javascript
+  it("should check that nuke factor is always zero", async function(){
+    let cnt = 0 ;
+    for(let slotIndex = 0 ; slotIndex<700 ; slotIndex++){
+      for(let numberIndex = 0; numberIndex<12 ; numberIndex++ ){
+        const [nukeFactor, x, y, z] = await entropyGenerator.deriveTokenParameters(slotIndex, numberIndex);
+        if(nukeFactor == 0n) cnt++;   
+      }
+    }
+    console.log(cnt); 
+  })
+```
+The count here will be 8400
+
+**Tools Used**
+Manual Review, Hardhat Test
+
+**Recommended Mitigation Steps**
+1. correct the number of trailing zeroes while calculating the nukeFactor.
+```diff
+    function deriveTokenParameters(
+    uint256 slotIndex,
+    uint256 numberIndex
+  )
+    public
+    view
+    returns (
+      uint256 nukeFactor,
+      uint256 forgePotential,
+      uint256 performanceFactor,
+      bool isForger
+    )
+  {
+    uint256 entropy = getEntropy(slotIndex, numberIndex);
+
+    // example calcualtions using entropyto derive game-related parameters
+-    nukeFactor = entropy / 4000000;
++    nukeFactor = entropy / 40; 
+.
+.
+.
+    return (nukeFactor, forgePotential, performanceFactor, isForger); 
+  }
+```
+**Assessed type**
+
+Math
