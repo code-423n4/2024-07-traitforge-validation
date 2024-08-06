@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "4B",
+  "risk": "2",
+  "title": "`EntityForging::listingCount` does not reduce when canceling",
+  "issueId": 913,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/913"
+}
