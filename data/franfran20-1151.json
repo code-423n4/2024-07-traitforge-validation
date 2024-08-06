@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "franfran20",
+  "risk": "3",
+  "title": "Invariant of 10,000 Entities Per Generation Breaks Due To The TraitForgeNft:`_incrementGeneration()` reset",
+  "issueId": 1151,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1151"
+}
