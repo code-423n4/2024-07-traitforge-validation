@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dreamcoder",
+  "risk": "2",
+  "title": "tx.origin Usage in startAirdrop",
+  "issueId": 1043,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1043"
+}
