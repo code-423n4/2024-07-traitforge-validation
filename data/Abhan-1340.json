@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Abhan",
+  "risk": "3",
+  "title": "Excess fees are not transfer back to user in `forgeWithListed` function and locked in contract",
+  "issueId": 1340,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1340"
+}
