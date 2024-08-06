@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "AuditGuy",
+  "risk": "2",
+  "title": "Unforeseen Transaction Disruption via Malicious `forgerOwner` or `listing.seller` Contracts",
+  "issueId": 965,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/965"
+}
