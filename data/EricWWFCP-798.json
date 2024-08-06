@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "EricWWFCP",
+  "risk": "2",
+  "title": "Uninitialized Variable - ageMultiplier",
+  "issueId": 798,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/798"
+}
