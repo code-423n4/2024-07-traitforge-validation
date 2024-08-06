@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "CyberscopeInterns",
+  "risk": "2",
+  "title": "Potential missing “the Golden God” entropy, of “999999” value from a generation, due to storing that value in the last elements of the `entropySlots` array.",
+  "issueId": 971,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/971"
+}
