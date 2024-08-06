@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "binary",
+  "risk": "2",
+  "title": " Overpayment Due to Lack of Refund Mechanism in EntityForging::forgeWithListed: Financial Imbalance and User Distrust",
+  "issueId": 878,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/878"
+}
