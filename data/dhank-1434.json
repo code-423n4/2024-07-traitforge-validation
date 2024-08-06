@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dhank",
+  "risk": "3",
+  "title": "Users cant mint tokens when the value of tokenId reaches maxTokensPerGen",
+  "issueId": 1434,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1434"
+}
