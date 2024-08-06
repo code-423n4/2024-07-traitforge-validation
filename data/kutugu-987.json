@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "kutugu",
+  "risk": "2",
+  "title": "TraitForgeNft’s MaxTokensPerGen limit may be bypassed",
+  "issueId": 987,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/987"
+}
