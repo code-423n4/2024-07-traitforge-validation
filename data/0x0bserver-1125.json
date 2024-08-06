@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0x0bserver",
+  "risk": "2",
+  "title": "Unintended Increase in Token Generations Beyond Protocol Limit",
+  "issueId": 1125,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1125"
+}
