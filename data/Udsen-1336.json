@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Udsen",
+  "risk": "2",
+  "title": "The `EntityForging.setTaxCut` function can be called to update the `taxCut` amount even when the `EntityForging` contract is paused thus incurring loss of funds on the `forgerOwner`",
+  "issueId": 1336,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1336"
+}
