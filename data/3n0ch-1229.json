@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "3n0ch",
+  "risk": "2",
+  "title": "In `EntropyGenerator`, `pseudoRandomValue` can not hold 13 six-digit numbers, which causes the last entropy slot be always less than `73664`",
+  "issueId": 1229,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1229"
+}
