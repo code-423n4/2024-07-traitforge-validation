@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "EaglesSecurity",
+  "risk": "2",
+  "title": "In EntityTrading.sol listNFTForSale() will fail for approved by NFT owner callers",
+  "issueId": 1207,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1207"
+}
