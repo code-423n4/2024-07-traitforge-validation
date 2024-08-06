@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Tonchi",
+  "risk": "2",
+  "title": "Lack of currentGeneration checks in `TraitForgeNft` contract, severe disruption of protocol's functionality, anyone can mint after maxGeneration also",
+  "issueId": 982,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/982"
+}
