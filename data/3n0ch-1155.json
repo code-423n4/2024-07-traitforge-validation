@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "3n0ch",
+  "risk": "3",
+  "title": "Sending native ETH in `EntityForging` and `EntityTrading` to the forger/seller will causes wasting the buyer's gas as an attacker could use a gas wasting contract as the forger/seller",
+  "issueId": 1155,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1155"
+}
