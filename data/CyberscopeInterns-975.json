@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "CyberscopeInterns",
+  "risk": "2",
+  "title": "The same NFTs are produced within the same generation if the same parentId is forged.",
+  "issueId": 975,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/975"
+}
