@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "shikhar229169",
+  "risk": "3",
+  "title": "`EntropyGenerator::writeEntropyBatch3` allows Golden God (999999) to exist in the slots, conflicting with the invariant: `1 Golden God per gen`",
+  "issueId": 842,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/842"
+}
