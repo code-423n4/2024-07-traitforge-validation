@@ -1,21 +1,4 @@
 
-## Low Risk Findings
-
-| Number | issue                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------- |
-| [L-01] | Pause/Unpause functionalities are not implemented in many pausable contracts                                           |
-| [L-02] | Inadequate Handling of Mappings                                                  |
-| [L-03] | Inconsistent Listing Count Management                                                           |
-| [L-04] | contract approvals not revoked                                            |
-| [L-05] | Inability to Set Approval for Address                                                                 |
-| [L-06] | Missing Active Listing Check in buyNFT Function                                                                     |
-| [L-07] | Consider Using Chainlink for Randomness |
-| [L-08] | Division Before Multiplication                                                              |
-| [L-09] | Sellers not prevented from buying their own NFTs                                                                        |
-| [L-10] | Listings cannot be updated                                                                                  |
-| [L-11] | Activate the Optimizer             |
-| [L-12] | Off by one error                                                 |
-| [L-13] | Low level calls to account with no code will not fail                                                |
 
 ## [L-01] Pause/Unpause functionalities are not implemented in many pausable contracts
 
@@ -52,64 +35,8 @@ function unpause() external onlyRole(DEFAULT_ADMIN_ROLE) {
 }
 ```
 
-///////////////
 
-## [L-02] Inadequate Handling of Mappings
-
-Summary
-The `cancelListingForForging` function in the current contract implementation is responsible for canceling the listing of a token, but it does not adequately update or clear the mappings related to token listings. Specifically, the function interacts with the listedTokenIds and listings mappings, but fails to manage these mappings correctly when a listing is canceled.
-
-The cancelListingForForging function performs the following steps:
-
-* The function verifies that the caller is either the owner of the token or the contract itself, ensuring that only authorized parties can cancel a listing.
-
-* The function checks whether the token is currently listed by examining the isListed flag in the listings mapping.
-
-* The function then invokes _cancelListingForForging(tokenId), which is intended to handle the actual cancellation of the listing.
-
-While these steps are correctly implemented, there is a critical oversight in managing the mappings used to track token listings.
-
-```javascript
-function cancelListingForForging(
-    uint256 tokenId
-  ) external whenNotPaused nonReentrant {
-    require(
-      nftContract.ownerOf(tokenId) == msg.sender ||
-        msg.sender == address(nftContract),
-      'Caller must own the token'
-    );
-    require(
-      listings[listedTokenIds[tokenId]].isListed,
-      'Token not listed for forging'
-    );
-
-    _cancelListingForForging(tokenId);
-  }
-```
-
-```javascript
-mapping(uint256 => uint256) public listedTokenIds;
-
-```
-This mapping associates a tokenId with an index used to retrieve the corresponding listing information.
-
-The current implementation does not update or delete the listedTokenIds mapping when a listing is canceled. As a result, the tokenId to index association remains intact, even though the token is no longer listed. This could lead to stale or incorrect listing data being retained.
-
-## This is also a problem when `forgeWithListed` is called as it does not delete the mapping correctly
-
-* Instances
-
-https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntityForging/EntityForging.sol#L194
-https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntityTrading/EntityTrading.sol#L106
-https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntityTrading/EntityTrading.sol#L83
-
-## recommendation
-
-When a listing is canceled, the mapping should be cleared or updated to reflect that the token is no longer listed. This ensures that the tokenId to index association does not persist unnecessarily.
-
-//////////////////
-
-## [L-03] Inconsistent Listing Count Management
+## [L-02] Inconsistent Listing Count Management
 
 The listingCount is incremented whenever a new listing is created through the listForForging function but is not decremented when a listing is canceled or utilized. This discrepancy can lead to significant issues in listing management, data integrity, and overall contract functionality.
 
@@ -183,9 +110,8 @@ function _cancelListingForForging(uint256 tokenId) internal {
 ```
 This should also be done in the `forgeWithListed` function
 
-/////////////////
 
-## [L-04] contract approvals not revoked
+## [L-03] contract approvals not revoked
 
 https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntityTrading/EntityTrading.sol#L48
 
@@ -210,28 +136,8 @@ If the contract retains approval to transfer the NFT after a sale or cancellatio
 
 Consider revoking approval of contract after sale or when calling `cancelListing`
 
-///////////////////
 
-## [L-05] Inability to Set Approval for Address
-
-In the codebase,  there dont seem to be a way that users are able to set approval for the contract address or addresses to manage their NFTs. This issue stems from the absence of functions in the nftContract that facilitate approval, specifically the setApproval functions. As a result, the `listNFTForSale` function will fail, preventing users from listing their NFTs for sale. The `listNFTForSale` function requires that the contract address be approved to transfer the NFT on behalf of the owner. 
-Without these functions to set approval, users cannot grant the contract address the necessary approval to transfer their NFTs,
-
-Since the listNFTForSale function checks if the contract address has approval to transfer the NFT (nftContract.getApproved(tokenId) == address(this) or nftContract.isApprovedForAll(msg.sender, address(this))), the absence of these functions means the check will always fail. Consequently, users will be unable to list their NFTs for sale through this function.
-
-```javascript
-require(
-      nftContract.getApproved(tokenId) == address(this) ||
-        nftContract.isApprovedForAll(msg.sender, address(this)),
-      'Contract must be approved to transfer the NFT.'
-    );
-```
-## Recommendations
-Add functions that will allow users to setApprovals to addresses they like
-
-////////////////
-
-## [L-06] Missing Active Listing Check in buyNFT Function
+## [L-04] Missing Active Listing Check in buyNFT Function
 
 https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntityTrading/EntityTrading.sol#L63
 
@@ -283,9 +189,7 @@ Update the buyNFT function to include a verification step to ensure that the lis
 require(listing.isActive, 'Listing is not active.'); 
 ```
 
-/////////////
-
-## [L-07] Consider Using Chainlink for Randomness
+## [L-05] Consider Using Chainlink for Randomness
 
 https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/EntropyGenerator/EntropyGenerator.sol#L9
 
@@ -300,13 +204,12 @@ given that Entropy is a measure of randomness that plays a crucial role in vario
 ## Recommendation
 Update the contract to incorporate Chainlink VRF for all randomness requirements. This involves requesting randomness from Chainlink VRF and incorporating the returned values into entropy calculations and other relevant operations.
 
-/////////////////
 
-## [L-08] Division Before Multiplication
+## [L-06] Division Before Multiplication
 
 https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/NukeFund/NukeFund.sol#L121
 
-In the calculateAge function, there is a precision issue caused by performing division before multiplication. This can result in inaccuracies in the final age calculation for NFTs. This is because multiplication is done on a result that was achived after some division
+Although this is not a direct division before multiplication it relies on a value that is already performing some divisions, In the calculateAge function, there is a precision issue caused by performing division before multiplication. This can result in inaccuracies in the final age calculation for NFTs. This is because multiplication is done on a result that was achived after some division
 
 Detailed Explanation
 The function calculates the age of an NFT based on the number of days since its creation and a performance factor derived from its entropy. The calculation is performed using the following formula:
@@ -343,9 +246,8 @@ The problem with this approach is that the division is performed after the multi
 ## Recommendation
 Use math libraries to prevent any precision issues
 
-///////////////////
 
-## [L-09] Sellers not prevented from buying their own NFTs
+## [L-07] Sellers not prevented from buying their own NFTs
 
 The current implementation of the listNFTForSale and buyNFT functions allows sellers to potentially purchase their own listed NFTs. This creates a loophole that could be exploited by malicious users to gain undue benefits, such as airdrops or other incentives tied to NFT ownership.
 
@@ -425,11 +327,9 @@ a seller might exploit this loophole by buying their own NFT to receive these be
 
  ```
 
- ///////////////////
+ ## [L-8] Listings cannot be updated
 
- ## [L-10] Listings cannot be updated
-
- The current implementation provides a mechanism for listing NFTs for sale and canceling these listings, but it lacks a functionality for updating existing listings. Specifically, once an NFT is listed for sale, users can only cancel the listing, but cannot modify the price or other relevant details without first canceling and re-listing the NFT.
+The current implementation provides a mechanism for listing NFTs for sale and canceling these listings, although it is sufficient, adding functionality for updating existing listings. Specifically, once an NFT is listed for sale, users can only cancel the listing, but cannot modify the price or other relevant details without first canceling and re-listing the NFT.
 
  ```javascript
  // Function to list NFT for sale
@@ -464,11 +364,10 @@ function listNFTForSale(
   Users who wish to adjust the sale price of their listed NFT are required to cancel the existing listing and then relist the NFT with the new price. This can be inefficient and may involve additional gas costs for multiple transactions.
 
   ## Recommendation
-  Introduce a function that allows users to update the price or other details of an existing listing. This function should ensure that only the owner of the listing can make updates and should verify that the listing exists and is active.
+Introduce a function that allows users to update the price or other details of an existing listing. This function should ensure that only the owner of the listing can make updates and should verify that the listing exists and is active. Please do this carefully so you dont introduce some issues.
 
-  ///////////////
 
-  ## [L-11] Activate the Optimizer
+## [L-9] Activate the Optimizer
 
 Before deploying your contract, activate the optimizer when compiling using “solc --optimize --bin sourceFile.sol”. By default, the optimizer will optimize the contract assuming it is called 200 times across its lifetime. If you want the initial contract deployment to be cheaper and the later function executions to be more expensive, set it to “ --optimize-runs=1”. Conversely, if you expect many transactions and do not care for higher deployment cost and output size, set “--optimize-runs” to a high number.
 
@@ -505,9 +404,8 @@ Disclaimer: There have been several bugs with security implications related to o
 
 A high-severity bug in the emscripten -generated solc-js compiler used by Truffle and Remix persisted until late 2018. The fix for this bug was not reported in the Solidity CHANGELOG. Another high-severity optimization bug resulting in incorrect bit shift results was patched in Solidity 0.5.6. Please measure the gas savings from optimizations, and carefully weigh them against the possibility of an optimization-related bug. Also, monitor the development and adoption of Solidity compiler optimizations to assess their maturity.
 
-//////////////////
 
-## [L-12] Off by one error
+## [L-10] Off by one error
 
 Using the <= operator for time comparisons against block.timestamp can introduce off-by-one errors due to the nature of how block.timestamp is updated only once per block. This can lead to unexpected behavior if the condition is met at the exact second when block.timestamp changes. This issue is especially critical in scenarios where time-sensitive operations are performed, potentially causing operations to revert unexpectedly or execute when they shouldn't.
 
@@ -533,10 +431,9 @@ In Solidity, using >= or <= to compare against block.timestamp (alias now) may i
 
 https://github.com/code-423n4/2024-07-traitforge/blob/main/contracts/TraitForgeNft/TraitForgeNft.sol#L52
 
-similar issue was reported in the euler contest
+similar issue was reported in the euler contest see below
 
-
-
+https://gist.github.com/ChaseTheLight01/4a609494e95d69594a7ab70e19536177#medium-5-off-by-one-timestamp-error
 Recommendation
 To avoid potential off-by-one errors, use strict inequality operators (> or <) instead of non-strict ones (>= or <=). This ensures that the condition only triggers after the specified time has completely passed.
 
@@ -548,9 +445,7 @@ To avoid potential off-by-one errors, use strict inequality operators (> or <) i
       );
 ```
 
-////////////////////
-
-## [L-13] : Low level calls to account with no code will not fail 
+## [L-11] Low level calls to account with no code will not fail 
 
 Low level calls to account with no code will not fail
 
