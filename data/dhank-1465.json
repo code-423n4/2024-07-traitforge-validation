@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dhank",
+  "risk": "3",
+  "title": "Loss of rewardDebt since msg.value is used for calculating `amountPerWeight` instead of `balanceOf(address.this)`",
+  "issueId": 1465,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1465"
+}
