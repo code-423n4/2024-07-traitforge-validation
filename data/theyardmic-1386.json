@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "theyardmic",
+  "risk": "2",
+  "title": "Unchecked Return Value of Uniswap Swap",
+  "issueId": 1386,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1386"
+}
