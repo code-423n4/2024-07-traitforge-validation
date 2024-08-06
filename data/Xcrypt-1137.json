@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Xcrypt",
+  "risk": "2",
+  "title": "Incorrect `Forge` Limit Check in `EntityForging` Contract",
+  "issueId": 1137,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1137"
+}
