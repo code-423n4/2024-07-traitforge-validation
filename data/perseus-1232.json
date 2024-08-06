@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "perseus",
+  "risk": "2",
+  "title": "Multiple Golden Gods possible due to incorrect validation",
+  "issueId": 1232,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1232"
+}
