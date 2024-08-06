@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "mashbust",
+  "risk": "3",
+  "title": "MintWithBudget() will never after 1st Generation has been minted",
+  "issueId": 1193,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1193"
+}
