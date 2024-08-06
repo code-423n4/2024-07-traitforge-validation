@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "LonelyWolfDemon",
+  "risk": "3",
+  "title": "Excessive Fee Not Returned to User in `forgeWithListed` Function",
+  "issueId": 1235,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1235"
+}
