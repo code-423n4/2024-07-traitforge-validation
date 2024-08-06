@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Pataroff",
+  "risk": "2",
+  "title": "Multiple contracts are intended to be pausable but aren't",
+  "issueId": 1208,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1208"
+}
