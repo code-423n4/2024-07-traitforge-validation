@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "nervouspika",
+  "risk": "2",
+  "title": "Using `ERC721.transferFrom()` instead of `safeTransferFrom()` may result in the user's NFT being locked in a contract that does not support ERC721",
+  "issueId": 1216,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1216"
+}
