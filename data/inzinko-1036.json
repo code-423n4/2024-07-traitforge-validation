@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "inzinko",
+  "risk": "3",
+  "title": "Dos Of Forge and minToken Function due to missing access control consideration",
+  "issueId": 1036,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1036"
+}
