@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "unique",
+  "risk": "2",
+  "title": " `listedTokenIds `mapping is not updated when a listing is canceled through the `_cancelListingForForging` function",
+  "issueId": 1279,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1279"
+}
