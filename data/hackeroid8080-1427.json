@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "hackeroid8080",
+  "risk": "2",
+  "title": "Denial of Service (DoS) due to delete Operation",
+  "issueId": 1427,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1427"
+}
