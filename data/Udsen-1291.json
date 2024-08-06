@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Udsen",
+  "risk": "2",
+  "title": "The rounding error introduced in the `age` value calculation of the `NukeFund.calculateAge` function will result in loss of funds to the `msg.sender` of the `NukeFund.nuke` transaction",
+  "issueId": 1291,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1291"
+}
