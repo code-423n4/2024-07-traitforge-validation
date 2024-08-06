@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "amaron",
+  "risk": "3",
+  "title": "`EntropyGenerator::writeEntropyBatch` functions are bad source of randomness",
+  "issueId": 1288,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1288"
+}
