@@ -30,7 +30,7 @@ The variable `initialNukeFactor` is calculated as
 ```
 The above calculation can result a number with less than 5 digits.
 ## Impact:-
-The comment specifies that initialNukeFactor should be a five-digit number. However, the entropy value fetched from TraitForgeNft.sol (calculated as a six-digit number in EntropyGenerator.sol) can result in a value less than five digits when divided by 40, leading to potential calculation errors within the contract.
+The comment specifies that `initialNukeFactor` should be a five-digit number. However, the entropy value fetched from TraitForgeNft.sol (calculated as a six-digit number in EntropyGenerator.sol) can result in a value less than five digits when divided by 40, leading to potential calculation errors within the contract.
 
 ## Proof Of Concept:-
 Example :- Because the value of entropy is a random number lets take a random number of 6 digits [123456]
@@ -65,7 +65,7 @@ function calculateNukeFactor(uint256 tokenId) public view returns (uint256) {
 The `slotIndexSelection` variable within the `EntropyGenerator.sol::initializeAlphaIndices` function introduces a bias, limiting the possibility of receiving an alphaIndex to users whose entropy values originate from `entropySlots` array indices 512 and above.
 
 ## Summary:-
-The incorrect calculation of the slotIndexSelection variable within the EntropyGenerator.sol::initializeAlphaIndices function creates a bias, unfairly limiting alphaIndex assignments to entropySlots array indices greater than 512.
+The incorrect calculation of the `slotIndexSelection` variable within the `EntropyGenerator.sol::initializeAlphaIndices` function creates a bias, unfairly limiting alphaIndex assignments to `entropySlots` array indices greater than 512.
 
 https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L211
 
@@ -211,4 +211,112 @@ function writeEntropyBatch3() public {
         }
         lastInitializedIndex = maxSlotIndex;
     }
+```
+
+# L-05
+The `EntityForging.sol::listForForging` function has an incorrect implementation for checking the forge potential of a token.
+
+## Vulnerability Details:-
+ Entropy is a random 6-digit number and the fifth digit is zero, then the user will be unable to list their token NFT for forging due to a faulty require check implementation.
+```
+     uint8 forgePotential = uint8((entropy / 10) % 10); // Extract the 5th digit from the entropy
+    require(
+      forgePotential > 0 && forgingCounts[tokenId] <= forgePotential,
+      'Entity has reached its forging limit'
+    );
+```
+Additionally, the condition `forgingCounts[tokenId] <= forgePotential` is incorrectly implemented. While the forgingCounts for a token increment with each forge, the forgePotential is a random value, which can lead to users being able to list their token for forging indefinitely.
+
+```
+function listForForging(
+    uint256 tokenId,
+    uint256 fee
+  ) public whenNotPaused nonReentrant {
+    Listing memory _listingInfo = listings[listedTokenIds[tokenId]];
+
+    require(!_listingInfo.isListed, 'Token is already listed for forging');
+    require(
+      nftContract.ownerOf(tokenId) == msg.sender,
+      'Caller must own the token'
+    );
+    require(
+      fee >= minimumListFee,
+      'Fee should be higher than minimum listing fee'
+    );
+
+    _resetForgingCountIfNeeded(tokenId);
+
+    uint256 entropy = nftContract.getTokenEntropy(tokenId); // Retrieve entropy for tokenId
+@>    uint8 forgePotential = uint8((entropy / 10) % 10); // Extract the 5th digit from the entropy
+@>    require(
+      forgePotential > 0 && forgingCounts[tokenId] <= forgePotential,
+      'Entity has reached its forging limit'
+    );
+
+    bool isForger = (entropy % 3) == 0; // Determine if the token is a forger based on entropy
+    require(isForger, 'Only forgers can list for forging');
+
+    ++listingCount;
+    listings[listingCount] = Listing(msg.sender, tokenId, true, fee);
+    listedTokenIds[tokenId] = listingCount;
+
+    emit ListedForForging(tokenId, fee);
+  }
+```
+
+## Impact:-
+Users with a 0 as the fifth digit in their entropy will be permanently unable to list their tokens for forging, resulting in unfair treatment and a lack of equal opportunity within the game.
+
+## Proof Of code :-
+let the value of entropy is 589412.
+```
+forgePotential = 1 // 5th fifth digit
+
+// the user will be able to list its token only twice because of the following condition in funciton.
+
+require(
+      forgePotential > 0 && forgingCounts[tokenId] <= forgePotential
+```
+
+## Recommanded Mitigation:-
+```
+function listForForging(
+    uint256 tokenId,
+    uint256 fee
+  ) public whenNotPaused nonReentrant {
+    Listing memory _listingInfo = listings[listedTokenIds[tokenId]];
+
+    require(!_listingInfo.isListed, 'Token is already listed for forging');
+    require(
+      nftContract.ownerOf(tokenId) == msg.sender,
+      'Caller must own the token'
+    );
+    require(
+      fee >= minimumListFee,
+      'Fee should be higher than minimum listing fee'
+    );
+
+    _resetForgingCountIfNeeded(tokenId);
+
+    uint256 entropy = nftContract.getTokenEntropy(tokenId); // Retrieve entropy for tokenId
+-    uint8 forgePotential = uint8((entropy / 10) % 10); // Extract the 5th digit from the entropy
+-    require(
+      forgePotential > 0 && forgingCounts[tokenId] <= forgePotential,
+      'Entity has reached its forging limit'
+    );
++   // we should declare a storage variable at start of contract upto how many time every user can forge.
++   // lets say forgePotential =10.
++    require(forgingCounts[tokenId] <= forgePotential,
+      'Entity has reached its forging limit');
++ // This will give every user a fair number of forge.
+
+    bool isForger = (entropy % 3) == 0; // Determine if the token is a forger based on entropy
+    require(isForger, 'Only forgers can list for forging');
+
+    ++listingCount;
+    listings[listingCount] = Listing(msg.sender, tokenId, true, fee);
+    listedTokenIds[tokenId] = listingCount;
+
+    emit ListedForForging(tokenId, fee);
+  }
 ```
