@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "mashbust",
+  "risk": "3",
+  "title": "Potential Denial of Service (DoS) by NFT Seller in the buyNFT Process",
+  "issueId": 1316,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1316"
+}
