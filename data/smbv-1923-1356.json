@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "smbv-1923",
+  "risk": "2",
+  "title": "Excess fees is not transferred to user and gets locked in contract.",
+  "issueId": 1356,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1356"
+}
