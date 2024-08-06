@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "cheatc0d3",
+  "risk": "2",
+  "title": "Incorrect Reward Calculation in UpdateDev Function Due to Incorrect Order of Operations",
+  "issueId": 1424,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1424"
+}
