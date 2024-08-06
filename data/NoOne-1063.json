@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "NoOne",
+  "risk": "2",
+  "title": "Call to non-existing contracts returns success",
+  "issueId": 1063,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1063"
+}
