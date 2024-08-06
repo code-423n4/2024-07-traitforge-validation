@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dhank",
+  "risk": "3",
+  "title": "MintPrice is wrongly calculated for the First token starting from Gen 2",
+  "issueId": 1423,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1423"
+}
