@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Shahil_Hussain",
+  "risk": "2",
+  "title": "`EntityTrading::buyNft` when called by a buyer is pushing the funds to EOA or contract of NFT seller instead of letting them pull their funds",
+  "issueId": 1388,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1388"
+}
