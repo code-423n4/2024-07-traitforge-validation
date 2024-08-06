@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "pfapostol",
+  "risk": "3",
+  "title": "excess funds sent by the merger during `forgeWithListed` will be stuck in the `EntityForging `",
+  "issueId": 1284,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1284"
+}
