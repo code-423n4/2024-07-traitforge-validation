@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dyoff",
+  "risk": "2",
+  "title": "Omitted Check For Maximum Generation Count Allows Excessive Minting",
+  "issueId": 1211,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1211"
+}
