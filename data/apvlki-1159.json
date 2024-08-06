@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "apvlki",
+  "risk": "2",
+  "title": "Setting airdropContract to a different contract address/zero address or EOA address will revert all ETH transfer to this contract",
+  "issueId": 1159,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1159"
+}
