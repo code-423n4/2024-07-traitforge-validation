@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "inzinko",
+  "risk": "2",
+  "title": "Inconsistent implementation of refund policy leads to loss of funds for users",
+  "issueId": 1361,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1361"
+}
