@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "StaceyWong",
+  "risk": "3",
+  "title": "Miscalculation in the `calculateMintPrice` function when `currentGeneration` exceeds `maxGeneration`, allowing tokens to be minted at a lower price than intended.",
+  "issueId": 797,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/797"
+}
