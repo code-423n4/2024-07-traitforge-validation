@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "hail_the_lord",
+  "risk": "3",
+  "title": "Tokens with Maturity Less Than 3 Days Can Be Nuked Leading to Loss of Funds",
+  "issueId": 1436,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1436"
+}
