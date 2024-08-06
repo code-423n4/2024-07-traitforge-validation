@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Udsen",
+  "risk": "3",
+  "title": "The `TraitForgeNft.mintWithBudget` function can only `batch mint` the `TraitForgeNfts` of the first generation",
+  "issueId": 1176,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1176"
+}
