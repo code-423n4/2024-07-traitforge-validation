@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "rekxor",
+  "risk": "3",
+  "title": "The `seller` of the `entity` being listed for sale can always revert the call `buyNFT()` invoked",
+  "issueId": 1264,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1264"
+}
