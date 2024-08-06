@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xblackskull",
+  "risk": "2",
+  "title": " Preventing multiple listings for the same NFT in listNFTForSale()",
+  "issueId": 1219,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1219"
+}
