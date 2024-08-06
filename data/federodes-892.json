@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "federodes",
+  "risk": "3",
+  "title": "[H-03] In `EntropyGenerator::getNextEntropy`, the variables `currentSlotIndex`, `slotIndexSelectionPoint`, `currentNumberIndex`, and `numberIndexSelectionPoint` are accessible from storage, potentially allowing front-running attacks to predict and select maximum entropy before minting.",
+  "issueId": 892,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/892"
+}
