@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "cryptomoon",
+  "risk": "3",
+  "title": "There can be more than maxTokensPerGen in generation due to incorrect _incrementGeneration function",
+  "issueId": 855,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/855"
+}
