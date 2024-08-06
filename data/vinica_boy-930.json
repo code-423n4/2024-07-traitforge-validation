@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "vinica_boy",
+  "risk": "3",
+  "title": "Users can deliberately revert transactions if the entropy they get is not good enough for them",
+  "issueId": 930,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/930"
+}
