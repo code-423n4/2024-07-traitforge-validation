@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "AuditGuy",
+  "risk": "3",
+  "title": "The `claim` function in `DevFund.sol` drains all contract funds on each execution.",
+  "issueId": 954,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/954"
+}
