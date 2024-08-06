@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Nihavent",
+  "risk": "2",
+  "title": "Due to an incorrect `require` statement in the `writeEntropyBatch()` functions, there is no protection against multiple 'Golden God' tokens apprearing in a single generation",
+  "issueId": 1178,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1178"
+}
