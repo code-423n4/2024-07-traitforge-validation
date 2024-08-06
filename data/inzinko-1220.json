@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "inzinko",
+  "risk": "3",
+  "title": "Users will loose Funds when nuking due to rounding error during calculations",
+  "issueId": 1220,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1220"
+}
