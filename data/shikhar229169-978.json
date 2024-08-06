@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "shikhar229169",
+  "risk": "2",
+  "title": "Mint price check occurring before `_incrementGeneration` leads to incorrect mint price accounting for the first normal token mint of newly incremented generation",
+  "issueId": 978,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/978"
+}
