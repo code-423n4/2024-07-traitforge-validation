@@ -1,4 +1,4 @@
-# L-01:
+# L-01
 The `initialNukeFactor` variable in the `NukeFund.sol::calculateNukeFactor` function is calculated incorrectly, resulting in a wrong value.
 
 ## Summary:-
@@ -78,10 +78,10 @@ https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332c
     slotIndexSelectionPoint = slotIndexSelection;
     numberIndexSelectionPoint = numberIndexSelection;
   }
-}
+
 ```
 ## Vulnerability Details:-
-The calculation within the EntropyGenerator.sol::initializeAlphaIndices function is implemented incorrectly, introducing a bias into the system.
+The calculation within the `EntropyGenerator.sol::initializeAlphaIndices` function is implemented incorrectly, introducing a bias into the system.
 ```
 uint256 slotIndexSelection = (hashValue % 258) + 512;
 ```
@@ -117,5 +117,39 @@ Remove the old calculation and add the line as given below which return indices 
     slotIndexSelectionPoint = slotIndexSelection;
     numberIndexSelectionPoint = numberIndexSelection;
   }
-}
+
 ```
+
+# L-03
+`EntropyGenerator.sol::initializeAlphaIndices` use a weak random number generator  can be manipulated by user.
+
+## Summary
+The random number generator in the `EntropyGenerator.sol::initializeAlphaIndices` is weak and can be manipulated by user to get a number which is profitable to them.
+
+https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L207
+```
+function initializeAlphaIndices() public whenNotPaused onlyOwner {
+@>        uint256 hashValue = 
+            uint256(keccak256(abi.encodePacked(blockhash(block.number - 1), 
+                     block.timestamp)));
+
+        uint256 slotIndexSelection = (hashValue % 258) + 512;
+        uint256 numberIndexSelection = hashValue % 13;
+
+        slotIndexSelectionPoint = slotIndexSelection; 
+        numberIndexSelectionPoint = numberIndexSelection; 
+    }
+```
+## Vulnerability Details:-
+The weak random number generator can be manipulated buy the user.
+```
+uint256 hashValue = 
+            uint256(keccak256(abi.encodePacked(blockhash(block.number - 1), 
+                     block.timestamp)));
+```
+
+The randomness in the EntropyGenerator.sol::initializeAlphaIndices function can be exploited to generate a hash value that points to a specific user index. This allows users to manipulate the system to obtain alpha index values.
+
+## Recommanded Mitigation:-
+
+Integrating Chainlink's Verifiable Random Function (VRF) can provide a robust solution for generating truly random numbers, eliminating the possibility of manipulation and ensuring fairness in the alpha index assignment process.
