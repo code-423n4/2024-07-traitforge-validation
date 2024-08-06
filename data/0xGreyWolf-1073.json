@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "0xGreyWolf",
+  "risk": "2",
+  "title": "`TraitForge:mintToken()` can be intentionally reverted if the generated `entropyValue` is unfavorable. ",
+  "issueId": 1073,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1073"
+}
