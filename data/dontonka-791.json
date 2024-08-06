@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dontonka",
+  "risk": "2",
+  "title": "`getNextEntropy` is lacking `whenNotPaused` modifier which allow player to mint even if the contract is paused",
+  "issueId": 791,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/791"
+}
