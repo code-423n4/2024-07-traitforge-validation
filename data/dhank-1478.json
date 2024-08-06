@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "dhank",
+  "risk": "2",
+  "title": "Extra division by MAX_DENOMINATOR which leads to incorrect calculation of potentialClaimAmount.",
+  "issueId": 1478,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1478"
+}
