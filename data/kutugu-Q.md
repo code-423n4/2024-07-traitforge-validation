@@ -1,11 +1,12 @@
 # Findings Summary
 
-| ID     | Title                                                                | Severity |
-| ------ | -------------------------------------------------------------------- | -------- |
-| [L-01] | Arbitrageurs can always mint high-value NFTs without loss            | Low      |
-| [L-02] | NFT.mint lack slippage protection                                    | Low      |
-| [L-03] | ForgeWithListed did not refund excess funds                          | Low      |
-| [L-04] | Entropy may be zero causing loss of user funds                       | Low      |
+| ID     | Title                                                                | Severity     |
+| ------ | -------------------------------------------------------------------- | --------     |
+| [L-01] | Arbitrageurs can always mint high-value NFTs without loss            | Low          |
+| [L-02] | NFT.mint lack slippage protection                                    | Low          |
+| [L-03] | ForgeWithListed did not refund excess funds                          | Low          |
+| [L-04] | Entropy may be zero causing loss of user funds                       | Low          |
+| [N-01] | There seems to be a problem with the calculation of slotValue        | Non-Critical |
 
 # Detailed Findings
 
@@ -112,3 +113,33 @@ In addition, the entropy calculation formula may also produce a zero value when 
 ## Recommendations
 
 Should not allow users to mint nft if entropy is zero.
+
+# [N-01] There seems to be a problem with the calculation of slotValue
+
+## Description
+
+```solidity
+    function writeEntropyBatch1() public {
+        require(lastInitializedIndex < batchSize1, 'Batch 1 already initialized.');
+
+        uint256 endIndex = lastInitializedIndex + batchSize1; // calculate the end index for the batch
+        unchecked {
+            for (uint256 i = lastInitializedIndex; i < endIndex; i++) {
+                uint256 pseudoRandomValue = uint256(
+                    keccak256(abi.encodePacked(block.number, i))
+                ) % uint256(10) ** 78; // generate a  pseudo-random value using block number and index
+                require(pseudoRandomValue != 999999, 'Invalid value, retry.');
+                entropySlots[i] = pseudoRandomValue; // store the value in the slots array
+            }
+        }
+        lastInitializedIndex = endIndex;
+    }
+
+```
+
+According to the whitepaper, each slot contains a 78 digit number, but the code implementation performs a modulo operation on `uint256(10) ** 78`, which seems to be an incorrect implementation.
+Because `type(uint256).max < uint256(10) ** 78`, `uint256(10) ** 78` will only overflow to a value within uint256, causing slotValue to be smaller than the overflowed value, which is a 77 digit number.
+
+## Recommendations
+
+There is no need to take the remainder here.
