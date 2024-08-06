@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "McToady",
+  "risk": "2",
+  "title": "Raw call to `forgerOwner` in `EntityForging::forgeWithListed` could cause issues",
+  "issueId": 1226,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1226"
+}
