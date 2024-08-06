@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "ABAIKUNANBAEV",
+  "risk": "3",
+  "title": "Mint price is incorrectly calculated if the generationMintCounts >= maxTokensPerGen",
+  "issueId": 1249,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1249"
+}
