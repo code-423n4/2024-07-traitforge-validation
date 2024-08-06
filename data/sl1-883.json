@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "sl1",
+  "risk": "2",
+  "title": "Off-by-one error in `forgePotential` limit check.",
+  "issueId": 883,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/883"
+}
