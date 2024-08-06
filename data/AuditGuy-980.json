@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "AuditGuy",
+  "risk": "2",
+  "title": "Unintended Fund Locking in `EntityForging.sol` due to Unhandled Excess `msg.value`",
+  "issueId": 980,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/980"
+}
