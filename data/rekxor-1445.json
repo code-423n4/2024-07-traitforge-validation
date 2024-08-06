@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "rekxor",
+  "risk": "2",
+  "title": "The `paddedEntropy` returned for `entropy` with less than 6 digits from the `slotValue`  will always have `age = 0`",
+  "issueId": 1445,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1445"
+}
