@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "yixxas",
+  "risk": "2",
+  "title": "Pausing of the Airdrop.sol contract will incidentally pause minting, `forge()` and `burn()` of the TraitForgeNft.sol contract",
+  "issueId": 1000,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1000"
+}
