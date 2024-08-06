@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "pfapostol",
+  "risk": "3",
+  "title": "Incorrect random value checks in `EntropyGenerator` violates the rules for the golden god.",
+  "issueId": 924,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/924"
+}
