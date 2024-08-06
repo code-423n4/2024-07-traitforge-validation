@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "VulnViper",
+  "risk": "2",
+  "title": "Incorrect mint price calculation prior to `_mintInternal` function execution.",
+  "issueId": 840,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/840"
+}
