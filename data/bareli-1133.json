@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "bareli",
+  "risk": "2",
+  "title": "cannot buy the NFT if  msg.value is greater than listing price.",
+  "issueId": 1133,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1133"
+}
