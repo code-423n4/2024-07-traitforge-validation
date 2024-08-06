@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "pep7siup",
+  "risk": "3",
+  "title": "Incorrect Access Control in `EntropyGenerator:initializeAlphaIndices`",
+  "issueId": 950,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/950"
+}
