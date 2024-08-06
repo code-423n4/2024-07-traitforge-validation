@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "DemoreX",
+  "risk": "2",
+  "title": "Max generation can be passed while minting due to unchecked max generation variable",
+  "issueId": 1371,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1371"
+}
