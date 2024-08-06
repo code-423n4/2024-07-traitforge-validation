@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "amaron",
+  "risk": "3",
+  "title": "frontrunning in `NukeFund::Nuke` might lead users to lose up to 50% of their `claimAmount` prize",
+  "issueId": 1214,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1214"
+}
