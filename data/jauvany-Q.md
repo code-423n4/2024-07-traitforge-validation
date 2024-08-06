@@ -1,3 +1,5 @@
+# Non Critical Issues
+
 # 1: Spelling Errors
 
 Vulnerability details
@@ -199,3 +201,38 @@ Manual Analysis
 ### Recommended Mitigation Steps
 
 Lock pragma versions
+
+# Low Impact Vulnerabilities
+
+# 1: Solidity version 0.8.23 won't work on all chains due to MCOPY
+
+Vulnerability details
+
+## Context:
+
+Solidity version 0.8.23 introduces the MCOPY opcode, this may not be implemented on all chains and L2 thus reducing the portability and compatibility of the code. Consider using an earlier solidity version.
+
+
+## Proof of Concept
+
+
+### 1 Result - 6 Instances
+
+> ***File: All files in scope***
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/DevFund/DevFund.sol#L2
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntityForging/EntityForging.sol#L2
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntityTrading/EntityTrading.sol#L2
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/EntropyGenerator/EntropyGenerator.sol#L2
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/NukeFund/NukeFund.sol#L2
+
+https://github.com/jauvany/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/TraitForgeNft/TraitForgeNft.sol#L2
+
+## Tools Used
+
+Manual Analysis
+
