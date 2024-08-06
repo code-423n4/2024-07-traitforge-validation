@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "AvantGard",
+  "risk": "2",
+  "title": "Mishandling of `forgingCounts` reset in `_resetForgingCountIfNeeded`",
+  "issueId": 1378,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1378"
+}
