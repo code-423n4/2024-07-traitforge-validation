@@ -1,24 +1,26 @@
 # QA Report for **TraitForge**
+
 ## Table of Contents
 
-| Issue ID | Description |
-| -------- | ----------- |
-| [QA-01](#qa-01-approved-contracts-cannot-list-or-cancel-nft-sales) | Approved Contracts Cannot List or Cancel NFT Sales |
-| [QA-02](#qa-02-fix-typos-_multiple-instances_) | Fix Typos _Multiple Instances_ |
-| [QA-03](#qa-03-remove-stale-information-from-the-whitepaper) | Remove Stale Information From The Whitepaper |
-| [QA-04](#qa-04-consider-attaching-a-sister-functionality-to-claim/removedev()) | Consider Attaching A Sister Functionality To `claim/removeDev()` |
-| [QA-05](#qa-05-missing-events-for-important-state-changes) | Missing Events for Important State Changes |
-| [QA-06](#qa-06-setter-functions-lack-equality-checks) | Setter Functions Lack Equality Checks |
-| [QA-07](#qa-07-buynft()-can-be-front-ran) | buyNFT() Can Be Front-ran |
-| [QA-08](#qa-08-lack-of-price-update-functionality-for-listings) | Lack of Price Update Functionality for Listings |
-| [QA-09](#qa-09-inconsistency-of-the-maturity-period) | Inconsistency Of The Maturity Period |
-| [QA-10](#qa-10-insufficient-randomness-in-entropy-generation) | Insufficient Randomness in Entropy Generation |
-| [QA-11](#qa-11-inefficient-time-conversion-in-nukefund#calculateage()) | Inefficient Time Conversion in `NukeFund#calculateAge()` |
-| [QA-12](#qa-12-missing-explicit-maturation-time-range) | Missing Explicit Maturation Time Range |
-| [QA-13](#qa-13-fix-unbounded-tax-cut-setting) | Fix Unbounded Tax Cut Setting |
-| [QA-14](#qa-14-lack-of-royalty-mechanism-for-original-creators) | Lack of Royalty Mechanism for Original Creators |
-| [QA-15](#qa-15-entropy-generation-should-use-blockhash()) | Entropy Generation Should Use `BlockHash()` |
-| [QA-16](#qa-16-import-declarations-should-import-specific-identifiers-rather-than-the-whole-file) | Import declarations should import specific identifiers, rather than the whole file |
+| Issue ID                                                                         | Description                                                      |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [QA-01](#qa-01-approved-contracts-cannot-list-or-cancel-nft-sales)               | Approved Contracts Cannot List or Cancel NFT Sales               |
+| [QA-02](#qa-02-fix-typos-_multiple-instances_)                                   | Fix Typos _Multiple Instances_                                   |
+| [QA-03](#qa-03-remove-stale-information-from-the-whitepaper)                     | Remove Stale Information From The Whitepaper                     |
+| [QA-04](<#qa-04-consider-attaching-a-sister-functionality-to-claim/removedev()>) | Consider Attaching A Sister Functionality To `claim/removeDev()` |
+| [QA-05](#qa-05-missing-events-for-important-state-changes)                       | Missing Events for Important State Changes                       |
+| [QA-06](#qa-06-setter-functions-lack-equality-checks)                            | Setter Functions Lack Equality Checks                            |
+| [QA-07](<#qa-07-buynft()-can-be-front-ran>)                                      | buyNFT() Can Be Front-ran                                        |
+| [QA-08](#qa-08-lack-of-price-update-functionality-for-listings)                  | Lack of Price Update Functionality for Listings                  |
+| [QA-09](#qa-09-inconsistency-of-the-maturity-period)                             | Inconsistency Of The Maturity Period                             |
+| [QA-10](#qa-10-insufficient-randomness-in-entropy-generation)                    | Insufficient Randomness in Entropy Generation                    |
+| [QA-11](<#qa-11-inefficient-time-conversion-in-nukefund#calculateage()>)         | Inefficient Time Conversion in `NukeFund#calculateAge()`         |
+| [QA-12](#qa-12-missing-explicit-maturation-time-range)                           | Missing Explicit Maturation Time Range                           |
+| [QA-13](#qa-13-fix-unbounded-tax-cut-setting)                                    | Fix Unbounded Tax Cut Setting                                    |
+| [QA-14](#qa-14-lack-of-royalty-mechanism-for-original-creators)                  | Lack of Royalty Mechanism for Original Creators                  |
+| [QA-15](<#qa-15-entropy-generation-should-use-blockhash()>)                      | Entropy Generation Should Use `BlockHash()`                      |
+| [QA-16](#qa-16-remove-test-codes-prior-to-live-production)                       | Remove Test Codes Prior To Live Production                       |
+
 ## QA-01 Approved Contracts Cannot List or Cancel NFT Sales
 
 ### Proof of Concept
@@ -656,31 +658,55 @@ uint256 pseudoRandomValue = uint256(
 ) % uint256(10) ** 78;
 ```
 
-## QA-16 Import declarations should import specific identifiers, rather than the whole file
+## QA-16 Remove Test Codes Prior To Live Production
 
 ### Proof of Concept
 
-Multiple instances in scope, for example take a look at https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/NukeFund/NukeFund.sol#L1-L11
+Multiple instances in scope we see helper vars/functionalities and what not that are meant to be for testing purposes still existing in code, for e.g see https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/NukeFund/NukeFund.sol#L24-L25
 
 ```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
-
-import '@openzeppelin/contracts/access/Ownable.sol';
-import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
-import '@openzeppelin/contracts/security/Pausable.sol';
-import './INukeFund.sol';
-import '../TraitForgeNft/ITraitForgeNft.sol';
-import '../Airdrop/IAirdrop.sol';
+  uint256 public ageMultiplier;
 
 ```
 
-Evidently, the imports being done is not name specific, but this is not the best implementation cause this could lead to polluting the symbol namespace.
+Also https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/NukeFund/NukeFund.sol#L109-L115
+
+```solidity
+  function setAgeMultplier(uint256 _ageMultiplier) external onlyOwner {
+    ageMultiplier = _ageMultiplier;
+  }
+
+  function getAgeMultiplier() public view returns (uint256) {
+    return ageMultiplier;
+  }
+```
+
+The `ageMultiplier` is completely of no use to the protocol in live production and as such should be removed.
 
 ### Impact
 
-QA, albeit this could lead to the potential pollution of the symbol namespace and a slower compilation speed.
+QA
 
 ### Recommended Mitigation Steps
 
-Consider using import declarations of the form `import {<identifier_name>} from "some/file.sol"` which avoids polluting the symbol namespace making flattened files smaller, and speeds up compilation (but does not save any gas)
+Apply these changes:
+
+https://github.com/code-423n4/2024-07-traitforge/blob/279b2887e3d38bc219a05d332cbcb0655b2dc644/contracts/NukeFund/NukeFund.sol#L11-L196
+
+```diff
+contract NukeFund is INukeFund, ReentrancyGuard, Ownable, Pausable {
+  uint256 public constant MAX_DENOMINATOR = 100000;
+..snip
+-  uint256 public ageMultiplier;
+..snip
+
+
+-  function setAgeMultplier(uint256 _ageMultiplier) external onlyOwner {
+-    ageMultiplier = _ageMultiplier;
+-  }
+-
+-  function getAgeMultiplier() public view returns (uint256) {
+-    return ageMultiplier;
+-  }
+..snip
+```
