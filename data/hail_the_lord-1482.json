@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "hail_the_lord",
+  "risk": "2",
+  "title": "Misleading lastInitializedIndex Handling (Incorrect Slot Initialization Count)",
+  "issueId": 1482,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1482"
+}
