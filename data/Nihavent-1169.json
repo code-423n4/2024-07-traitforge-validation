@@ -1,0 +1,8 @@
+{
+  "contest": 420,
+  "handle": "Nihavent",
+  "risk": "3",
+  "title": "`TraitForgeNft::_incrementGeneration()` resets `generationMintCounts` which erases previously forged token count, as a result more tokens than `maxTokensPerGen` can be minted in a given generation",
+  "issueId": 1169,
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1169"
+}
