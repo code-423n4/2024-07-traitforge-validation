@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`Forging` with `excess funds` is not reimbursed to the merger and is stuck in the contract forever",
   "issueId": 279,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/279"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/279",
+  "validatedIssueId": 881,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/881"
 }
