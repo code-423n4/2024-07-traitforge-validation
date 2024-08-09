@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "The receive function is designed to distribute incoming Ether among developers based on their weights (totalDevWeight). ",
   "issueId": 1443,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1443"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1443",
+  "validatedIssueId": 244,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/244"
 }
