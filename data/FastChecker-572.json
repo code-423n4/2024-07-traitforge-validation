@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Various problems may arise due to incorrect implementation of `_mintInternal()`.",
   "issueId": 572,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/572"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/572",
+  "validatedIssueId": 739,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/739"
 }
