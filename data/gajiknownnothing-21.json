@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Cannot mint NFT in batch if `_tokenIds >= maxTokensPerGen`",
   "issueId": 21,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/21"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/21",
+  "validatedIssueId": 999,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/999"
 }
