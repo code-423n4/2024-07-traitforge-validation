@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "We can exceed the 10th generation",
   "issueId": 688,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/688"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/688",
+  "validatedIssueId": 661,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/661"
 }
