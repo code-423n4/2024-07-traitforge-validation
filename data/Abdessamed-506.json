@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incorrect dheck renders `mintWithBudget` ineffective after first generation minting",
   "issueId": 506,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/506"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/506",
+  "validatedIssueId": 778,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/778"
 }
