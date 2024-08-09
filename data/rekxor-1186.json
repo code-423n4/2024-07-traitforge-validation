@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`EntityForging.sol::forgeWithListed()` allows merger to call function with `msg.value` > Listing.fee but the excess amount is not refunded back to the caller(merger)",
   "issueId": 1186,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1186"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1186",
+  "validatedIssueId": 385,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/385"
 }
