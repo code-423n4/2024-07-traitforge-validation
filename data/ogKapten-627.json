@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Inconsistent Access Control for `initializeAlphaIndices` Prevents Generation Increment",
   "issueId": 627,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/627"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/627",
+  "validatedIssueId": 701,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/701"
 }
