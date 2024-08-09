@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`_incrementGeneration()` function will never call in `_mintNewEntity`  function",
   "issueId": 1201,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1201"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1201",
+  "validatedIssueId": 373,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/373"
 }
