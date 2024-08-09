@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "All the contracts inherited the pausable contract from openzeppelin and most of the functions have whenNotPaused modifier in them but but non of the contracts will be able to be paused because of failure to override the pause and unpause functions in eacg of the protocol",
   "issueId": 390,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/390"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/390",
+  "validatedIssueId": 828,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/828"
 }
