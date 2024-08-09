@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Unintended Global Minting Cap in TraitForgeNFT::mintWithBudget Contract halts mintWithBudget functionality when _tokenIds = maxTokensPerGen",
   "issueId": 780,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/780"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/780",
+  "validatedIssueId": 608,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/608"
 }
