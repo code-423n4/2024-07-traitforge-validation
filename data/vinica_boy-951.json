@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "# mintWithBudget() in TraitForgeNft.sol wont work after first generation",
   "issueId": 951,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/951"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/951",
+  "validatedIssueId": 511,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/511"
 }
