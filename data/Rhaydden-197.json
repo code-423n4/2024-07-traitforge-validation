@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect claim amount comparison in `nuke` function allows over-claiming or under-claiming",
   "issueId": 197,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/197"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/197",
+  "validatedIssueId": 922,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/922"
 }
