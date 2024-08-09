@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Due to the the `entropySlots` array containing 10,010 slots, it is possible a generation will not contain a 'Golden God' token",
   "issueId": 1182,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1182"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1182",
+  "validatedIssueId": 388,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/388"
 }
