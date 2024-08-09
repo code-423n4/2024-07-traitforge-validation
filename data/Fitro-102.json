@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "TraitForgeNft.sol :: mintWithBudget() can only mint the first generation being useless for the next ones.",
   "issueId": 102,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/102"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/102",
+  "validatedIssueId": 966,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/966"
 }
