@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Users not begin able to mint current Generation NFTs if they `forgeWithListed` to get 10000 new forged Nfts of the next Generation",
   "issueId": 1412,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1412"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1412",
+  "validatedIssueId": 260,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/260"
 }
