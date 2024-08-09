@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Denial of Service Vulnerability cause extremeyly higher and higher gas cost and eventually exceed block gas limit when fetching listed NFTs for sale or for forging in frontend or  in EntityForging::fetchListings()  because of listingCount variable in both EntityTrading and EntityForging contracts keeps increasing",
   "issueId": 377,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/377"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/377",
+  "validatedIssueId": 837,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/837"
 }
