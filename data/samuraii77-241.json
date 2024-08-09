@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Contracts can't be paused as the pause function is not overridden",
   "issueId": 241,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/241"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/241",
+  "validatedIssueId": 896,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/896"
 }
