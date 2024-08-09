@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "User may loses ETH when executes forgeWithListed",
   "issueId": 223,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/223"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/223",
+  "validatedIssueId": 908,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/908"
 }
