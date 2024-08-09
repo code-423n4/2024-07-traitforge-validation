@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`TraitForgeNft::_incrementGeneration` resets `generationMintCounts[currentGeneration]` wrongly, which might lead to unexpected results.",
   "issueId": 1408,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1408"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1408",
+  "validatedIssueId": 263,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/263"
 }
