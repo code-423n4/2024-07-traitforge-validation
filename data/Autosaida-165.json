@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Wrong Validation Logic in `writeEntropyBatch1 ` Allows \"the Golden God\" Exist in the First Two Batches",
   "issueId": 165,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/165"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/165",
+  "validatedIssueId": 935,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/935"
 }
