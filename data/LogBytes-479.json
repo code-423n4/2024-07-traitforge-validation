@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Wrong age calculation results in less nuke factor and result in receiving less ETH from the Honeypot",
   "issueId": 479,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/479"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/479",
+  "validatedIssueId": 787,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/787"
 }
