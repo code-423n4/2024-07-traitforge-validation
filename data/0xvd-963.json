@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Inconsistent Forge Potential Calculation Between EntropyGenerator and EntityForging Contracts",
   "issueId": 963,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/963"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/963",
+  "validatedIssueId": 502,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/502"
 }
