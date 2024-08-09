@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Invalid validation stops `TraitForgeNFT::mintWithBudget` from Minting unintentionally",
   "issueId": 796,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/796"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/796",
+  "validatedIssueId": 599,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/599"
 }
