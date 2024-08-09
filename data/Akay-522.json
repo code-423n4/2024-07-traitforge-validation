@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incorrect token minting condition in `mintWithBudget` function",
   "issueId": 522,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/522"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/522",
+  "validatedIssueId": 767,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/767"
 }
