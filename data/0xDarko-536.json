@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incomplete Implementation of Pausable Functionality In Multiple Contracts",
   "issueId": 536,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/536"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/536",
+  "validatedIssueId": 759,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/759"
 }
