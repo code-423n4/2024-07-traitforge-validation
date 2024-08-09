@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "forgeWithListed loss of funds if more than required fee is sent",
   "issueId": 898,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/898"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/898",
+  "validatedIssueId": 539,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/539"
 }
