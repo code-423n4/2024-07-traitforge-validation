@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Users cant mint tokens when the value of tokenId reaches maxTokensPerGen",
   "issueId": 1434,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1434"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1434",
+  "validatedIssueId": 251,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/251"
 }
