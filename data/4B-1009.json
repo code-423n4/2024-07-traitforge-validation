@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Contracts cannot be paused",
   "issueId": 1009,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1009"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1009",
+  "validatedIssueId": 481,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/481"
 }
