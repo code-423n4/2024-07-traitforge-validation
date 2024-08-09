@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Missing Function to Call `allowDaoFund` in `TraitForgeNft` Contract",
   "issueId": 1081,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1081"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1081",
+  "validatedIssueId": 448,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/448"
 }
