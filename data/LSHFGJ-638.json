@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Wrong access control of initializeAlphaIndices() blocks the mint from early stage",
   "issueId": 638,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/638"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/638",
+  "validatedIssueId": 693,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/693"
 }
