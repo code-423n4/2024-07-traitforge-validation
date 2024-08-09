@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "NukeFactor Calculation Mismatch",
   "issueId": 1089,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1089"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1089",
+  "validatedIssueId": 445,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/445"
 }
