@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "There is No Pause/Unpause Function to Change the State",
   "issueId": 249,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/249"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/249",
+  "validatedIssueId": 892,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/892"
 }
