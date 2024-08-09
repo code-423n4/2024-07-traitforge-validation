@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`TraitForgeNft#mintWithBudget` will be DoS after the first generation",
   "issueId": 1038,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1038"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1038",
+  "validatedIssueId": 467,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/467"
 }
