@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`calculateMintPrice()` is called before updating Generation",
   "issueId": 1338,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1338"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1338",
+  "validatedIssueId": 297,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/297"
 }
