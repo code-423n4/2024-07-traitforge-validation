@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Wrong implementation of percentages could lead to wrong fee calculations",
   "issueId": 520,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/520"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/520",
+  "validatedIssueId": 769,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/769"
 }
