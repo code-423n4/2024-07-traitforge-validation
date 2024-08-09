@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect Access Control breaks minting and forging",
   "issueId": 1283,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1283"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1283",
+  "validatedIssueId": 321,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/321"
 }
