@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incorrect check for forging count of entity during listing",
   "issueId": 939,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/939"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/939",
+  "validatedIssueId": 520,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/520"
 }
