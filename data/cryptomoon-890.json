@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "It is possible to have multiple golden god in one generation due to missing condition in writeEntropyBatch3",
   "issueId": 890,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/890"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/890",
+  "validatedIssueId": 543,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/543"
 }
