@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Inconsistent `startPrice` during `mintToken` Execution",
   "issueId": 838,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/838"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/838",
+  "validatedIssueId": 575,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/575"
 }
