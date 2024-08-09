@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`pause/unpause` functionality isn't implemented.",
   "issueId": 6,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/6"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/6",
+  "validatedIssueId": 1006,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1006"
 }
