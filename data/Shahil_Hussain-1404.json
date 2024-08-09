@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Inability to Pause or unpause Protocol Due to Missing Overrides in all Contracts",
   "issueId": 1404,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1404"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1404",
+  "validatedIssueId": 264,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/264"
 }
