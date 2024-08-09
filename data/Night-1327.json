@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Next Generations `generationMintCounts` is reset to 0",
   "issueId": 1327,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1327"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1327",
+  "validatedIssueId": 302,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/302"
 }
