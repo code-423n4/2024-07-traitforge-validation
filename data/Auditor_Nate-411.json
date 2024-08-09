@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Zero Age Calculation Due to Performance Factor Always Being Zero",
   "issueId": 411,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/411"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/411",
+  "validatedIssueId": 824,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/824"
 }
