@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "defaultNukeFactor increase is setup incorrectly",
   "issueId": 743,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/743"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/743",
+  "validatedIssueId": 630,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/630"
 }
