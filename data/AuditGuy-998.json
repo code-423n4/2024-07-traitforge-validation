@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Uncapped NFT Minting Potential Exceeds Generation Limit",
   "issueId": 998,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/998"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/998",
+  "validatedIssueId": 485,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/485"
 }
