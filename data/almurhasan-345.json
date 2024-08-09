@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "forgingCounts can be bigger than forgePotential for a tokenid.",
   "issueId": 345,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/345"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/345",
+  "validatedIssueId": 856,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/856"
 }
