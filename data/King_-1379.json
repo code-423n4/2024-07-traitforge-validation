@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "First minted token of a new generation  is minted at an inflated price",
   "issueId": 1379,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1379"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1379",
+  "validatedIssueId": 210,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/210"
 }
