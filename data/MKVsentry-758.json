@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Almost all contracts in the protocol inherits `Pausable` contract but missing `pause` and `unpause` implementations",
   "issueId": 758,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/758"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/758",
+  "validatedIssueId": 618,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/618"
 }
