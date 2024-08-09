@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Denial of Service When Minting With Budget",
   "issueId": 1441,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1441"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1441",
+  "validatedIssueId": 246,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/246"
 }
