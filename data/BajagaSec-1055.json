@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Entities per Generation Can Exceed 10,000",
   "issueId": 1055,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1055"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1055",
+  "validatedIssueId": 459,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/459"
 }
