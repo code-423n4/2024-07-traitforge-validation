@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "TraitForgeNft.mintWithBudget() can get DOS'd easily ",
   "issueId": 820,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/820"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/820",
+  "validatedIssueId": 588,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/588"
 }
