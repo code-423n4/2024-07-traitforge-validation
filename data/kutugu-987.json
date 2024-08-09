@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "TraitForgeNft’s MaxTokensPerGen limit may be bypassed",
   "issueId": 987,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/987"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/987",
+  "validatedIssueId": 489,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/489"
 }
