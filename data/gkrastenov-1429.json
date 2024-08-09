@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Missing slippage check in the nuke function",
   "issueId": 1429,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1429"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1429",
+  "validatedIssueId": 254,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/254"
 }
