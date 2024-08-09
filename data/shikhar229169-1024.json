@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Forged entity sharing the accounting from `10,000` quota, would make the quota fill before for the normal mint Golden God slot index is reached for a generation",
   "issueId": 1024,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1024"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1024",
+  "validatedIssueId": 477,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/477"
 }
