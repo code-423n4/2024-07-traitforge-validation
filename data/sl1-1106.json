@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "The `Golden God` NFT might never be minted in a generation because of forging.",
   "issueId": 1106,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1106"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1106",
+  "validatedIssueId": 436,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/436"
 }
