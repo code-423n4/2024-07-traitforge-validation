@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`mintWithBudget()` won't mint tokens after `generation 1 ` is being incremented , because of wrong condition in while loop",
   "issueId": 321,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/321"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/321",
+  "validatedIssueId": 865,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/865"
 }
