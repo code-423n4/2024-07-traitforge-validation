@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incorrect Calculation of `nukeFactor` in `EntropyGenerator::deriveTokenParameters` Results in Zero Value",
   "issueId": 920,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/920"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/920",
+  "validatedIssueId": 527,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/527"
 }
