@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Forger NFT are able to `forge an additional NFT` then what their forge potential allow",
   "issueId": 803,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/803"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/803",
+  "validatedIssueId": 597,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/597"
 }
