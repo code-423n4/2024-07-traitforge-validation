@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Entropy is generated incorrectly due to an underflow in an unchecked block.",
   "issueId": 1131,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1131"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1131",
+  "validatedIssueId": 424,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/424"
 }
