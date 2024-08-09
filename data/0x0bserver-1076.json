@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Tokens with IDs Ending in Two Zeros Have Significant Limitations",
   "issueId": 1076,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1076"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1076",
+  "validatedIssueId": 451,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/451"
 }
