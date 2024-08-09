@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Return variables forgePotential and nukeFactor are wrongly calculated in EntropyGenerator::deriveTokenParameters() function",
   "issueId": 441,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/441"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/441",
+  "validatedIssueId": 809,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/809"
 }
