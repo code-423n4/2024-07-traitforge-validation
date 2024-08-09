@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Different nukeFactor calculation, misunderstanding of the nuke factor entity parameter",
   "issueId": 904,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/904"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/904",
+  "validatedIssueId": 534,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/534"
 }
