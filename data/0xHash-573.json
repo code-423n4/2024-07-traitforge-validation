@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "When an approved actor nukes an entity, the NFT owner will lose Nuke funds.",
   "issueId": 573,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/573"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/573",
+  "validatedIssueId": 738,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/738"
 }
