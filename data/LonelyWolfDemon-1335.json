@@ -4,5 +4,7 @@
   "risk": "3",
   "title": " Improper Validation of Caller and Incorrect Fund Transfer Logic in nuke Function",
   "issueId": 1335,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1335"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1335",
+  "validatedIssueId": 298,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/298"
 }
