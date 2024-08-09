@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "NFTs mature too slowly under default settings.",
   "issueId": 1039,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1039"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1039",
+  "validatedIssueId": 216,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/216"
 }
