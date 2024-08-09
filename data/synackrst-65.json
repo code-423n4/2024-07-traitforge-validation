@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Lack of refund logic in forgeWithListed can lead to loss of funds",
   "issueId": 65,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/65"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/65",
+  "validatedIssueId": 980,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/980"
 }
