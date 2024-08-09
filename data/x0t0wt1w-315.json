@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect Token Generation Count Reset Leads to Mismatched Token Tracking",
   "issueId": 315,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/315"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/315",
+  "validatedIssueId": 868,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/868"
 }
