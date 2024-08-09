@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "EntityTrading.sol :: nukeFundContribution in the buyNFT() is not calculated correctly, leading to incorrect fees being contributed to Nuke Fund.",
   "issueId": 41,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/41"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/41",
+  "validatedIssueId": 993,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/993"
 }
