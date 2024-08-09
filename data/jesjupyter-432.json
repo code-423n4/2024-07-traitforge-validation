@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`mintWithBudget` will only works for the first `maxTokensPerGen`",
   "issueId": 432,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/432"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/432",
+  "validatedIssueId": 812,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/812"
 }
