@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "mintWithBudget() will revert after Gen 1 minting is over",
   "issueId": 502,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/502"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/502",
+  "validatedIssueId": 781,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/781"
 }
