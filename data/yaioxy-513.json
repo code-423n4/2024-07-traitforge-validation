@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Funds Are Not Refunded in `EntityForging::forgeWithListed` Function",
   "issueId": 513,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/513"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/513",
+  "validatedIssueId": 774,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/774"
 }
