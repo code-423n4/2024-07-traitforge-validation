@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "_mintInternal() function does not check if the currentGeneration has reached the maxGeneration limit before calling the _incrementGeneration() ",
   "issueId": 762,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/762"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/762",
+  "validatedIssueId": 616,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/616"
 }
