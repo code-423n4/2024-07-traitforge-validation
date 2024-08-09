@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "generationMinCounts Would be reset wrongly in unique Circumstances ",
   "issueId": 1028,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1028"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1028",
+  "validatedIssueId": 475,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/475"
 }
