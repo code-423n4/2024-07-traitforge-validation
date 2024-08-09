@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "mintWithBudget will Be DOS after tokenId reaches a certain amount of tokens minted",
   "issueId": 1085,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1085"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1085",
+  "validatedIssueId": 447,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/447"
 }
