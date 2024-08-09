@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Generation tokens can exceed the `maxTokensPerGen` value because of wrong value being set",
   "issueId": 256,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/256"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/256",
+  "validatedIssueId": 888,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/888"
 }
