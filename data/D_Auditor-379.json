@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Minted Generation 2 to Generation 10 Entity(ies) exceeds 10000 per generation due to accounting error in `TraitForgeNft::_incrementGeneration()`",
   "issueId": 379,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/379"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/379",
+  "validatedIssueId": 835,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/835"
 }
