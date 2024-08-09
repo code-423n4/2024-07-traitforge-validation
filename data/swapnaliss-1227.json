@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Precision Loss in Entropy Calculation",
   "issueId": 1227,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1227"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1227",
+  "validatedIssueId": 358,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/358"
 }
