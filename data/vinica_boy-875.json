@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Nuke transactions can be frontrunned and result in significantly lower reward for users",
   "issueId": 875,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/875"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/875",
+  "validatedIssueId": 551,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/551"
 }
