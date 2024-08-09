@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "_incrementGeneration() resets the generationMintCounts resulting in losing track of the number of entites minted in the next generations byby forging",
   "issueId": 660,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/660"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/660",
+  "validatedIssueId": 679,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/679"
 }
