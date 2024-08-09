@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`TraitForgeNft::mintWithBudget()` is DOSed after `maxTokensPerGen` are minted across all generations",
   "issueId": 1172,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1172"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1172",
+  "validatedIssueId": 396,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/396"
 }
