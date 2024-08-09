@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "There is no guarantee that the special entropy with 999999 will be created",
   "issueId": 854,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/854"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/854",
+  "validatedIssueId": 566,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/566"
 }
