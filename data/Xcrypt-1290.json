@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Token ID Management and Generation Constraint Issue in `TraitForgeNft` Contract",
   "issueId": 1290,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1290"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1290",
+  "validatedIssueId": 318,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/318"
 }
