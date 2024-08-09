@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Cannot move to the next generation and mint new Nfts due to access control issue in `EntropyGenerator::initializeAlphaIndices()`",
   "issueId": 719,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/719"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/719",
+  "validatedIssueId": 641,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/641"
 }
