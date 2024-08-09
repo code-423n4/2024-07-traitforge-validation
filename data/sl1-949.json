@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`mintWithBudget()` will be DoS'ed after 10_000 tokens are minted.",
   "issueId": 949,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/949"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/949",
+  "validatedIssueId": 513,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/513"
 }
