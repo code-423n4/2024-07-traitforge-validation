@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Users can front-run other users who nuke",
   "issueId": 353,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/353"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/353",
+  "validatedIssueId": 852,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/852"
 }
