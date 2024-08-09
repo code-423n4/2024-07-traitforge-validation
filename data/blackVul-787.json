@@ -4,5 +4,7 @@
   "risk": "2",
   "title": " unbounded loop in the `EntityForging::fetchListings` causes DOS to the protocol",
   "issueId": 787,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/787"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/787",
+  "validatedIssueId": 604,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/604"
 }
