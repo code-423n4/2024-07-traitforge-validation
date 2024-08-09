@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "[H-2]  Generation Increment Failure Due to Misaligned Ownership ",
   "issueId": 425,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/425"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/425",
+  "validatedIssueId": 815,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/815"
 }
