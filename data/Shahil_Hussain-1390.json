@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "There is a chance that there is no 999999 entropy NFT in a generation",
   "issueId": 1390,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1390"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1390",
+  "validatedIssueId": 271,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/271"
 }
