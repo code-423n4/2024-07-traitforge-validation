@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Precision Loss in calculateAge Function",
   "issueId": 609,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/609"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/609",
+  "validatedIssueId": 713,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/713"
 }
