@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Discrepancy between nfts minted, price of nft when a generation changes & position of `_incrementGeneration()` inside `_mintInternal()` & `_mintNewEntity()`",
   "issueId": 860,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/860"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/860",
+  "validatedIssueId": 564,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/564"
 }
