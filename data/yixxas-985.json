@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Improper access control in the Airdrop contract",
   "issueId": 985,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/985"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/985",
+  "validatedIssueId": 490,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/490"
 }
