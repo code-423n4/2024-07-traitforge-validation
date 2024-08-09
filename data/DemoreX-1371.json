@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Max generation can be passed while minting due to unchecked max generation variable",
   "issueId": 1371,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1371"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1371",
+  "validatedIssueId": 278,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/278"
 }
