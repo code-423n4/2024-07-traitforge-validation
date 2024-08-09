@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Protocol cannot be paused, in case of emergency",
   "issueId": 1037,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1037"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1037",
+  "validatedIssueId": 468,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/468"
 }
