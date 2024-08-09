@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "\"NukeFund:CalculateAge\" calculates age based on the 'performanceFactor` parameter which can equal 0, resulting in the token being unable to age.",
   "issueId": 458,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/458"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/458",
+  "validatedIssueId": 224,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/224"
 }
