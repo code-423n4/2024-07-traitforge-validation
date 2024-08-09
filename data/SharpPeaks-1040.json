@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "The minting with a budget does not work after 10000th NFT",
   "issueId": 1040,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1040"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1040",
+  "validatedIssueId": 466,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/466"
 }
