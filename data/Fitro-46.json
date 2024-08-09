@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "TraitForgeNft.sol :: _incrementGeneration() will never be able to update to the next generation because the transaction will always revert due to the use of the onlyOwner modifier instead of onlyAllowedCaller in EntropyGenerator.sol.",
   "issueId": 46,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/46"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/46",
+  "validatedIssueId": 990,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/990"
 }
