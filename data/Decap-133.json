@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "EntityForging::forgeWithListed does not handle surplus funds",
   "issueId": 133,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/133"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/133",
+  "validatedIssueId": 946,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/946"
 }
