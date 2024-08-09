@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "The maximum number of generations is infinite",
   "issueId": 929,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/929"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/929",
+  "validatedIssueId": 217,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/217"
 }
