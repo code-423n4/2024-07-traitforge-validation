@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "After the 1st generation, every generation’s(2 to 10) generationMintCounts will be greater than  maxTokensPerGen.",
   "issueId": 348,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/348"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/348",
+  "validatedIssueId": 854,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/854"
 }
