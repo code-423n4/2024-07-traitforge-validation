@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Unfair distribution of the `Golden Gold` entities, with some users receiving none and others receiving more than one.",
   "issueId": 970,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/970"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/970",
+  "validatedIssueId": 500,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/500"
 }
