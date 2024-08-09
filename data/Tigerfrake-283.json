@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`_incrementGeneration()` resets the `generationMintCounts` which results in inconsistencies.",
   "issueId": 283,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/283"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/283",
+  "validatedIssueId": 880,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/880"
 }
