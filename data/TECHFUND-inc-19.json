@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Protocol Contracts does not have access pause and unpause functionality",
   "issueId": 19,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/19"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/19",
+  "validatedIssueId": 1000,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1000"
 }
