@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Duplicate NFT generation via repeated forging with the same parent",
   "issueId": 477,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/477"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/477",
+  "validatedIssueId": 222,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/222"
 }
