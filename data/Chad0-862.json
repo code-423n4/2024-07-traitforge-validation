@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "The inherited pausable functionality will not work due to missing public/external callable functions to trigger the state change",
   "issueId": 862,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/862"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/862",
+  "validatedIssueId": 562,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/562"
 }
