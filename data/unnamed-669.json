@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Missing Pausable Functionality in several Contracts Leading to Inability to Pause and unpause Functions",
   "issueId": 669,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/669"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/669",
+  "validatedIssueId": 676,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/676"
 }
