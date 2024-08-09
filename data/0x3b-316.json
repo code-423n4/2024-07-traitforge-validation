@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Aging will be too slow",
   "issueId": 316,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/316"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/316",
+  "validatedIssueId": 867,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/867"
 }
