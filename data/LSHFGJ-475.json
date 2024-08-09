@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Untimely mint price calculation charges users too much",
   "issueId": 475,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/475"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/475",
+  "validatedIssueId": 789,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/789"
 }
