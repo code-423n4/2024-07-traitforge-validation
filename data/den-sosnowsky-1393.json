@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`TraitForgeNft` resets generation `generationMintCounts` for forged tokens",
   "issueId": 1393,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1393"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1393",
+  "validatedIssueId": 270,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/270"
 }
