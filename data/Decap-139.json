@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Multiple best entropy value `999999` is possible",
   "issueId": 139,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/139"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/139",
+  "validatedIssueId": 942,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/942"
 }
