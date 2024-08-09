@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Failure in NFT Forging System Due to Flawed Forger Determination",
   "issueId": 580,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/580"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/580",
+  "validatedIssueId": 731,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/731"
 }
