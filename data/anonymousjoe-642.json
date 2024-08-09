@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "mintWithBudget() function doesnt work after 1st generation",
   "issueId": 642,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/642"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/642",
+  "validatedIssueId": 689,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/689"
 }
