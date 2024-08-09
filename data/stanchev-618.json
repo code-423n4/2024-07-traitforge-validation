@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "forgeWithListed() is susceptible to frontrun if msg.value > forgingFee.",
   "issueId": 618,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/618"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/618",
+  "validatedIssueId": 706,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/706"
 }
