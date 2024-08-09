@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "First mint of new generation is significantly more expensive than it should be ",
   "issueId": 457,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/457"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/457",
+  "validatedIssueId": 797,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/797"
 }
