@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`TraitForgeNFT:MintWithBudget` DoS after `_tokenIds`  >= 10,000.",
   "issueId": 392,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/392"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/392",
+  "validatedIssueId": 827,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/827"
 }
