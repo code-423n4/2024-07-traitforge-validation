@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Number of generations can exceed the maxGeneration set by the admin.",
   "issueId": 585,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/585"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/585",
+  "validatedIssueId": 729,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/729"
 }
