@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "ForgePotential can be exceeded, which will result in a potential abuse in forging process",
   "issueId": 358,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/358"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/358",
+  "validatedIssueId": 849,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/849"
 }
