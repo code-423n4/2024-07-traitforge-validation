@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Pausing contract functionality does not work",
   "issueId": 1470,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1470"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1470",
+  "validatedIssueId": 237,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/237"
 }
