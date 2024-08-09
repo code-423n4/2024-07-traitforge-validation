@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "mintWithBudget function results in DoS after 10000 treshhold tokenIds",
   "issueId": 658,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/658"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/658",
+  "validatedIssueId": 681,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/681"
 }
