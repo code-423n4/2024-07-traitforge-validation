@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "TRansfering the NFT doesn not transfer the airdrop amount",
   "issueId": 220,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/220"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/220",
+  "validatedIssueId": 909,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/909"
 }
