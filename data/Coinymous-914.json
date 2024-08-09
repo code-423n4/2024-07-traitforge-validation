@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Entities Can Forge More Than `forgePotential` Parameter, Leading to Imbalance in `NukeFund` Balance Due to Incorrect Use of `<=` in `EntityForging::listForForging`",
   "issueId": 914,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/914"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/914",
+  "validatedIssueId": 531,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/531"
 }
