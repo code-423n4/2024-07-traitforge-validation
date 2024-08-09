@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incorrect Mint Price Calculation Leading to Potential Overpayment",
   "issueId": 104,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/104"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/104",
+  "validatedIssueId": 965,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/965"
 }
