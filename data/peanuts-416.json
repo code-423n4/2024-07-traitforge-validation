@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "forgePotential in EntropyGenerator.deriveTokenParameters is calculated wrongly",
   "issueId": 416,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/416"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/416",
+  "validatedIssueId": 819,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/819"
 }
