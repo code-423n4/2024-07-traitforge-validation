@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "The calculation  formula of the developer part in the `NukeFund::receive` function, will be wrong for certain values of `NukeFund::taxCut` variable,  leading to a misallocation of funds between the various parties.",
   "issueId": 88,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/88"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/88",
+  "validatedIssueId": 972,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/972"
 }
