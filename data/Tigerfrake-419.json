@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Excess ether not refunded in `forgeWithListed()` resulting in potential losses for the `merger`",
   "issueId": 419,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/419"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/419",
+  "validatedIssueId": 818,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/818"
 }
