@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Mishandling of  `generationMintCounts` in`_incrementGeneration` function",
   "issueId": 1267,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1267"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1267",
+  "validatedIssueId": 331,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/331"
 }
