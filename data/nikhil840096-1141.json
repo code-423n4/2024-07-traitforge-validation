@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Tokens per Generation Maximum Limit Can Be Bypassed",
   "issueId": 1141,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1141"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1141",
+  "validatedIssueId": 419,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/419"
 }
