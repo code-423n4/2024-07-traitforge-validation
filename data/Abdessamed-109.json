@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Forgers can forge one additional time beyond their forge potential for every token",
   "issueId": 109,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/109"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/109",
+  "validatedIssueId": 961,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/961"
 }
