@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Generation incrementing is not working. ",
   "issueId": 398,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/398"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/398",
+  "validatedIssueId": 826,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/826"
 }
