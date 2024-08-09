@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "There is no slippage when Nuking the NFT",
   "issueId": 413,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/413"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/413",
+  "validatedIssueId": 822,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/822"
 }
