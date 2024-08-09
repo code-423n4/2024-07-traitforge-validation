@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Increment Generation Resets Mint Count Incorrectly Breaking Price Calc And Mint Counts Tracking",
   "issueId": 1164,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1164"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1164",
+  "validatedIssueId": 403,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/403"
 }
