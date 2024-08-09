@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Wrong `taxCut` calculations in the `EntityForging`, `EntityTrading`, and `NukeFund` contracts",
   "issueId": 1383,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1383"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1383",
+  "validatedIssueId": 273,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/273"
 }
