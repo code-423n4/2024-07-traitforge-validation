@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "mintWithBudget function doesn't work once maxTokensPerGen are in circulation",
   "issueId": 846,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/846"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/846",
+  "validatedIssueId": 568,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/568"
 }
