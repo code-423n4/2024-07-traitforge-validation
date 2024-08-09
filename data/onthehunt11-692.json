@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Minting will halt after a total of 10k or more entities exist",
   "issueId": 692,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/692"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/692",
+  "validatedIssueId": 658,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/658"
 }
