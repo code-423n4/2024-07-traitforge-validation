@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Forger can list a token for forging when he has reached the limit and forges one more time.",
   "issueId": 643,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/643"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/643",
+  "validatedIssueId": 688,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/688"
 }
