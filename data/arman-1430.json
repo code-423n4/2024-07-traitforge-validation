@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "All the contracts are pausable but none can be paused/unpaused by the contract owner.",
   "issueId": 1430,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1430"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1430",
+  "validatedIssueId": 253,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/253"
 }
