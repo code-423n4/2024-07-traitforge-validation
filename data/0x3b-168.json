@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "There can be more than 1 god NFTs per generation",
   "issueId": 168,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/168"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/168",
+  "validatedIssueId": 932,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/932"
 }
