@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Does not Refund the Remaining Forging Fee.",
   "issueId": 575,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/575"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/575",
+  "validatedIssueId": 736,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/736"
 }
