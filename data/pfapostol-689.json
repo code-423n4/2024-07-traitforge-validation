@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incorrect check in `mintWithBudget` causes function to be useless and user's gas to be wasted",
   "issueId": 689,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/689"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/689",
+  "validatedIssueId": 660,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/660"
 }
