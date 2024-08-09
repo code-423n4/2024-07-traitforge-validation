@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect `forging limit` check inside the `EntityForging::listForForging` allows a forger to list their NFT additional 1 more time than allocated every year.",
   "issueId": 733,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/733"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/733",
+  "validatedIssueId": 635,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/635"
 }
