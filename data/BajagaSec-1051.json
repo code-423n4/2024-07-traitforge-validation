@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Generation Cannot Be Increased When Maximum Tokens Per Generation Is Reached",
   "issueId": 1051,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1051"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1051",
+  "validatedIssueId": 461,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/461"
 }
