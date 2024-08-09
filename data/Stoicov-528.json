@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Last NFT from generation 1 can never be minted",
   "issueId": 528,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/528"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/528",
+  "validatedIssueId": 763,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/763"
 }
