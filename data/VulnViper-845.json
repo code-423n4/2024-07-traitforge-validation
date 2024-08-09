@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Improper Forging limitation check allows dead listings in `listForForging` function.",
   "issueId": 845,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/845"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/845",
+  "validatedIssueId": 569,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/569"
 }
