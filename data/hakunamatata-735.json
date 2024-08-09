@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Increment Generation function reverts because the owner of the entropy generator contract is not the nft contract.",
   "issueId": 735,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/735"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/735",
+  "validatedIssueId": 634,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/634"
 }
