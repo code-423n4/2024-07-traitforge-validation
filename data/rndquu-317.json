@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "\"Golden God\" NFT can be placed in the 1st or 2nd entropy batches",
   "issueId": 317,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/317"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/317",
+  "validatedIssueId": 866,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/866"
 }
