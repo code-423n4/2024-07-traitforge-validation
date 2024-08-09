@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "A generation might have more than 1 NFT with an entropy of 999999",
   "issueId": 517,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/517"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/517",
+  "validatedIssueId": 771,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/771"
 }
