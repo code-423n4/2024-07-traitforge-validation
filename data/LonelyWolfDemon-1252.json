@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Over-forging Due to Incorrect Check and Increment Order in `forgeWithListed` and `listForForging` Function",
   "issueId": 1252,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1252"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1252",
+  "validatedIssueId": 340,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/340"
 }
