@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Accounting Issues Due to Generation Reset in _incrementGeneration",
   "issueId": 343,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/343"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/343",
+  "validatedIssueId": 857,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/857"
 }
