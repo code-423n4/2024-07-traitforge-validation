@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Can’t increment generation due to wrong function modifier",
   "issueId": 2,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/2"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/2",
+  "validatedIssueId": 1009,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1009"
 }
