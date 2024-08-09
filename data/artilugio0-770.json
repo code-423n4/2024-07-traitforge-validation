@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Excess ether received in `EntityForging::forgeWithListed` gets locked in the contract",
   "issueId": 770,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/770"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/770",
+  "validatedIssueId": 218,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/218"
 }
