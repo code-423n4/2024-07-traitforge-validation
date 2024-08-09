@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "[M-1] Two NFTs can have the same entropy through forging",
   "issueId": 124,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/124"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/124",
+  "validatedIssueId": 949,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/949"
 }
