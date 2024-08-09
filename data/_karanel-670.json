@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "[M-3] `Airdrop` contract cannot be paused because no relevant function is implemented in the `TraitForgeNft` contract",
   "issueId": 670,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/670"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/670",
+  "validatedIssueId": 675,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/675"
 }
