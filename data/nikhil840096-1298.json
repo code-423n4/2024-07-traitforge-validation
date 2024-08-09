@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Division before multiplication in `NukeFund:calculateAge` leading to loss of some rewards.",
   "issueId": 1298,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1298"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1298",
+  "validatedIssueId": 316,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/316"
 }
