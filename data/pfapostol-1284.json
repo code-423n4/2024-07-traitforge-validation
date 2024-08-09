@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "excess funds sent by the merger during `forgeWithListed` will be stuck in the `EntityForging `",
   "issueId": 1284,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1284"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1284",
+  "validatedIssueId": 320,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/320"
 }
