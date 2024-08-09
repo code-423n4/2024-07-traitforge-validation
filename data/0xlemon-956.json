@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Inadequate check in listForForging() allows a forger to forge more than he is supposed to",
   "issueId": 956,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/956"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/956",
+  "validatedIssueId": 508,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/508"
 }
