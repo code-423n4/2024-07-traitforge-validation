@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Inconsistent Generation Count Management in Token Forging and Minting which breaks `MAIN INVARIANT ` in `TraitForge.sol`",
   "issueId": 1397,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1397"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1397",
+  "validatedIssueId": 268,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/268"
 }
