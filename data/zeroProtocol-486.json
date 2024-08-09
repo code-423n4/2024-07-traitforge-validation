@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "[H-3] Incomplete Implementation of Pausable Contract Prevents Protocol from Being Paused",
   "issueId": 486,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/486"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/486",
+  "validatedIssueId": 785,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/785"
 }
