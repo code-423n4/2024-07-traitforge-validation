@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Off by one error in EntityForging allows users to forge/merge one extra time",
   "issueId": 414,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/414"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/414",
+  "validatedIssueId": 821,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/821"
 }
