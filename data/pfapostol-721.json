@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "The difference in the `listForForging`, `forgeWithListed` checks gives the forger an unfair advantage.",
   "issueId": 721,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/721"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/721",
+  "validatedIssueId": 639,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/639"
 }
