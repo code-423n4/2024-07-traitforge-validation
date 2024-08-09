@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "A token can be forged more times than its forgePotential.",
   "issueId": 215,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/215"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/215",
+  "validatedIssueId": 912,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/912"
 }
