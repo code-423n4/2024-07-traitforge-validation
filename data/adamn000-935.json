@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Ownable modifier won't allow to execute function",
   "issueId": 935,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/935"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/935",
+  "validatedIssueId": 521,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/521"
 }
