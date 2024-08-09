@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "[M-01] `EntityForging::forgeWithListed`: Leftover ETH is not refunded to the `msg.sender`.",
   "issueId": 561,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/561"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/561",
+  "validatedIssueId": 747,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/747"
 }
