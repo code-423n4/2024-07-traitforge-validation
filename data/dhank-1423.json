@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "MintPrice is wrongly calculated for the First token starting from Gen 2",
   "issueId": 1423,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1423"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1423",
+  "validatedIssueId": 255,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/255"
 }
