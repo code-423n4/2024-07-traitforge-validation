@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`Golden God` Tokens can be minted twice per generation",
   "issueId": 154,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/154"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/154",
+  "validatedIssueId": 229,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/229"
 }
