@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Forgers have higher forging potential compared to mergers",
   "issueId": 464,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/464"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/464",
+  "validatedIssueId": 793,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/793"
 }
