@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Insufficient validation of `maxGeneration` in `TraitForgeNft.sol#_incrementGeneration()` function.",
   "issueId": 578,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/578"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/578",
+  "validatedIssueId": 733,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/733"
 }
