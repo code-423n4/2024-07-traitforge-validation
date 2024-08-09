@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Users will loose Funds when nuking due to rounding error during calculations",
   "issueId": 1220,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1220"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1220",
+  "validatedIssueId": 363,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/363"
 }
