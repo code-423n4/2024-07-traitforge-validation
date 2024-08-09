@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Zero age for NFTs with entrophy whose last digit is zero",
   "issueId": 54,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/54"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/54",
+  "validatedIssueId": 984,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/984"
 }
