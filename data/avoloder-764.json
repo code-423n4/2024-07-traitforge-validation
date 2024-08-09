@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect mint price is applied if there is a generation increment ",
   "issueId": 764,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/764"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/764",
+  "validatedIssueId": 615,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/615"
 }
