@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Wrong calculation of `nukeFactor` and `forgePotential` inside `deriveTokenParameters`",
   "issueId": 1323,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1323"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1323",
+  "validatedIssueId": 304,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/304"
 }
