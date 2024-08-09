@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Due to the maximum value of a uint256 and the modulo in the `writeEntropyBatch()` functions, the first entropy per slot can never be a 'forger' and will always have a `performanceFactor` of 0",
   "issueId": 1199,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1199"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1199",
+  "validatedIssueId": 375,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/375"
 }
