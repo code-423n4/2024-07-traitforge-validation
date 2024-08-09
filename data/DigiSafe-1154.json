@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "[M-01] Denial of Service of `TraitForgeNft.sol:mintWithBudget` when current generation is > 1",
   "issueId": 1154,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1154"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1154",
+  "validatedIssueId": 409,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/409"
 }
