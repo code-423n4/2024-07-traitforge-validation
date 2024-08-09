@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Entropy Calculation Error",
   "issueId": 1078,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1078"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1078",
+  "validatedIssueId": 450,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/450"
 }
