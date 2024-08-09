@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Excess ETH can be sent to the contract and there is no mechanism to withdraw it. ",
   "issueId": 30,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/30"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/30",
+  "validatedIssueId": 996,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/996"
 }
