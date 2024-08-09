@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect Access Controls ",
   "issueId": 546,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/546"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/546",
+  "validatedIssueId": 752,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/752"
 }
