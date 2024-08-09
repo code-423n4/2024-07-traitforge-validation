@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`pause()` and `unpause()` functions not implemented in pausable contracts",
   "issueId": 1147,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1147"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1147",
+  "validatedIssueId": 415,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/415"
 }
