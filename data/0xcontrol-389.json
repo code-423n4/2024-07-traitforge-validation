@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`TraitForgeNft::_mintNewEntity:: _incrementGeneration(); will never run doing forging, due to invalid validation in _mintNewEntity function.",
   "issueId": 389,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/389"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/389",
+  "validatedIssueId": 829,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/829"
 }
