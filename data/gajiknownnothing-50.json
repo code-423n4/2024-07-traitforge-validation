@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Exceeded forge for forger NFTs",
   "issueId": 50,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/50"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/50",
+  "validatedIssueId": 987,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/987"
 }
