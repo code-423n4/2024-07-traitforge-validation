@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "TraitForgeNft.sol - `currentGeneration` can be more than `maxGeneration`.",
   "issueId": 552,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/552"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/552",
+  "validatedIssueId": 749,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/749"
 }
