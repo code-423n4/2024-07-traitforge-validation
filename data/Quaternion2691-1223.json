@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Not checking for occurence of \"Golden Gold\" in the third batch for writing entropy allows multiple entropy to be 999,999",
   "issueId": 1223,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1223"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1223",
+  "validatedIssueId": 360,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/360"
 }
