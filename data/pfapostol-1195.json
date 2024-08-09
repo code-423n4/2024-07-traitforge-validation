@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Lack of ability to make an some external function calls makes the DAO stage unreachable.",
   "issueId": 1195,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1195"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1195",
+  "validatedIssueId": 378,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/378"
 }
