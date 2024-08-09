@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Wrong Price calculated for minting for the first entity of a new Generation",
   "issueId": 1068,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1068"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1068",
+  "validatedIssueId": 455,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/455"
 }
