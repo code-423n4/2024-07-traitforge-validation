@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Number of entities in generation can surpass the 10k number",
   "issueId": 741,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/741"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/741",
+  "validatedIssueId": 219,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/219"
 }
