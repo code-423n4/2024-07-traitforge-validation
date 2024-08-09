@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Violation of Max Cap Per Generation",
   "issueId": 166,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/166"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/166",
+  "validatedIssueId": 934,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/934"
 }
