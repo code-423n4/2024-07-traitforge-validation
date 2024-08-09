@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Token Generation can go above the Maximum allowed due to Oversignt in Implementation",
   "issueId": 1355,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1355"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1355",
+  "validatedIssueId": 286,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/286"
 }
