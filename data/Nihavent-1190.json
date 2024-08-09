@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Due to forging, it is possible a generation will not contain a 'Golden God' token",
   "issueId": 1190,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1190"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1190",
+  "validatedIssueId": 383,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/383"
 }
