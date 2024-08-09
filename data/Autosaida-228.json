@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incorrect Entropy Padding Causes Wrong Airdrop Data and Entity's attributes.",
   "issueId": 228,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/228"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/228",
+  "validatedIssueId": 904,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/904"
 }
