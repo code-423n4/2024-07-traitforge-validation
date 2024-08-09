@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Using `EntityForging::forgeWithListed` function users can get more than 10000 NFTs in a generation",
   "issueId": 1382,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1382"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1382",
+  "validatedIssueId": 274,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/274"
 }
