@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Forging Limit Bypass Due to Ineffective Comparison Operator",
   "issueId": 1120,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1120"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1120",
+  "validatedIssueId": 428,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/428"
 }
