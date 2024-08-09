@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Repeatable Identical Entity Creation Through Forging",
   "issueId": 1032,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1032"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1032",
+  "validatedIssueId": 472,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/472"
 }
