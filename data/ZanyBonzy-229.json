@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Griefing attack on seller's airdrop benefits",
   "issueId": 229,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/229"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/229",
+  "validatedIssueId": 227,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/227"
 }
