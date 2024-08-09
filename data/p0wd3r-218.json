@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "mintWithBudget doesn't work with next generation.",
   "issueId": 218,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/218"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/218",
+  "validatedIssueId": 910,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/910"
 }
