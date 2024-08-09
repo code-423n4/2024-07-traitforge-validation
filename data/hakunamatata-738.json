@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Forgers can forge with other entities one more time than their forge potential",
   "issueId": 738,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/738"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/738",
+  "validatedIssueId": 632,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/632"
 }
