@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Zero Value in performanceFactor Causes Incorrect Age Calculation in calculateAge",
   "issueId": 1344,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1344"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1344",
+  "validatedIssueId": 293,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/293"
 }
