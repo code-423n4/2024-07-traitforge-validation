@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Non-aging NFTs can be minted",
   "issueId": 537,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/537"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/537",
+  "validatedIssueId": 758,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/758"
 }
