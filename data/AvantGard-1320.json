@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Missing ownership updates to Airdrop contract results in unfair airdrop distribution",
   "issueId": 1320,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1320"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1320",
+  "validatedIssueId": 305,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/305"
 }
