@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "With every next generation there is less and less chance to have any '999999' entropy",
   "issueId": 639,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/639"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/639",
+  "validatedIssueId": 692,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/692"
 }
