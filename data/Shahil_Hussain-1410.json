@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Overpayment are not begin refunded in `EntityForging::forgeWithListed`",
   "issueId": 1410,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1410"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1410",
+  "validatedIssueId": 261,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/261"
 }
