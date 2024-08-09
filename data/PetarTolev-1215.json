@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "The user's airdrop eligibility is not properly updated when the NFT is sold",
   "issueId": 1215,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1215"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1215",
+  "validatedIssueId": 365,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/365"
 }
