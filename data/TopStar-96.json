@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Wrong minting logic based on total token count across generations",
   "issueId": 96,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/96"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/96",
+  "validatedIssueId": 231,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/231"
 }
