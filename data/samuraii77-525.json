@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Hidden division before multiplication will cause rounding issues",
   "issueId": 525,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/525"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/525",
+  "validatedIssueId": 765,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/765"
 }
