@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "No check for `currentGeneration` exceeding max generations in `TraitForgeNft::_incrementGeneration` allows multiple generations to exist exceeding the limit",
   "issueId": 824,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/824"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/824",
+  "validatedIssueId": 585,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/585"
 }
