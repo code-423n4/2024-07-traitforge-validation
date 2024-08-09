@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect price calculation for edge case",
   "issueId": 51,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/51"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/51",
+  "validatedIssueId": 986,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/986"
 }
