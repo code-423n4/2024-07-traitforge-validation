@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Entropy of a NFT can be zero",
   "issueId": 1358,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1358"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1358",
+  "validatedIssueId": 284,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/284"
 }
