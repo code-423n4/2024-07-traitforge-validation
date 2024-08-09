@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Inoperable Pausable Functionality in Multiple Contracts",
   "issueId": 933,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/933"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/933",
+  "validatedIssueId": 522,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/522"
 }
