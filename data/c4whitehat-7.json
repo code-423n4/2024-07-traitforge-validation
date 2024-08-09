@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "TraitForgeNft is expected to be Pauseable, but can never be paused.",
   "issueId": 7,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/7"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/7",
+  "validatedIssueId": 1005,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1005"
 }
