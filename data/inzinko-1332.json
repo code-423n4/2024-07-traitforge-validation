@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Users can mint more than the forging capacity due to an incorrect check",
   "issueId": 1332,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1332"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1332",
+  "validatedIssueId": 299,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/299"
 }
