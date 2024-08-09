@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Users have no choice but to pay more to mint the first NFT of the next generation.",
   "issueId": 201,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/201"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/201",
+  "validatedIssueId": 919,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/919"
 }
