@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Lack of Maximum Generation Limit Check During Minting",
   "issueId": 752,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/752"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/752",
+  "validatedIssueId": 623,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/623"
 }
