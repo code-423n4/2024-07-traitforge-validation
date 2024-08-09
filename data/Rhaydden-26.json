@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incorrect range selection in `initializeAlphaIndices()` leads to uneven distribution of special case entropy values which means that slot indices 0-511 and 770 are never selected for the special 999999 case",
   "issueId": 26,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/26"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/26",
+  "validatedIssueId": 997,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/997"
 }
