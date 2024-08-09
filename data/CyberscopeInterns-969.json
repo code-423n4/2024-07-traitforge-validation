@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Locked funds within the `EntityForging.sol` contract due to the `forgeWithListed` function not handling the potential extra `msg.value` provided.",
   "issueId": 969,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/969"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/969",
+  "validatedIssueId": 501,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/501"
 }
