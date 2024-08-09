@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`EntropyGenerator` ownership is `not transfered` to TraitForgeNft which constrain the game to mint only generation 1.",
   "issueId": 118,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/118"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/118",
+  "validatedIssueId": 955,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/955"
 }
