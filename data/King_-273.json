@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "User's Airdrop is amount not updated after is traded",
   "issueId": 273,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/273"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/273",
+  "validatedIssueId": 883,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/883"
 }
