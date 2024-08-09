@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Invalid Validation in  EntityForging.sol::forgeWithListed, which will result in a potential loss for merger  owners",
   "issueId": 630,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/630"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/630",
+  "validatedIssueId": 698,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/698"
 }
