@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "[H-2] Minting will halt after 1st Gen due to DoS because of incorrect access modifier in `EntropyGenerator::initializeAlphaIndices` function",
   "issueId": 122,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/122"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/122",
+  "validatedIssueId": 951,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/951"
 }
