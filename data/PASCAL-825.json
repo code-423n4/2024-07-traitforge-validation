@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Excess ether sent when EntityForging.forgeWithListed() is not refunded back to the user ",
   "issueId": 825,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/825"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/825",
+  "validatedIssueId": 584,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/584"
 }
