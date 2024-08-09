@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Users suffer due to incorrect check.",
   "issueId": 567,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/567"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/567",
+  "validatedIssueId": 743,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/743"
 }
