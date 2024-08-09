@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Claim amount on Nuke should go to NFT Token owner",
   "issueId": 206,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/206"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/206",
+  "validatedIssueId": 918,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/918"
 }
