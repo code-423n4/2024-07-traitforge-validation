@@ -4,5 +4,7 @@
   "risk": "2",
   "title": " Excesses are not refunded to  mergerTokenId’s owner when the function forgeWithListed is called.",
   "issueId": 264,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/264"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/264",
+  "validatedIssueId": 886,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/886"
 }
