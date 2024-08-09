@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`_incrementGeneration` resets `generationMintCounts` and ignores the tokens already forged on the new generation",
   "issueId": 236,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/236"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/236",
+  "validatedIssueId": 899,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/899"
 }
