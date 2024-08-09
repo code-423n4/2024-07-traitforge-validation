@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`msg.value` is can become stuck inside EntityForging",
   "issueId": 173,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/173"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/173",
+  "validatedIssueId": 929,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/929"
 }
