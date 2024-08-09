@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Ineffective Validation of Generated Entropy Values Allowing the Occurrence of `999999`",
   "issueId": 1263,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1263"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1263",
+  "validatedIssueId": 333,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/333"
 }
