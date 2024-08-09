@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "_incrementNextGeneration reverts due to wrong access control",
   "issueId": 894,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/894"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/894",
+  "validatedIssueId": 541,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/541"
 }
