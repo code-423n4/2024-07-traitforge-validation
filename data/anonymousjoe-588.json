@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Forger entities are allowed to forge 1 additional time",
   "issueId": 588,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/588"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/588",
+  "validatedIssueId": 726,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/726"
 }
