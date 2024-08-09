@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Invariant maxTokensPerGen might be broken",
   "issueId": 60,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/60"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/60",
+  "validatedIssueId": 981,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/981"
 }
