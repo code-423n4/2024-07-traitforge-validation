@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Excess Ether Sent by User Stuck in Contract Leading to Loss of Funds",
   "issueId": 1472,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1472"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1472",
+  "validatedIssueId": 236,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/236"
 }
