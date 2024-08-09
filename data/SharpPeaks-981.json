@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "The generation can’t up to 2nd with pure mint function",
   "issueId": 981,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/981"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/981",
+  "validatedIssueId": 493,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/493"
 }
