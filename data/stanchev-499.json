@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "_incrementGeneration() resets generationMintcount to 0 even if the gen already has forged entities in it",
   "issueId": 499,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/499"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/499",
+  "validatedIssueId": 782,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/782"
 }
