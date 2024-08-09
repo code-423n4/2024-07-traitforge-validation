@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Users will not be able to mintWithBudget() after 10,000 tokens are minted",
   "issueId": 463,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/463"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/463",
+  "validatedIssueId": 794,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/794"
 }
