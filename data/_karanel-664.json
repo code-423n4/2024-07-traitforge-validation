@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "[H-5] None of the contracts can be paused as",
   "issueId": 664,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/664"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/664",
+  "validatedIssueId": 678,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/678"
 }
