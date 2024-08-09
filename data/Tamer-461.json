@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Forger can list his token for forging exceeding his forgePotential by 1 in EntityForging::listForForging()",
   "issueId": 461,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/461"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/461",
+  "validatedIssueId": 796,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/796"
 }
