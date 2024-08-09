@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`Forging and minting` can `clash` together which break accounting allowing to mint `beyond 10k limit` per generation",
   "issueId": 257,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/257"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/257",
+  "validatedIssueId": 887,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/887"
 }
