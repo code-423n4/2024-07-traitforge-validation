@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "players won't be able to mint NFTs using TraitForgeNFT::mintWithBudget function because of invalid validation ",
   "issueId": 869,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/869"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/869",
+  "validatedIssueId": 556,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/556"
 }
