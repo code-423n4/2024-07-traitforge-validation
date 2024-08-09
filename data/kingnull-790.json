@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Excessive fee Charges in EntityForging::forgeWithListed leads to Overpayment and User DisTrust\"",
   "issueId": 790,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/790"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/790",
+  "validatedIssueId": 601,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/601"
 }
