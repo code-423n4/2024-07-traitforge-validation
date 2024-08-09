@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect calculation of `initialNukeFactor` leads to always-zero value.",
   "issueId": 844,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/844"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/844",
+  "validatedIssueId": 570,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/570"
 }
