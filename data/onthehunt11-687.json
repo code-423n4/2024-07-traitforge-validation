@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "entropyGenerator#initializeAlphaIndices() will always revert outside of entropyGenerator contract",
   "issueId": 687,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/687"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/687",
+  "validatedIssueId": 662,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/662"
 }
