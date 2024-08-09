@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Calculate mint price returns incorrect calculations",
   "issueId": 739,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/739"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/739",
+  "validatedIssueId": 631,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/631"
 }
