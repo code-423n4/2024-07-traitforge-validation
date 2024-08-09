@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Excessive Tokens with Zero Performance Factor in a Generation",
   "issueId": 1402,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1402"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1402",
+  "validatedIssueId": 265,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/265"
 }
