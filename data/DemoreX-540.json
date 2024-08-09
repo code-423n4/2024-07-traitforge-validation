@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Player can get extra reward after owner decrease the MaxAllowedClaimDivisor variable",
   "issueId": 540,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/540"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/540",
+  "validatedIssueId": 756,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/756"
 }
