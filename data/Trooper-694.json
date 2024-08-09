@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "TraitForgeNft: Generations without a golden god are possible",
   "issueId": 694,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/694"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/694",
+  "validatedIssueId": 656,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/656"
 }
