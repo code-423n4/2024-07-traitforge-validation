@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Funds can be left locked in the `EntityForging.sol` contract with no way to be redeemed",
   "issueId": 450,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/450"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/450",
+  "validatedIssueId": 803,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/803"
 }
