@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "The claimable nuke funds of a NFT could exceed `maxAllowedClaimAmount`",
   "issueId": 110,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/110"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/110",
+  "validatedIssueId": 960,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/960"
 }
