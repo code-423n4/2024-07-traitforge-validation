@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Forging can cause the god NFT to be skipped",
   "issueId": 294,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/294"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/294",
+  "validatedIssueId": 874,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/874"
 }
