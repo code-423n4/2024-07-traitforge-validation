@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incorrect price calculation for first token of each generation due to delayed generation increment",
   "issueId": 778,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/778"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/778",
+  "validatedIssueId": 609,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/609"
 }
