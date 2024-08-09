@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Many pausable contract is not pausable because the external 'pause/unpause' function is not implemented",
   "issueId": 11,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/11"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/11",
+  "validatedIssueId": 1003,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1003"
 }
