@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect calculating of mintPrice in mintToken() and mintWithBudget() function for the first mint from generation 2 to generation 10",
   "issueId": 1066,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1066"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1066",
+  "validatedIssueId": 456,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/456"
 }
