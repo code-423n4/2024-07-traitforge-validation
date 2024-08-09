@@ -4,5 +4,7 @@
   "risk": "3",
   "title": " Contracts inheriting the Pausable contract cannot pause or unpause functionality in case of emergency",
   "issueId": 657,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/657"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/657",
+  "validatedIssueId": 682,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/682"
 }
