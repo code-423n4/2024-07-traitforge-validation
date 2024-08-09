@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Excess funds are locked in the contract EntityForging.sol",
   "issueId": 286,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/286"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/286",
+  "validatedIssueId": 878,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/878"
 }
