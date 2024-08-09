@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`mintWithBudget()` will not work after minting has been completed for generation 1",
   "issueId": 512,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/512"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/512",
+  "validatedIssueId": 775,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/775"
 }
