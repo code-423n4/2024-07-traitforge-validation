@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "user funds locked in EntityForging contract if user calls EntityForging::forgeWithListed function with excess eth",
   "issueId": 94,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/94"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/94",
+  "validatedIssueId": 968,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/968"
 }
