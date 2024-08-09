@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Insufficient Golden God prevention check in `EntropyGenerator::writeEntropyBatch1` and `writeEntropyBatch2` allows Golden God to exist in first 2 batches",
   "issueId": 751,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/751"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/751",
+  "validatedIssueId": 624,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/624"
 }
