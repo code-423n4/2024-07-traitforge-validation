@@ -4,5 +4,7 @@
   "risk": "Q",
   "title": "QA Report",
   "issueId": 1023,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1023"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1023",
+  "validatedIssueId": 1016,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1016"
 }
