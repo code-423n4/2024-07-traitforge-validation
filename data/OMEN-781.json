@@ -4,5 +4,7 @@
   "risk": "2",
   "title": " Lack of Slippage Protection in Dynamic Pricing Mint Function",
   "issueId": 781,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/781"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/781",
+  "validatedIssueId": 1050,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1050"
 }
