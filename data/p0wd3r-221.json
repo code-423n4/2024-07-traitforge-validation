@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Miss slippage protection for amountMinted in mintWithBudget.",
   "issueId": 221,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/221"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/221",
+  "validatedIssueId": 1051,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1051"
 }
