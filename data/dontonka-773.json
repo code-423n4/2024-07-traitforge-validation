@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "NFT seller could `grief buyer` when they call buyNFT by making the call reverts",
   "issueId": 773,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/773"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/773",
+  "validatedIssueId": 1056,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1056"
 }
