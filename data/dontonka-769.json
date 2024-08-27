@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Forger NFT owner could `grief Merger` when they call `forgeWithListed` by making the call revert when receiving funds",
   "issueId": 769,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/769"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/769",
+  "validatedIssueId": 1053,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1053"
 }
