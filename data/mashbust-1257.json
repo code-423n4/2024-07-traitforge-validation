@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Potential Denial of Service (DoS) by Forger in the forgeWithListed()",
   "issueId": 1257,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1257"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1257",
+  "validatedIssueId": 1055,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1055"
 }
