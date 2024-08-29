@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "User can lose on gas by calling mintWithBudget() if his budget is enough to lead to a transaction being out of gas",
   "issueId": 99,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/99"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/99",
+  "validatedIssueId": 1058,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1058"
 }
