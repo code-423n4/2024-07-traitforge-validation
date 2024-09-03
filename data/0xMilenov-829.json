@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Lingering token approvals in `EntityTrading` and `NukeFund` may lead to unauthorized transfers of NFTs",
   "issueId": 829,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/829"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/829",
+  "validatedIssueId": 1064,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1064"
 }
