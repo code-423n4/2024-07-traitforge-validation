@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "There is no mechanism to withdraw funds from NukeFund contract, this causes the remaining funds on NukeFund to be locked",
   "issueId": 881,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/881"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/881",
+  "validatedIssueId": 1062,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1062"
 }
