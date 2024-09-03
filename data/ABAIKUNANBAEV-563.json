@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Setting max generation can be bypassed by forging",
   "issueId": 563,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/563"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/563",
+  "validatedIssueId": 1066,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1066"
 }
