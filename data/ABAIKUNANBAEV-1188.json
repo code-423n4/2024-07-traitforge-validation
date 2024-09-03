@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "While loop can result in DoS due to high gas costs",
   "issueId": 1188,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1188"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1188",
+  "validatedIssueId": 1059,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1059"
 }
