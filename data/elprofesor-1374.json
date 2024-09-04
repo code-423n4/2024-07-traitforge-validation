@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Forger Can Front Run, Relist Tokens And Claim Donations",
   "issueId": 1374,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1374"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1374",
+  "validatedIssueId": 1070,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1070"
 }
