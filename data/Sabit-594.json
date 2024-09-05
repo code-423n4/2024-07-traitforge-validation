@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Funds can be locked indefinitely in NukeFund.sol",
   "issueId": 594,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/594"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/594",
+  "validatedIssueId": 1078,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1078"
 }
