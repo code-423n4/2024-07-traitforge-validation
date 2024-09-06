@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Potential Uninitialized `entropySlots` Reading in `getNextEntropy`, Causing 0 Entropy Mint",
   "issueId": 945,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/945"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/945",
+  "validatedIssueId": 1086,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1086"
 }
