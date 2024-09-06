@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Title Users can be temporary DOSed and unable to `nuke`",
   "issueId": 1417,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1417"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1417",
+  "validatedIssueId": 1083,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1083"
 }
