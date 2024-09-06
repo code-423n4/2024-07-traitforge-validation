@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "wrong contracts deployment, can lead to severe results where tokens has no entropy.",
   "issueId": 1475,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1475"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1475",
+  "validatedIssueId": 1082,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1082"
 }
