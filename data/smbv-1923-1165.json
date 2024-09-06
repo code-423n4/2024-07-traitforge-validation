@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "NFT Token cannot be `nuked` even if `minimumDaysHeld` period has been passed.",
   "issueId": 1165,
-  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1165"
+  "issueUrl": "https://github.com/code-423n4/2024-07-traitforge-validation/issues/1165",
+  "validatedIssueId": 1085,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-traitforge-findings/issues/1085"
 }
