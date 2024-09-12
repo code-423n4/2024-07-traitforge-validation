@@ -1,0 +1,120 @@
+issue,title,validator comment,status,size,Best
+validation-117,QA Report,"FP: 3; Repeat: 4, 5; 3 Lows (Possible upgrade: 2)",Satisfactory,1,✰✰✰
+validation-908,QA Report,1 Low,Unsatisfactory,2,✰✰✰
+validation-868,QA Report,1 FP,Unsatisfactory,2,✰✰✰
+validation-140,Gas Optimizations,No Gas Pool,Unsatisfactory,2,✰✰✰
+validation-1077,QA Report,1 FP,Unsatisfactory,3,✰✰✰
+validation-851,Gas Optimizations,No Gas Pool,Unsatisfactory,4,✰✰✰
+validation-759,QA Report,1 FP,Unsatisfactory,5,✰✰✰
+validation-676,Gas Optimizations,No Gas Pool,Unsatisfactory,5,✰✰✰
+validation-646,QA Report,1 Possible Upgrade,Satisfactory,5,✰✰✰
+validation-1302,QA Report,1 Low,Unsatisfactory,6,✰✰✰
+validation-547,QA Report,1 Low,Unsatisfactory,6,✰✰✰
+validation-58,Gas Optimizations,No Gas Pool,Unsatisfactory,6,✰✰✰
+validation-31,QA Report,1 Possible Upgrade,Satisfactory,7,✰✰✰
+validation-8,QA Report,1 Low (Possible Upgrade: 2),Satisfactory,9,✰✰✰
+validation-1123,QA Report,1 Low,Unsatisfactory,11,✰✰✰
+validation-401,Gas Optimizations,No Gas Pool,Unsatisfactory,11,✰✰✰
+validation-765,QA Report,2 Lows,Unsatisfactory,12,✰✰✰
+validation-919,QA Report,1 Low,Unsatisfactory,13,✰✰✰
+validation-442,QA Report,1 Possible Upgrade,Satisfactory,13,✰✰✰
+validation-202,Gas Optimizations,No Gas Pool,Unsatisfactory,13,✰✰✰
+findings-14,QA Report,1 Possible Upgrade,Satisfactory,13,✰✰✰
+validation-1365,QA Report,1 Low,Unsatisfactory,14,✰✰✰
+validation-270,Gas Optimizations,No Gas Pool,Unsatisfactory,15,✰✰✰
+validation-1399,Gas Optimizations,No Gas Pool,Unsatisfactory,16,✰✰✰
+validation-274,QA Report,1 FP,Unsatisfactory,16,✰✰✰
+validation-484,QA Report,1 FP,Unsatisfactory,17,✰✰✰
+validation-1357,QA Report,1 Low,Unsatisfactory,18,✰✰✰
+validation-1021,QA Report,1 Analyzer,Unsatisfactory,18,✰✰✰
+validation-714,QA Report,1 Possible Upgrade,Satisfactory,18,✰✰✰
+validation-245,QA Report,1 Low,Unsatisfactory,18,✰✰✰
+findings-201,QA Report,"1 FP (Possible Upgrade: 1, 2, 4)",Satisfactory,18,✰✰✰
+validation-1067,Gas Optimizations,No Gas Pool,Unsatisfactory,19,✰✰✰
+validation-191,QA Report,1 Low,Unsatisfactory,19,✰✰✰
+validation-59,QA Report,1 FP,Unsatisfactory,20,✰✰✰
+validation-1467,QA Report,1 Low/FP,Unsatisfactory,22,✰✰✰
+validation-1023,QA Report,1 Possible Upgrade,Satisfactory,22,✰✰✰
+validation-396,QA Report,1 Low,Unsatisfactory,23,✰✰✰
+validation-106,QA Report,1 Possible Upgrade,Satisfactory,23,✰✰✰
+validation-73,QA Report,1 Low (Possible Upgrade: 1),Satisfactory,25,✰✰✰
+validation-936,QA Report,1 FP (Possible Upgrade: 2),Satisfactory,26,✰✰✰
+validation-779,QA Report,1 Low,Unsatisfactory,26,✰✰✰
+validation-652,QA Report,1 Low,Unsatisfactory,26,✰✰✰
+validation-1003,Gas Optimizations,No Gas Pool,Unsatisfactory,27,✰✰✰
+validation-280,QA Report,1 Generic,Unsatisfactory,27,✰✰✰
+validation-47,QA Report,1 Possible Upgrade,Satisfactory,27,✰✰✰
+validation-634,Gas Optimizations,No Gas Pool,Unsatisfactory,28,✰✰✰
+validation-1271,QA Report,1 Low (Possible Upgrade: 2),Unsatisfactory,32,✰✰✰
+validation-1034,QA Report,Generic: 1; 1 Low,Unsatisfactory,32,✰✰✰
+validation-1001,Gas Optimizations,No Gas Pool,Unsatisfactory,33,✰✰✰
+validation-647,QA Report,FP: 3; 1 Low (Possible Upgrade: 2),Satisfactory,34,✰✰✰
+validation-29,Gas Optimizations,No Gas Pool,Unsatisfactory,36,✰✰✰
+validation-1117,Gas Optimizations,No Gas Pool,Unsatisfactory,41,✰✰✰
+validation-1096,QA Report,2 Lows,Unsatisfactory,41,✰✰✰
+validation-932,QA Report,1 Gas,Unsatisfactory,41,✰✰✰
+validation-616,QA Report,2 NC's,Unsatisfactory,47,✰✰✰
+validation-62,Gas Optimizations,No Gas Pool,Unsatisfactory,47,✰✰✰
+findings-176,QA Report,FP: 1; Gas: 2,Unsatisfactory,47,✰✰✰
+findings-69,QA Report,"FP: 1, 2, 4, 5; 2 Lows (Possible Upgrade: 3)",Satisfactory,47,✰✰✰
+validation-467,QA Report,Gas: 1; FP: 2,Unsatisfactory,52,✰✰✰
+validation-1403,QA Report,1 Low,Unsatisfactory,54,✰✰✰
+validation-309,QA Report,"Gas: 1, 3; FP: 2",Unsatisfactory,57,✰✰✰
+validation-1150,Gas Optimizations,No Gas Pool,Unsatisfactory,58,✰✰✰
+validation-297,QA Report,1 Low,Unsatisfactory,59,✰✰✰
+validation-1142,QA Report,FP: 2; 1 Low,Unsatisfactory,63,✰✰✰
+validation-859,Gas Optimizations,No Gas Pool,Unsatisfactory,63,✰✰✰
+validation-1466,QA Report,"FP: 1, 3, 5; 2 Lows",Unsatisfactory,66,✰✰✰
+validation-602,QA Report,3 Gases,Unsatisfactory,66,✰✰✰
+validation-1473,QA Report,FP: 3; 2 Lows (Possible Upgrade: 4),Satisfactory,67,✰✰✰
+validation-127,QA Report,NC: 3; 1 Low (Possible Upgrade: 1),Satisfactory,75,✰✰✰
+validation-1462,Gas Optimizations,No Gas Pool,Unsatisfactory,86,✰✰✰
+validation-529,QA Report,FP: 1; 1 Low,Unsatisfactory,88,✰✰✰
+findings-191,QA Report,1 Low (Possible Upgrade: 1),Satisfactory,90,✰✰✰
+validation-1476,QA Report,1 Generic,Unsatisfactory,91,✰✰✰
+validation-1287,QA Report,FP: 2 (Possible Upgrade: 1),Unsatisfactory,92,✰✰✰
+validation-150,Gas Optimizations,No Gas Pool,Unsatisfactory,92,✰✰✰
+validation-80,Gas Optimizations,No Gas Pool,Unsatisfactory,94,✰✰✰
+validation-1329,QA Report,"FP: 2, 4, 5; 3 Lows",Unsatisfactory,100,✰✰✰
+validation-799,QA Report,FP: 2; 1 Low,Unsatisfactory,102,✰✰✰
+validation-999,QA Report,"FP: 2, 3; 2 Lows (Possible Upgrade: 1)",Unsatisfactory,104,✰✰✰
+validation-1057,QA Report,2 Gases,Unsatisfactory,105,✰✰✰
+validation-665,QA Report,1 FP,Unsatisfactory,107,✰✰✰
+findings-171,QA Report,"FP:1, 6; 5 Lows (Possible Upgrade: 8)",Satisfactory,107,✰✰✰
+findings-107,QA Report,"FP: 1, 2; 3 Lows (Possible Upgrade: 6)",Satisfactory,111,✰✰✰
+validation-1007,QA Report,"FP: 3; Gas: 6; 2 Lows (Possible Upgrade: 1, 5)",Satisfactory,122,✰✰✰
+validation-1268,QA Report,"FP: 2, 3, 4, 7, 8; Repeat: 5, 6; 3 Lows (9 could have been upgraded if not because of super simple 1 line description)",Unsatisfactory,125,✰✰✰
+findings-47,QA Report,Generic: 2; 1 Low (Possible Upgrade: 1),Satisfactory,125,✰✰✰
+validation-145,QA Report,"Analyzer: 1; FP: 2, 3, 4, 5; 1 Low",Unsatisfactory,127,✰✰✰
+findings-32,QA Report,"6 Lows (Possible Upgrade: 1, 3)",Satisfactory,129,✰✰✰
+validation-1080,QA Report,"FP: 2, 4; 1 Low (Possible Upgrade: 3)",Satisfactory,146,✰✰✰
+validation-691,QA Report,"FP: 1; Generic: 3 (Possible Upgrade: 2, 4)",Satisfactory,150,✰✰✰
+validation-763,QA Report,"FP: 1, 2, 5, 12; 7 Lows (Possible Upgrade: 4)",Satisfactory,160,✰✰✰
+validation-1459,QA Report,2 FP's,Unsatisfactory,206,✰✰✰
+validation-495,QA Report,"Generic: 1, 2, 5; 3 Lows",Unsatisfactory,215,✰✰✰
+validation-1062,QA Report,"FP: 1, 6, 7; Analyzer: 2, 10, 3 Lows (Possible Upgrade: 3, 9)",Satisfactory,218,✰✰✰
+validation-550,QA Report,FP: 1; 2 Lows (3 could have been upgraded if it had addressed the possibility of generating more than 1 golden god in 1 generation),Unsatisfactory,220,✰✰✰
+validation-891,Gas Optimizations,No Gas Pool,Unsatisfactory,226,✰✰✰
+validation-1212,QA Report,"Generic: 1; Gas: 2, 4, 6; NC: 5; FP: 7, 8, 9; 1 Low",Unsatisfactory,230,✰✰✰
+validation-98,QA Report,"NC: 1, 2, 5; Generic: 3, 4; 1 Low",Unsatisfactory,239,✰✰✰
+validation-1394,QA Report,"Analyzer: 1, 8; Generic: 2, 15, 17, 18; Gas: 3, 6, 7, 9, 11, 13 FP: 10, 14; 3 Lows (Possible Upgrade: 5)",Satisfactory,248,✰✰✰
+validation-1405,QA Report,More appropriate as an Analysis report; 1-2 Lows,Unsatisfactory,280,✰✰✰
+findings-46,QA Report,Analyzer: 3; 1 Low (Possible Upgrade: 2),Satisfactory,321,✰✰✰
+validation-843,QA Report,"FP: 1, 4, 5; 1 Low (Possible Upgrade: 2)",Satisfactory,322,✰✰✰
+validation-5,QA Report,4 Lows,Satisfactory,346,✰✰✰
+validation-879,QA Report,2 NC's and 2 Gases,Unsatisfactory,386,✰✰✰
+validation-267,QA Report,"FP: 3, 6, 7, 8, 9; NC: 4; 1 Low(Possible Upgrade: 2, 5)",Satisfactory,387,✰✰✰
+validation-1082,QA Report,"Gas: 3; FP: 4, 5, 6, 13; 6 Lows (Posible Upgrade: 7, 12)",Satisfactory,424,✰✰✰
+validation-698,QA Report,"FP: 2, 3, 4; Gas: 9; Generic: 11; 4 Lows (Possible Upgrade: 1, 6)",Satisfactory,466,✰✰✰
+validation-384,QA Report,"FP: 3, 11; Generic: 12; Gas: 4, 7; 6 Lows (Possible Upgrade: 8)",Satisfactory,478,✰✰✰
+validation-328,QA Report,"Generic: 4, 5, 6; Analyzer: 11, FP: 13; Repeat: 7, 8; 8 Lows",Satisfactory,520,✰✰✰
+validation-1060,QA Report,"Generic: 4, 5; 2 Lows (Possible Upgrade: 1)",Satisfactory,695,✰✰✰
+validation-303,QA Report,"FP: 1, 4; NC: 2, 3; Generic: 5, 6, 14, 15, 16; Analyzer: 9, 13; 5 Lows",Satisfactory,713,✰✰✰
+validation-23,Gas Optimizations,No Gas Pool ,Unsatisfactory,3024,✰✰✰
+validation-22,QA Report,"Analyzer: 2, 7, 11; Generic: 3, 5, 6, 8, 9, 10, 12; FP: 4 (Too much noise)",Unsatisfactory,5193,✰✰✰
+validation-1411,QA Report,1 Low,Unsatisfactory,3,✰✰✰
+validation-1305,QA Report,1 Analyzer,Unsatisfactory,8,✰✰✰
+validation-400,QA Report,1 Low (Possible Upgrade: 1),Satisfactory,38,✰✰✰
+validation-426,QA Report,2 Lows,Unsatisfactory,43,✰✰✰
+validation-287,QA Report,Gas: 1; NC: 2; Analyzer: 3; Generic: 6; 2 Lows,Unsatisfactory,128,✰✰✰
+validation-275,QA Report,"FP: 1, 4, 6, 9; 4 Lows (Possible Upgrade: 5, 10, 11)",Unsatisfactory,741,✰✰✰
